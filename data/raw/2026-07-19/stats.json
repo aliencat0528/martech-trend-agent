@@ -1,0 +1,683 @@
+{
+ "date": "2026-07-19",
+ "jobs": {
+  "totalJobs": 143,
+  "describedJobs": 123,
+  "byCompany": {
+   "Appier": 83,
+   "漸強實驗室": 8,
+   "91APP": 0,
+   "awoo": 0,
+   "iKala": 0,
+   "Omnichat": 0,
+   "TenMax": 0,
+   "Vpon": 0,
+   "Rosetta.ai": 0,
+   "CloudAD": 0
+  },
+  "byRole": {
+   "行銷/客戶成功": 49,
+   "其他": 35,
+   "軟體工程": 29,
+   "數據科學/ML": 15,
+   "產品/專案": 8,
+   "數據分析": 3,
+   "技術顧問/TSE": 3,
+   "數據工程": 1
+  },
+  "companyRoles": {
+   "Appier": {
+    "行銷/客戶成功": 26,
+    "軟體工程": 19,
+    "數據科學/ML": 15,
+    "其他": 14,
+    "數據分析": 3,
+    "產品/專案": 3,
+    "技術顧問/TSE": 3
+   },
+   "漸強實驗室": {
+    "行銷/客戶成功": 4,
+    "其他": 2,
+    "產品/專案": 1,
+    "軟體工程": 1
+   }
+  },
+  "skillFrequency": {
+   "Python": 27,
+   "Machine Learning": 21,
+   "SQL": 18,
+   "LLM": 13,
+   "API": 10,
+   "Excel": 8,
+   "CRM": 8,
+   "Git": 7,
+   "Spark": 6,
+   "Docker": 6,
+   "Prompt": 4,
+   "Dashboard": 3,
+   "Tableau": 3,
+   "CDP": 3,
+   "AI Agent": 3,
+   "Airflow": 3,
+   "Looker": 2,
+   "BigQuery": 2,
+   "Power BI": 1,
+   "英文": 1,
+   "Google Analytics": 1
+  },
+  "salarySamples": [
+   {
+    "company": "漸強實驗室",
+    "role": "產品/專案",
+    "low": 100000,
+    "high": 166666
+   },
+   {
+    "company": "漸強實驗室",
+    "role": "行銷/客戶成功",
+    "low": 78333,
+    "high": 125000
+   },
+   {
+    "company": "漸強實驗室",
+    "role": "其他",
+    "low": 83333,
+    "high": 121666
+   },
+   {
+    "company": "漸強實驗室",
+    "role": "軟體工程",
+    "low": 108333,
+    "high": 166666
+   },
+   {
+    "company": "漸強實驗室",
+    "role": "行銷/客戶成功",
+    "low": 66666,
+    "high": 116666
+   },
+   {
+    "company": "漸強實驗室",
+    "role": "行銷/客戶成功",
+    "low": 1666666,
+    "high": 1666666
+   },
+   {
+    "company": "十論科技股份有限公司",
+    "role": "行銷/客戶成功",
+    "low": 83333,
+    "high": 83333
+   },
+   {
+    "company": "睿勝科技(RETChat Inc.)",
+    "role": "其他",
+    "low": 80000,
+    "high": 110000
+   },
+   {
+    "company": "奧美整合行銷傳播集團",
+    "role": "其他",
+    "low": 34000,
+    "high": 35000
+   },
+   {
+    "company": "奧美整合行銷傳播集團",
+    "role": "其他",
+    "low": 34000,
+    "high": 34000
+   },
+   {
+    "company": "奧美整合行銷傳播集團",
+    "role": "行銷/客戶成功",
+    "low": 34000,
+    "high": 34000
+   },
+   {
+    "company": "奧美整合行銷傳播集團",
+    "role": "行銷/客戶成功",
+    "low": 34000,
+    "high": 39000
+   },
+   {
+    "company": "SOOCKER 搜客_沂動行銷",
+    "role": "行銷/客戶成功",
+    "low": 40000,
+    "high": 50000
+   },
+   {
+    "company": "JunyiAcademy 均一平台教育基金會",
+    "role": "行銷/客戶成功",
+    "low": 70000,
+    "high": 70000
+   },
+   {
+    "company": "AIFIAN",
+    "role": "軟體工程",
+    "low": 100000,
+    "high": 166666
+   },
+   {
+    "company": "AIFIAN",
+    "role": "其他",
+    "low": 83333,
+    "high": 150000
+   },
+   {
+    "company": "AIFIAN",
+    "role": "軟體工程",
+    "low": 100000,
+    "high": 166666
+   },
+   {
+    "company": "AIFIAN",
+    "role": "軟體工程",
+    "low": 100000,
+    "high": 166666
+   },
+   {
+    "company": "十論科技股份有限公司",
+    "role": "其他",
+    "low": 91666,
+    "high": 91666
+   },
+   {
+    "company": "科技報橘｜流線傳媒 Fusionmedium",
+    "role": "行銷/客戶成功",
+    "low": 38000,
+    "high": 50000
+   },
+   {
+    "company": "Star To Asia",
+    "role": "行銷/客戶成功",
+    "low": 38000,
+    "high": 60000
+   },
+   {
+    "company": "Accucrazy 肖準行銷",
+    "role": "其他",
+    "low": 35000,
+    "high": 55000
+   },
+   {
+    "company": "Accucrazy 肖準行銷",
+    "role": "產品/專案",
+    "low": 40000,
+    "high": 65000
+   },
+   {
+    "company": "Accucrazy 肖準行銷",
+    "role": "行銷/客戶成功",
+    "low": 45000,
+    "high": 75000
+   },
+   {
+    "company": "簡訊設計｜圖文不符",
+    "role": "產品/專案",
+    "low": 42000,
+    "high": 50000
+   },
+   {
+    "company": "簡訊設計｜圖文不符",
+    "role": "其他",
+    "low": 44000,
+    "high": 52000
+   },
+   {
+    "company": "簡訊設計｜圖文不符",
+    "role": "其他",
+    "low": 40000,
+    "high": 48000
+   },
+   {
+    "company": "簡訊設計｜圖文不符",
+    "role": "軟體工程",
+    "low": 50000,
+    "high": 65000
+   }
+  ],
+  "salarySummary": [
+   {
+    "role": "行銷/客戶成功",
+    "count": 11,
+    "medianLow": 45000,
+    "medianHigh": 70000
+   },
+   {
+    "role": "其他",
+    "count": 9,
+    "medianLow": 44000,
+    "medianHigh": 55000
+   },
+   {
+    "role": "軟體工程",
+    "count": 5,
+    "medianLow": 100000,
+    "medianHigh": 166666
+   },
+   {
+    "role": "產品/專案",
+    "count": 3,
+    "medianLow": 42000,
+    "medianHigh": 65000
+   }
+  ],
+  "taiwanJobs": [
+   {
+    "company": "Appier",
+    "title": "Account Manager, Advertising Solution - Taiwan",
+    "role": "行銷/客戶成功",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6999346"
+   },
+   {
+    "company": "Appier",
+    "title": "Ad Sales, Advertising Solution (Ad Cloud)",
+    "role": "行銷/客戶成功",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/1499233"
+   },
+   {
+    "company": "Appier",
+    "title": "Assistant Manager of Business Enablement",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7189302"
+   },
+   {
+    "company": "Appier",
+    "title": "Associate HR Manager, Global Compensation",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7956145"
+   },
+   {
+    "company": "Appier",
+    "title": "Campaign Analyst ",
+    "role": "數據分析",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/1501724"
+   },
+   {
+    "company": "Appier",
+    "title": "Campaign Executive",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/5332115"
+   },
+   {
+    "company": "Appier",
+    "title": "Customer Success Specialist , Ad.Creative",
+    "role": "行銷/客戶成功",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6774962"
+   },
+   {
+    "company": "Appier",
+    "title": "Data Analyst Intern",
+    "role": "數據分析",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7495834"
+   },
+   {
+    "company": "Appier",
+    "title": "Data Scientist, Analytics",
+    "role": "數據分析",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/1501726"
+   },
+   {
+    "company": "Appier",
+    "title": "Digital Marketing (Campaign Management team)",
+    "role": "行銷/客戶成功",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6854145"
+   },
+   {
+    "company": "Appier",
+    "title": "Global ESS Sales Operations Manager / Associate Manager",
+    "role": "行銷/客戶成功",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7075720"
+   },
+   {
+    "company": "Appier",
+    "title": "HR Operations Specialist (Workforce & Equity Operations)",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8052954"
+   },
+   {
+    "company": "Appier",
+    "title": "Interactive Advertising Creative Production Intern",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7493416"
+   },
+   {
+    "company": "Appier",
+    "title": "Machine Learning Scientist",
+    "role": "數據科學/ML",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/1501746"
+   },
+   {
+    "company": "Appier",
+    "title": "Machine Learning Scientist (LLM & Agents)",
+    "role": "數據科學/ML",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7907856"
+   },
+   {
+    "company": "Appier",
+    "title": "Paralegal | Legal Assistant (1-year Contractor / Full-Time) 法務助理",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8000129"
+   },
+   {
+    "company": "Appier",
+    "title": "Product Lead / Product Builder ",
+    "role": "其他",
+    "area": "Taipei, Taiwan; Tokyo, Japan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7806519"
+   },
+   {
+    "company": "Appier",
+    "title": "Product Manager (Ad Cloud Platform)",
+    "role": "產品/專案",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8068713"
+   },
+   {
+    "company": "Appier",
+    "title": "Quality Assurance Intern",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6967119"
+   },
+   {
+    "company": "Appier",
+    "title": "Sales Development Associate (Inside Sales, TW)",
+    "role": "行銷/客戶成功",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7510874"
+   },
+   {
+    "company": "Appier",
+    "title": "Sales Intern, Enterprise Solution",
+    "role": "行銷/客戶成功",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6612688"
+   },
+   {
+    "company": "Appier",
+    "title": "Sales Manager of Enterprise Solution ",
+    "role": "行銷/客戶成功",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6483529"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior AI Security Engineer ",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7949831"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Backend Engineer (SRE / Reliability & Performance)",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8045764"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Field Marketing Specialist",
+    "role": "行銷/客戶成功",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8025479"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Frontend Development Engineer (Enterprise Solutions)",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7830101"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Machine Learning Scientist, Advertising Incrementality",
+    "role": "數據科學/ML",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7364432"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Machine Learning Scientist (Enterprise Solution)",
+    "role": "數據科學/ML",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6986240"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Machine Learning Scientist (LLM & Agents)",
+    "role": "數據科學/ML",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6914984"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Machine Learning Scientist, Playable Ads",
+    "role": "數據科學/ML",
+    "area": "Taipei, Taiwan; Tokyo, Japan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7757000"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Product designer",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7525624"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Product Manager (Ad Cloud Platform)",
+    "role": "產品/專案",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7824539"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Retargeting Product Manager (Taiwan)",
+    "role": "產品/專案",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7915849"
+   },
+   {
+    "company": "Appier",
+    "title": "(Senior) Sales Manager of Enterprise Solution",
+    "role": "行銷/客戶成功",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7582643"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Software Engineer, Backend Development",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/4869920"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Software Engineer, Backend Development (Ad Cloud Platform team)",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7160226"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Software Engineer, Backend Development(Ad Cloud  Serving Services)",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7033252"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Software Engineer, Backend Development (Playable Ads)",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan; Tokyo, Japan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7267131"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Software Engineer, Backend Development (REC)",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7731002"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Software Engineer, C++ Backend Development(Ad Cloud Bidding)",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7436263"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Software Engineer, Data Backend (Ad Cloud)",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan; Tokyo, Japan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/5476743"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Software Engineer, Data Backend EDP (Enterprise Data Platform)",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan; Tokyo, Japan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7019766"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Software Engineer, Machine Learning (AIXON)",
+    "role": "數據科學/ML",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6987027"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Software Engineer, Mobile SDK",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8020447"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Software Engineer, QA Automation",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6930712"
+   },
+   {
+    "company": "Appier",
+    "title": "Staff/Senior DevOps Engineer",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan; Tokyo, Japan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7189015"
+   },
+   {
+    "company": "Appier",
+    "title": "Staff/Senior Machine Learning Scientist (Ad Cloud)",
+    "role": "數據科學/ML",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6897205"
+   },
+   {
+    "company": "Appier",
+    "title": "Staff Software Engineer, C++ Backend Development(Ad Cloud Bidding)",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7058491"
+   },
+   {
+    "company": "Appier",
+    "title": "Technical Solution Engineer (Greater China Region)",
+    "role": "技術顧問/TSE",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/3785463"
+   },
+   {
+    "company": "Appier",
+    "title": "Technical Solution Engineer Intern",
+    "role": "技術顧問/TSE",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/5001910"
+   },
+   {
+    "company": "漸強實驗室",
+    "title": "【TW】Senior Product Manager (B2B)資深產品經理",
+    "role": "產品/專案",
+    "area": "臺北市",
+    "link": "https://www.yourator.co/companies/CrescendoLab/jobs/39315"
+   },
+   {
+    "company": "漸強實驗室",
+    "title": "【TW】(資深) 業務開發經理 / (Senior) Business Development Manager",
+    "role": "行銷/客戶成功",
+    "area": "臺北市",
+    "link": "https://www.yourator.co/companies/CrescendoLab/jobs/46883"
+   },
+   {
+    "company": "漸強實驗室",
+    "title": "【TW】Senior Enterprise Solution Sales Manager",
+    "role": "行銷/客戶成功",
+    "area": "臺北市",
+    "link": "https://www.yourator.co/companies/CrescendoLab/jobs/47558"
+   },
+   {
+    "company": "漸強實驗室",
+    "title": "【TW】Principal Product Designer (AI Product)",
+    "role": "其他",
+    "area": "臺北市",
+    "link": "https://www.yourator.co/companies/CrescendoLab/jobs/47613"
+   },
+   {
+    "company": "漸強實驗室",
+    "title": "【TW】Sr. Product Designer 資深產品設計師",
+    "role": "其他",
+    "area": "臺北市",
+    "link": "https://www.yourator.co/companies/CrescendoLab/jobs/40097"
+   },
+   {
+    "company": "漸強實驗室",
+    "title": "【TW】Senior/ Backend Engineer",
+    "role": "軟體工程",
+    "area": "臺北市",
+    "link": "https://www.yourator.co/companies/CrescendoLab/jobs/41093"
+   },
+   {
+    "company": "漸強實驗室",
+    "title": "【TW】(Sr.) Customer Success Manager (資深)客戶成功經理",
+    "role": "行銷/客戶成功",
+    "area": "臺北市",
+    "link": "https://www.yourator.co/companies/CrescendoLab/jobs/30447"
+   }
+  ]
+ },
+ "news": {
+  "totalArticles": 31,
+  "companyMentions": {},
+  "topicMentions": {
+   "生成式AI": 19,
+   "AI Agent": 8,
+   "廣告科技": 6,
+   "隱私/法規": 6,
+   "電商/零售": 3,
+   "併購/募資": 3
+  },
+  "companyArticles": []
+ },
+ "trend": {
+  "hasBaseline": false
+ },
+ "errors": []
+}

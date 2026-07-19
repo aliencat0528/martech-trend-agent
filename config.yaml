@@ -1,0 +1,102 @@
+# Martech Trend Agent 設定檔
+# 要加公司、關鍵詞、新聞來源，改這裡即可，不用動程式碼。
+
+# 職缺來源說明：
+# - greenhouse: <board_token> → 走 Greenhouse 官方公開 API（最完整，含內文）
+# - 其餘公司 → Yourator 搜尋（公司名命中僱主才收）
+# - 104 有 Cloudflare bot 防護，本工具不做規避，故不列為來源
+companies:
+  # Tier 1：台灣直接對標，追蹤「職缺 + 新聞」
+  tier1:
+    - name: Appier
+      aliases: ["Appier", "沛星"]
+      greenhouse: appier
+    - name: 漸強實驗室
+      aliases: ["漸強實驗室", "漸強", "Crescendo Lab", "Cresclab"]
+    - name: 91APP
+      aliases: ["91APP", "91app"]
+    - name: awoo
+      aliases: ["awoo", "阿物"]
+    - name: iKala
+      aliases: ["iKala", "愛卡拉"]
+    - name: Omnichat
+      aliases: ["Omnichat"]
+    - name: TenMax
+      aliases: ["TenMax", "騰學"]
+    - name: Vpon
+      aliases: ["Vpon", "威朋"]
+    - name: Rosetta.ai
+      aliases: ["Rosetta.ai", "Rosetta"]
+    - name: CloudAD
+      aliases: ["CloudAD", "宏推"]
+  # Tier 2：國際對標，只追新聞趨勢（不投遞）
+  tier2:
+    - name: Insider
+      aliases: ["Insider One", "useinsider"]
+    - name: Braze
+      aliases: ["Braze"]
+    - name: MoEngage
+      aliases: ["MoEngage"]
+    - name: Iterable
+      aliases: ["Iterable"]
+    - name: Klaviyo
+      aliases: ["Klaviyo"]
+    - name: Bloomreach
+      aliases: ["Bloomreach"]
+    - name: Zeta Global
+      aliases: ["Zeta Global"]
+
+# 職缺搜尋另外用的一般性關鍵詞（抓產業全貌，不限單一公司）
+jobSearchKeywords: ["MarTech", "CDP", "廣告科技"]
+
+# 職稱分類規則：由上而下，先命中先分類
+roleCategories:
+  數據分析:
+    ["data analyst", "數據分析", "資料分析", "business analyst", "商業分析", "bi ", "分析師",
+     "campaign analyst", "marketing analyst", "analytics"]
+  數據科學/ML:
+    ["data scientist", "machine learning", "ml ", "演算法", "資料科學", "ai engineer", "nlp"]
+  數據工程:
+    ["data engineer", "資料工程", "數據工程", "etl"]
+  技術顧問/TSE:
+    ["technical solution", "solution engineer", "technical support", "技術顧問", "technical account",
+     "customer engineer", "implementation"]
+  產品/專案:
+    ["product manager", "產品經理", "project manager", "專案經理", "product owner"]
+  行銷/客戶成功:
+    ["marketing", "行銷", "customer success", "客戶成功", "account manager", "業務", "sales",
+     "business development", "account executive", "廣告投放", "客戶經理"]
+  軟體工程:
+    ["software engineer", "backend", "frontend", "fullstack", "軟體工程", "後端", "前端", "devops",
+     "sre", "qa"]
+
+# 技能關鍵詞：統計職缺內文出現頻率（回答「市場要我會什麼」）
+skillKeywords:
+  ["SQL", "Python", "R語言", "Tableau", "Power BI", "Looker", "GA4", "Google Analytics", "Excel",
+   "BigQuery", "Snowflake", "Spark", "dbt", "Airflow", "A/B test", "統計", "機器學習",
+   "Machine Learning", "LLM", "AI Agent", "GPT", "Prompt", "CRM", "CDP", "SEO", "LINE API",
+   "Docker", "Git", "API", "ETL", "Dashboard", "英文"]
+
+# 新聞 RSS 來源
+newsFeeds:
+  - name: iThome
+    url: https://www.ithome.com.tw/rss
+  - name: TechOrange
+    url: https://buzzorange.com/techorange/feed/
+  - name: INSIDE
+    url: https://www.inside.com.tw/feed/rss
+  - name: MarTech.org
+    url: https://martech.org/feed/
+  - name: MarketingDive
+    url: https://www.marketingdive.com/feeds/news/
+
+# 新聞主題分類關鍵詞（一篇可命中多主題）
+newsTopics:
+  AI Agent: ["ai agent", "agentic", "自主決策", "智慧代理", "ai 代理"]
+  生成式AI: ["生成式", "generative", "llm", "gpt", "claude", "gemini", "大型語言模型"]
+  CDP/數據: ["cdp", "customer data", "第一方數據", "顧客數據", "data platform"]
+  個人化/CRM: ["personalization", "個人化", "crm", "顧客關係", "會員經營", "retention"]
+  廣告科技: ["adtech", "廣告", "dsp", "程序化", "advertising"]
+  電商/零售: ["電商", "e-commerce", "ecommerce", "零售", "retail", "omo"]
+  隱私/法規: ["隱私", "privacy", "個資", "gdpr", "cookie", "第三方"]
+  併購/募資: ["收購", "併購", "募資", "acquisition", "merger", "funding", "ipo", "上市"]
