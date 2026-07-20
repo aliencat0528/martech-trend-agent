@@ -1,10 +1,10 @@
 {
  "date": "2026-07-20",
  "jobs": {
-  "totalJobs": 143,
-  "describedJobs": 123,
+  "totalJobs": 142,
+  "describedJobs": 122,
   "byCompany": {
-   "Appier": 83,
+   "Appier": 82,
    "漸強實驗室": 8,
    "91APP": 0,
    "awoo": 0,
@@ -16,7 +16,7 @@
    "CloudAD": 0
   },
   "byRole": {
-   "行銷/客戶成功": 49,
+   "行銷/客戶成功": 48,
    "其他": 35,
    "軟體工程": 28,
    "數據科學/ML": 15,
@@ -27,7 +27,7 @@
   },
   "companyRoles": {
    "Appier": {
-    "行銷/客戶成功": 26,
+    "行銷/客戶成功": 25,
     "軟體工程": 19,
     "數據科學/ML": 15,
     "其他": 14,
@@ -49,7 +49,7 @@
    "LLM": 13,
    "API": 10,
    "Excel": 8,
-   "CRM": 8,
+   "CRM": 7,
    "Git": 7,
    "Spark": 6,
    "Docker": 6,
@@ -346,6 +346,13 @@
    },
    {
     "company": "Appier",
+    "title": "Global Commercial HR Business Partner (HRBP)",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6518407"
+   },
+   {
+    "company": "Appier",
     "title": "Global ESS Sales Operations Manager / Associate Manager",
     "role": "行銷/客戶成功",
     "area": "Taipei, Taiwan",
@@ -357,13 +364,6 @@
     "role": "其他",
     "area": "Taipei, Taiwan",
     "link": "https://job-boards.greenhouse.io/appier/jobs/8052954"
-   },
-   {
-    "company": "Appier",
-    "title": "Interactive Advertising Creative Production Intern",
-    "role": "其他",
-    "area": "Taipei, Taiwan",
-    "link": "https://job-boards.greenhouse.io/appier/jobs/7493416"
    },
    {
     "company": "Appier",
@@ -676,23 +676,23 @@
   ]
  },
  "news": {
-  "totalArticles": 62,
+  "totalArticles": 63,
   "companyMentions": {
    "Insider": 10,
    "Appier": 3,
    "MoEngage": 2
   },
   "topicMentions": {
-   "生成式AI": 17,
+   "生成式AI": 15,
    "行銷自動化": 14,
-   "廣告投放/歸因": 13,
+   "廣告投放/歸因": 12,
    "AI Agent應用": 10,
-   "隱私/法規": 7,
-   "對話式商務": 7,
-   "電商/OMO": 6,
+   "隱私/法規": 9,
+   "併購/募資": 9,
    "CDP/第一方數據": 6,
-   "CRM/會員留存": 5,
-   "併購/募資": 4,
+   "電商/OMO": 4,
+   "對話式商務": 4,
+   "CRM/會員留存": 4,
    "個人化推薦": 4
   },
   "companyArticles": [
@@ -885,171 +885,165 @@
   "topicArticles": {
    "生成式AI": [
     {
-     "title": "1Password替Claude加上受控登入功能，AI代理能登入網站卻看不到密碼",
-     "link": "https://www.ithome.com.tw/news/177407",
+     "title": "駭客用傳統文字加鹽手法，騙過新式AI郵件防護",
+     "link": "https://www.ithome.com.tw/news/177434",
      "feed": "iThome",
-     "publishedTs": 1784369245
+     "publishedTs": 1784545669
     },
     {
-     "title": "【AI、機器人與網路的代理化未來】99% 機器人是惡意程式，如何精準分辨「惡意攻擊」與「AI 變現機會」？",
-     "link": "https://techorange.com/2026/07/18/ai-bots-and-the-agentic-future-of-the-web/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
-     "feed": "TechOrange",
-     "publishedTs": 1784327340
-    },
-    {
-     "title": "Linus Torvalds談Linux核心對AI的立場，不排斥並以技術價值為主要考量",
-     "link": "https://www.ithome.com.tw/news/177381",
-     "feed": "iThome",
-     "publishedTs": 1784286423
-    }
-   ],
-   "廣告投放/歸因": [
-    {
-     "title": "Look past AI to see where martech is going",
-     "link": "https://martech.org/look-past-ai-to-see-where-martech-is-going/",
-     "feed": "MarTech.org",
-     "publishedTs": 1784291880
-    },
-    {
-     "title": "Harness工程實戰！Taboola如何打造LLM廣告審查系統",
-     "link": "https://www.ithome.com.tw/news/177409",
-     "feed": "iThome",
-     "publishedTs": 1784268440
-    },
-    {
-     "title": "詐騙廣告侵蝕市場信任，數發部與三大公協會聯手推動可信任的數位廣告生態系",
-     "link": "https://www.ithome.com.tw/news/177392",
-     "feed": "iThome",
-     "publishedTs": 1784254052
-    }
-   ],
-   "電商/OMO": [
-    {
-     "title": "【AI、機器人與網路的代理化未來】99% 機器人是惡意程式，如何精準分辨「惡意攻擊」與「AI 變現機會」？",
-     "link": "https://techorange.com/2026/07/18/ai-bots-and-the-agentic-future-of-the-web/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
-     "feed": "TechOrange",
-     "publishedTs": 1784327340
-    },
-    {
-     "title": "PixPix Introduces One-Image Workflow for Complete E-Commerce Visual Content",
-     "link": "https://martechseries.com/content/pixpix-introduces-one-image-workflow-for-complete-e-commerce-visual-content/",
+     "title": "CGI strengthens enterprise AI leadership with Databricks Brickbuilder Specializations in Public Sector and Generative AI",
+     "link": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/cgi-strengthens-enterprise-ai-leadership-with-databricks-brickbuilder-specializations-in-public-sector-and-generative-ai/",
      "feed": "MarTech Series",
-     "publishedTs": 1784296515
+     "publishedTs": 1784545320
     },
     {
-     "title": "How MarTech Is Enabling Autonomous Brand Engagement Across Channels?",
-     "link": "https://martechseries.com/mts-insights/staff-writers/how-martech-is-enabling-autonomous-brand-engagement-across-channels/",
-     "feed": "MarTech Series",
-     "publishedTs": 1784272223
-    }
-   ],
-   "併購/募資": [
-    {
-     "title": "現代砸 3.25 億美元收下 Boston Dynamics 最後股權，2028 量產 Atlas 搶攻實體 AI",
-     "link": "https://www.inside.com.tw/article/41845-hyundai-fully-acquires-boston-dynamics-atlas-humanoid-2028-physical-ai",
-     "feed": "INSIDE",
-     "publishedTs": 1784266080
-    },
-    {
-     "title": "Uber收購德國外送龍頭Delivery Hero，版圖擴至99個市場",
-     "link": "https://www.ithome.com.tw/news/177394",
+     "title": "OpenSSL存在DoS漏洞HollowByte，攻擊者可利用11個位元組的酬載癱瘓運作",
+     "link": "https://www.ithome.com.tw/news/177425",
      "feed": "iThome",
-     "publishedTs": 1784257644
-    },
-    {
-     "title": "Publicis addresses LiveRamp deal, lagging Sapient arm as it raises outlook",
-     "link": "https://www.marketingdive.com/news/publicis-addresses-liveramp-deal-lagging-sapient-arm-as-it-raises-outlook/825379/",
-     "feed": "MarketingDive",
-     "publishedTs": 1784213760
+     "publishedTs": 1784542046
     }
    ],
    "隱私/法規": [
     {
-     "title": "【科技早餐】中美 AI 差距縮小：Kimi K3 逼近美國，算力與監管戰同步升溫",
-     "link": "https://techorange.com/2026/07/20/kimi-k3-us-china-ai-gap-compute-regulation/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
-     "feed": "TechOrange",
-     "publishedTs": 1784496600
-    },
-    {
-     "title": "【AI、機器人與網路的代理化未來】99% 機器人是惡意程式，如何精準分辨「惡意攻擊」與「AI 變現機會」？",
-     "link": "https://techorange.com/2026/07/18/ai-bots-and-the-agentic-future-of-the-web/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
-     "feed": "TechOrange",
-     "publishedTs": 1784327340
-    },
-    {
-     "title": "歐盟要求Google開放Android AI功能並共享搜尋資料",
-     "link": "https://www.ithome.com.tw/news/177388",
+     "title": "OpenSSL存在DoS漏洞HollowByte，攻擊者可利用11個位元組的酬載癱瘓運作",
+     "link": "https://www.ithome.com.tw/news/177425",
      "feed": "iThome",
-     "publishedTs": 1784286447
+     "publishedTs": 1784542046
+    },
+    {
+     "title": "具身 AI 的下一個瓶頸不是動作，而是理解人類：BrainCo 如何把「意圖」變成機器人訓練資料？",
+     "link": "https://techorange.com/2026/07/20/china-brain-to-robot-platform/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+     "feed": "TechOrange",
+     "publishedTs": 1784536655
+    },
+    {
+     "title": "從開發風險到供應鏈威脅，叡揚資訊助金融業建構 AI 韌性防線",
+     "link": "https://techorange.com/2026/07/20/gss-a2a-aicyber-aiagent/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+     "feed": "TechOrange",
+     "publishedTs": 1784530594
     }
    ],
-   "AI Agent應用": [
+   "併購/募資": [
     {
-     "title": "【AI、機器人與網路的代理化未來】99% 機器人是惡意程式，如何精準分辨「惡意攻擊」與「AI 變現機會」？",
-     "link": "https://techorange.com/2026/07/18/ai-bots-and-the-agentic-future-of-the-web/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
-     "feed": "TechOrange",
-     "publishedTs": 1784327340
+     "title": "iPost and ZeroBounce Partner to Deliver Cleaner Data and Stronger Email Performance for Regulated Industries",
+     "link": "https://martechseries.com/content/email-mktg/ipost-and-zerobounce-partner-to-deliver-cleaner-data-and-stronger-email-performance-for-regulated-industries/",
+     "feed": "MarTech Series",
+     "publishedTs": 1784556573
     },
     {
-     "title": "Salesforce’s woes underline marketing’s agentic AI problems",
-     "link": "https://martech.org/salesforces-woes-underline-marketings-agentic-ai-problems/",
-     "feed": "MarTech.org",
-     "publishedTs": 1784300445
+     "title": "中國車市半年推出 650 款新車，銷量卻在半年內跌掉兩成",
+     "link": "https://www.inside.com.tw/article/41860-china-launches-650-new-car-models-in-half-a-year-but-sales-drop-20-percent",
+     "feed": "INSIDE",
+     "publishedTs": 1784535540
     },
     {
-     "title": "一年少派工 310 萬次、停機時間減少 1,200 萬小時：美國電信巨頭 AT&amp;T 如何重寫維運模式？",
-     "link": "https://techorange.com/2026/07/17/att-telecom-ai-network-outage-prevention/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
-     "feed": "TechOrange",
-     "publishedTs": 1784279387
+     "title": "Uber 4,410 億買下 foodpanda 母公司，台灣能否花落 Grab？待公平會 7 月底揭曉",
+     "link": "https://www.inside.com.tw/article/41861-uber-delivery-hero-foodpanda-taiwan-grab-ftc",
+     "feed": "INSIDE",
+     "publishedTs": 1784535300
     }
    ],
    "行銷自動化": [
     {
+     "title": "Allvue Debuts OneVue With the Launch of Portfolio Intelligence and Deal Analytics — the Industry’s First Benchmarks Built From Private Credit Deal Data",
+     "link": "https://martechseries.com/analytics/allvue-debuts-onevue-with-the-launch-of-portfolio-intelligence-and-deal-analytics-the-industrys-first-benchmarks-built-from-private-credit-deal-data/",
+     "feed": "MarTech Series",
+     "publishedTs": 1784554371
+    },
+    {
+     "title": "Unlocking enterprise AI through unified workflows",
+     "link": "https://martech.org/unlocking-enterprise-ai-through-unified-workflows/",
+     "feed": "MarTech.org",
+     "publishedTs": 1784550540
+    },
+    {
+     "title": "ServiceNow揭露AI平臺重大等級的RCE漏洞",
+     "link": "https://www.ithome.com.tw/news/177439",
+     "feed": "iThome",
+     "publishedTs": 1784549278
+    }
+   ],
+   "電商/OMO": [
+    {
+     "title": "駭客用傳統文字加鹽手法，騙過新式AI郵件防護",
+     "link": "https://www.ithome.com.tw/news/177434",
+     "feed": "iThome",
+     "publishedTs": 1784545669
+    },
+    {
+     "title": "從智慧決策到自動化執行，祐謙科技如何透過 SAS 與 UiPath 打造企業「行動大腦」？",
+     "link": "https://techorange.com/2026/07/20/simentor-sas-uipath/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+     "feed": "TechOrange",
+     "publishedTs": 1784522045
+    },
+    {
      "title": "【AI、機器人與網路的代理化未來】99% 機器人是惡意程式，如何精準分辨「惡意攻擊」與「AI 變現機會」？",
      "link": "https://techorange.com/2026/07/18/ai-bots-and-the-agentic-future-of-the-web/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
      "feed": "TechOrange",
      "publishedTs": 1784327340
+    }
+   ],
+   "AI Agent應用": [
+    {
+     "title": "Bluehost Expands AI Business Platform with New Simple-to-Use AI & Agentic Solutions Purpose-Built for Small Business",
+     "link": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/bluehost-expands-ai-business-platform-with-new-simple-to-use-ai-agentic-solutions-purpose-built-for-small-business/",
+     "feed": "MarTech Series",
+     "publishedTs": 1784556786
     },
     {
-     "title": "Best AI Tools for Branding (2026): CapCut Featured for Creating Branded Video and Visual Content by Expert Consumers",
-     "link": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/best-ai-tools-for-branding-2026-capcut-featured-for-creating-branded-video-and-visual-content-by-expert-consumers/",
+     "title": "Bigdata.com Launches the Tokenization of Content: Precision Grounding That Cuts AI Token Consumption by up to 100×",
+     "link": "https://martechseries.com/content/bigdata-com-launches-the-tokenization-of-content-precision-grounding-that-cuts-ai-token-consumption-by-up-to-100x/",
      "feed": "MarTech Series",
-     "publishedTs": 1784297947
+     "publishedTs": 1784554252
     },
     {
-     "title": "PixPix Introduces One-Image Workflow for Complete E-Commerce Visual Content",
-     "link": "https://martechseries.com/content/pixpix-introduces-one-image-workflow-for-complete-e-commerce-visual-content/",
-     "feed": "MarTech Series",
-     "publishedTs": 1784296515
+     "title": "Hugging Face 遭 AI Agent 惡意入侵：一個中國模型為何成了最後的調查工具？",
+     "link": "https://techorange.com/2026/07/20/hugging-face-ai-agent-security/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+     "feed": "TechOrange",
+     "publishedTs": 1784537612
     }
    ],
    "對話式商務": [
     {
-     "title": "Velaflow Social Unveils Major Feature Expansion: Private Messaging, Voice & Video Calls, Live Streaming, and Job Posting",
-     "link": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/velaflow-social-unveils-major-feature-expansion-private-messaging-voice-video-calls-live-streaming-and-job-posting/",
-     "feed": "MarTech Series",
-     "publishedTs": 1784273643
-    },
-    {
-     "title": "Don’t confuse ad spend with marketing performance",
-     "link": "https://martech.org/dont-confuse-ad-spend-with-marketing-performance/",
-     "feed": "MarTech.org",
-     "publishedTs": 1784207728
-    },
-    {
-     "title": "Apptronik 啟用「機器人樂園」，用資料工廠模式解決人形機器人訓練瓶頸",
-     "link": "https://techorange.com/2026/07/16/apptronik/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+     "title": "AI Agent 長期記憶成新攻擊面：研究顯示惡意記憶寫入成功率達 98%，企業該如何防守？",
+     "link": "https://techorange.com/2026/07/20/hidden-prompts-can-secretly-rewrite-an-ais-memory/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
      "feed": "TechOrange",
-     "publishedTs": 1784169185
+     "publishedTs": 1784522341
+    },
+    {
+     "title": "How AI-Powered Campaign Creation Actually Works, and What Many Platforms Get Wrong",
+     "link": "https://insiderone.com/ai-campaign-creation/",
+     "feed": "Insider Blog",
+     "publishedTs": 1783589043
+    },
+    {
+     "title": "How Event-Triggered Messaging Strategies Turn Behavior into Revenue",
+     "link": "https://insiderone.com/event-triggered-messaging-revenue/",
+     "feed": "Insider Blog",
+     "publishedTs": 1783584598
+    }
+   ],
+   "廣告投放/歸因": [
+    {
+     "title": "CTM Closes the Attribution Gap on AI’s Fastest-Growing Ad Channel",
+     "link": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/ctm-closes-the-attribution-gap-on-ais-fastest-growing-ad-channel/",
+     "feed": "MarTech Series",
+     "publishedTs": 1784558369
+    },
+    {
+     "title": "New MMA and LiveRamp Report Finds Even Small Data Gaps and Identity Errors Can Distort Marketing Measurement",
+     "link": "https://martechseries.com/sales-marketing/programmatic-buying/new-mma-and-liveramp-report-finds-even-small-data-gaps-and-identity-errors-can-distort-marketing-measurement/",
+     "feed": "MarTech Series",
+     "publishedTs": 1784554520
+    },
+    {
+     "title": "How to run a CTV incrementality test (and why most fail)",
+     "link": "https://martech.org/how-to-run-a-ctv-incrementality-test-and-why-most-fail/",
+     "feed": "MarTech.org",
+     "publishedTs": 1784551500
     }
    ],
    "CRM/會員留存": [
-    {
-     "title": "TechEsperto Expands from SuiteCRM Specialist to Full-Stack Software Development Company",
-     "link": "https://martechseries.com/sales-marketing/crm/techesperto-expands-from-suitecrm-specialist-to-full-stack-software-development-company/",
-     "feed": "MarTech Series",
-     "publishedTs": 1784289137
-    },
     {
      "title": "Consumers say rewards matter, but many aren’t actually using them",
      "link": "https://www.marketingdive.com/news/consumers-rewards-matter-many-arent-using/825292/",
@@ -1061,6 +1055,12 @@
      "link": "https://insiderone.com/event-triggered-messaging-revenue/",
      "feed": "Insider Blog",
      "publishedTs": 1783584598
+    },
+    {
+     "title": "Mobile App Engagement Metrics: What to Track and Why It Matters",
+     "link": "https://insiderone.com/mobile-app-engagement-metrics-track/",
+     "feed": "Insider Blog",
+     "publishedTs": 1783578153
     }
    ],
    "CDP/第一方數據": [
@@ -1108,27 +1108,37 @@
  "trend": {
   "topicDelta": {
    "行銷自動化": 14,
-   "廣告投放/歸因": 13,
+   "廣告投放/歸因": 12,
    "AI Agent應用": 10,
    "AI Agent": -8,
-   "對話式商務": 7,
+   "併購/募資": 6,
    "廣告科技": -6,
    "CDP/第一方數據": 6,
-   "電商/OMO": 6,
-   "CRM/會員留存": 5,
+   "CRM/會員留存": 4,
+   "電商/OMO": 4,
    "個人化推薦": 4,
-   "電商/零售": -3,
-   "生成式AI": -2,
-   "併購/募資": 1,
-   "隱私/法規": 1
+   "生成式AI": -4,
+   "對話式商務": 4,
+   "隱私/法規": 3,
+   "電商/零售": -3
   },
   "hasBaseline": true,
   "baselineDate": "2026-07-19",
   "newJobs": [
    {
+    "title": "Global Commercial HR Business Partner (HRBP)",
+    "company": "Appier",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6518407"
+   },
+   {
     "title": "《天下雜誌》資訊科技部_雲端工程師",
     "company": "天下雜誌股份有限公司 ",
     "link": "https://www.yourator.co/companies/COMMONWEALTH/jobs/47368"
+   },
+   {
+    "title": "\t 企劃主管(商用洗衣)",
+    "company": "上洋股份有限公司",
+    "link": "https://www.yourator.co/companies/upyoung/jobs/40270"
    },
    {
     "title": "【海外】FPCA 電測新產品導入工程師",
@@ -1149,9 +1159,26 @@
     "title": "《天下雜誌》主任前端工程師",
     "company": "天下雜誌股份有限公司 ",
     "link": "https://www.yourator.co/companies/COMMONWEALTH/jobs/40741"
+   },
+   {
+    "title": "數位行銷專員/資深專員",
+    "company": "上洋股份有限公司",
+    "link": "https://www.yourator.co/companies/upyoung/jobs/39904"
    }
   ],
   "removedJobs": [
+   {
+    "title": "Interactive Advertising Creative Production Intern",
+    "company": "Appier"
+   },
+   {
+    "title": "Sales Manager, Advertising Solutions, Türkiye",
+    "company": "Appier"
+   },
+   {
+    "title": "PA0503 車用電子軟體品質測試工程師",
+    "company": "仁寶電腦工業股份有限公司"
+   },
    {
     "title": "PA0478 機器人軟體工程師(Robotics Software Engineer)",
     "company": "仁寶電腦工業股份有限公司"
@@ -1171,11 +1198,17 @@
    {
     "title": "AI數位應用開發工程師/主任工程師(內湖)",
     "company": "仁寶電腦工業股份有限公司"
+   },
+   {
+    "title": "CRM 行銷顧問實習生[應屆畢業]",
+    "company": "伊原力科技"
    }
   ],
-  "newCount": 5,
-  "removedCount": 5,
-  "skillDelta": {}
+  "newCount": 8,
+  "removedCount": 9,
+  "skillDelta": {
+   "CRM": -1
+  }
  },
  "errors": []
 }

@@ -1,76 +1,76 @@
 # MarTech 應用趨勢週報 · 2026-07-20
 
-> 產生時間：2026-07-20 09:07　|　相關文章 62 篇　|　職缺 143 筆（含內文 123 筆）
+> 產生時間：2026-07-20 22:42　|　相關文章 63 篇　|　職缺 142 筆（含內文 122 筆）
 
 ## 1. 應用主題聲量（近 30 天文章）
 
 | 應用主題 | 數量 | |
 |---|---|---|
-| 生成式AI | 17 | `████████████████████` |
-| 行銷自動化 | 14 | `████████████████░░░░` |
-| 廣告投放/歸因 | 13 | `███████████████░░░░░` |
-| AI Agent應用 | 10 | `████████████░░░░░░░░` |
-| 隱私/法規 | 7 | `████████░░░░░░░░░░░░` |
-| 對話式商務 | 7 | `████████░░░░░░░░░░░░` |
-| 電商/OMO | 6 | `███████░░░░░░░░░░░░░` |
-| CDP/第一方數據 | 6 | `███████░░░░░░░░░░░░░` |
-| CRM/會員留存 | 5 | `██████░░░░░░░░░░░░░░` |
-| 併購/募資 | 4 | `█████░░░░░░░░░░░░░░░` |
+| 生成式AI | 15 | `████████████████████` |
+| 行銷自動化 | 14 | `███████████████████░` |
+| 廣告投放/歸因 | 12 | `████████████████░░░░` |
+| AI Agent應用 | 10 | `█████████████░░░░░░░` |
+| 隱私/法規 | 9 | `████████████░░░░░░░░` |
+| 併購/募資 | 9 | `████████████░░░░░░░░` |
+| CDP/第一方數據 | 6 | `████████░░░░░░░░░░░░` |
+| 電商/OMO | 4 | `█████░░░░░░░░░░░░░░░` |
+| 對話式商務 | 4 | `█████░░░░░░░░░░░░░░░` |
+| CRM/會員留存 | 4 | `█████░░░░░░░░░░░░░░░` |
 | 個人化推薦 | 4 | `█████░░░░░░░░░░░░░░░` |
 
 **判讀**：這是本報告的主指標——每個主題有幾篇文章在談。單週的絕對值意義有限，要看**連續幾週的排序變化**：一個主題從中段爬升到前三（如 AI Agent應用），代表廠商開始把它產品化，通常 6–12 個月後反映在台灣的職缺與客戶需求上。產業媒體（MarTech.org、ChiefMartec）談概念，公司部落格（Appier/Insider Blog）談落地——後者出現＝已經在賣了。
 
 ### 1a. 各主題代表文章（依時間新→舊）
 
-**生成式AI**（17 篇）
-- 07/18 [1Password替Claude加上受控登入功能，AI代理能登入網站卻看不到密碼](https://www.ithome.com.tw/news/177407)（iThome）
-- 07/18 [【AI、機器人與網路的代理化未來】99% 機器人是惡意程式，如何精準分辨「惡意攻擊」與「AI 變現機會」？](https://techorange.com/2026/07/18/ai-bots-and-the-agentic-future-of-the-web/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss)（TechOrange）
-- 07/17 [Linus Torvalds談Linux核心對AI的立場，不排斥並以技術價值為主要考量](https://www.ithome.com.tw/news/177381)（iThome）
+**生成式AI**（15 篇）
+- 07/20 [駭客用傳統文字加鹽手法，騙過新式AI郵件防護](https://www.ithome.com.tw/news/177434)（iThome）
+- 07/20 [CGI strengthens enterprise AI leadership with Databricks Brickbuilder Specializations in Public Sector and Generative AI](https://martechseries.com/predictive-ai/ai-platforms-machine-learning/cgi-strengthens-enterprise-ai-leadership-with-databricks-brickbuilder-specializations-in-public-sector-and-generative-ai/)（MarTech Series）
+- 07/20 [OpenSSL存在DoS漏洞HollowByte，攻擊者可利用11個位元組的酬載癱瘓運作](https://www.ithome.com.tw/news/177425)（iThome）
 
 **行銷自動化**（14 篇）
-- 07/18 [【AI、機器人與網路的代理化未來】99% 機器人是惡意程式，如何精準分辨「惡意攻擊」與「AI 變現機會」？](https://techorange.com/2026/07/18/ai-bots-and-the-agentic-future-of-the-web/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss)（TechOrange）
-- 07/17 [Best AI Tools for Branding (2026): CapCut Featured for Creating Branded Video and Visual Content by Expert Consumers](https://martechseries.com/predictive-ai/ai-platforms-machine-learning/best-ai-tools-for-branding-2026-capcut-featured-for-creating-branded-video-and-visual-content-by-expert-consumers/)（MarTech Series）
-- 07/17 [PixPix Introduces One-Image Workflow for Complete E-Commerce Visual Content](https://martechseries.com/content/pixpix-introduces-one-image-workflow-for-complete-e-commerce-visual-content/)（MarTech Series）
+- 07/20 [Allvue Debuts OneVue With the Launch of Portfolio Intelligence and Deal Analytics — the Industry’s First Benchmarks Built From Private Credit Deal Data](https://martechseries.com/analytics/allvue-debuts-onevue-with-the-launch-of-portfolio-intelligence-and-deal-analytics-the-industrys-first-benchmarks-built-from-private-credit-deal-data/)（MarTech Series）
+- 07/20 [Unlocking enterprise AI through unified workflows](https://martech.org/unlocking-enterprise-ai-through-unified-workflows/)（MarTech.org）
+- 07/20 [ServiceNow揭露AI平臺重大等級的RCE漏洞](https://www.ithome.com.tw/news/177439)（iThome）
 
-**廣告投放/歸因**（13 篇）
-- 07/17 [Look past AI to see where martech is going](https://martech.org/look-past-ai-to-see-where-martech-is-going/)（MarTech.org）
-- 07/17 [Harness工程實戰！Taboola如何打造LLM廣告審查系統](https://www.ithome.com.tw/news/177409)（iThome）
-- 07/17 [詐騙廣告侵蝕市場信任，數發部與三大公協會聯手推動可信任的數位廣告生態系](https://www.ithome.com.tw/news/177392)（iThome）
+**廣告投放/歸因**（12 篇）
+- 07/20 [CTM Closes the Attribution Gap on AI’s Fastest-Growing Ad Channel](https://martechseries.com/predictive-ai/ai-platforms-machine-learning/ctm-closes-the-attribution-gap-on-ais-fastest-growing-ad-channel/)（MarTech Series）
+- 07/20 [New MMA and LiveRamp Report Finds Even Small Data Gaps and Identity Errors Can Distort Marketing Measurement](https://martechseries.com/sales-marketing/programmatic-buying/new-mma-and-liveramp-report-finds-even-small-data-gaps-and-identity-errors-can-distort-marketing-measurement/)（MarTech Series）
+- 07/20 [How to run a CTV incrementality test (and why most fail)](https://martech.org/how-to-run-a-ctv-incrementality-test-and-why-most-fail/)（MarTech.org）
 
 **AI Agent應用**（10 篇）
-- 07/18 [【AI、機器人與網路的代理化未來】99% 機器人是惡意程式，如何精準分辨「惡意攻擊」與「AI 變現機會」？](https://techorange.com/2026/07/18/ai-bots-and-the-agentic-future-of-the-web/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss)（TechOrange）
-- 07/17 [Salesforce’s woes underline marketing’s agentic AI problems](https://martech.org/salesforces-woes-underline-marketings-agentic-ai-problems/)（MarTech.org）
-- 07/17 [一年少派工 310 萬次、停機時間減少 1,200 萬小時：美國電信巨頭 AT&amp;T 如何重寫維運模式？](https://techorange.com/2026/07/17/att-telecom-ai-network-outage-prevention/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss)（TechOrange）
+- 07/20 [Bluehost Expands AI Business Platform with New Simple-to-Use AI & Agentic Solutions Purpose-Built for Small Business](https://martechseries.com/predictive-ai/ai-platforms-machine-learning/bluehost-expands-ai-business-platform-with-new-simple-to-use-ai-agentic-solutions-purpose-built-for-small-business/)（MarTech Series）
+- 07/20 [Bigdata.com Launches the Tokenization of Content: Precision Grounding That Cuts AI Token Consumption by up to 100×](https://martechseries.com/content/bigdata-com-launches-the-tokenization-of-content-precision-grounding-that-cuts-ai-token-consumption-by-up-to-100x/)（MarTech Series）
+- 07/20 [Hugging Face 遭 AI Agent 惡意入侵：一個中國模型為何成了最後的調查工具？](https://techorange.com/2026/07/20/hugging-face-ai-agent-security/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss)（TechOrange）
 
-**隱私/法規**（7 篇）
-- 07/20 [【科技早餐】中美 AI 差距縮小：Kimi K3 逼近美國，算力與監管戰同步升溫](https://techorange.com/2026/07/20/kimi-k3-us-china-ai-gap-compute-regulation/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss)（TechOrange）
-- 07/18 [【AI、機器人與網路的代理化未來】99% 機器人是惡意程式，如何精準分辨「惡意攻擊」與「AI 變現機會」？](https://techorange.com/2026/07/18/ai-bots-and-the-agentic-future-of-the-web/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss)（TechOrange）
-- 07/17 [歐盟要求Google開放Android AI功能並共享搜尋資料](https://www.ithome.com.tw/news/177388)（iThome）
+**隱私/法規**（9 篇）
+- 07/20 [OpenSSL存在DoS漏洞HollowByte，攻擊者可利用11個位元組的酬載癱瘓運作](https://www.ithome.com.tw/news/177425)（iThome）
+- 07/20 [具身 AI 的下一個瓶頸不是動作，而是理解人類：BrainCo 如何把「意圖」變成機器人訓練資料？](https://techorange.com/2026/07/20/china-brain-to-robot-platform/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss)（TechOrange）
+- 07/20 [從開發風險到供應鏈威脅，叡揚資訊助金融業建構 AI 韌性防線](https://techorange.com/2026/07/20/gss-a2a-aicyber-aiagent/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss)（TechOrange）
 
-**對話式商務**（7 篇）
-- 07/17 [Velaflow Social Unveils Major Feature Expansion: Private Messaging, Voice & Video Calls, Live Streaming, and Job Posting](https://martechseries.com/predictive-ai/ai-platforms-machine-learning/velaflow-social-unveils-major-feature-expansion-private-messaging-voice-video-calls-live-streaming-and-job-posting/)（MarTech Series）
-- 07/16 [Don’t confuse ad spend with marketing performance](https://martech.org/dont-confuse-ad-spend-with-marketing-performance/)（MarTech.org）
-- 07/16 [Apptronik 啟用「機器人樂園」，用資料工廠模式解決人形機器人訓練瓶頸](https://techorange.com/2026/07/16/apptronik/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss)（TechOrange）
-
-**電商/OMO**（6 篇）
-- 07/18 [【AI、機器人與網路的代理化未來】99% 機器人是惡意程式，如何精準分辨「惡意攻擊」與「AI 變現機會」？](https://techorange.com/2026/07/18/ai-bots-and-the-agentic-future-of-the-web/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss)（TechOrange）
-- 07/17 [PixPix Introduces One-Image Workflow for Complete E-Commerce Visual Content](https://martechseries.com/content/pixpix-introduces-one-image-workflow-for-complete-e-commerce-visual-content/)（MarTech Series）
-- 07/17 [How MarTech Is Enabling Autonomous Brand Engagement Across Channels?](https://martechseries.com/mts-insights/staff-writers/how-martech-is-enabling-autonomous-brand-engagement-across-channels/)（MarTech Series）
+**併購/募資**（9 篇）
+- 07/20 [iPost and ZeroBounce Partner to Deliver Cleaner Data and Stronger Email Performance for Regulated Industries](https://martechseries.com/content/email-mktg/ipost-and-zerobounce-partner-to-deliver-cleaner-data-and-stronger-email-performance-for-regulated-industries/)（MarTech Series）
+- 07/20 [中國車市半年推出 650 款新車，銷量卻在半年內跌掉兩成](https://www.inside.com.tw/article/41860-china-launches-650-new-car-models-in-half-a-year-but-sales-drop-20-percent)（INSIDE）
+- 07/20 [Uber 4,410 億買下 foodpanda 母公司，台灣能否花落 Grab？待公平會 7 月底揭曉](https://www.inside.com.tw/article/41861-uber-delivery-hero-foodpanda-taiwan-grab-ftc)（INSIDE）
 
 **CDP/第一方數據**（6 篇）
 - 07/09 [How to Actually Measure Cross-Channel Marketing Analytics](https://insiderone.com/measure-cross-channel-marketing-analytics/)（Insider Blog）
 - 07/09 [Cross-Channel Marketing Automation Frameworks: How to Build One That Actually Works](https://insiderone.com/cross-channel-automation-framework/)（Insider Blog）
 - 07/09 [Why AI Decisioning is the Missing Link in Marketing Attribution](https://insiderone.com/ai-decisioning-missing-link-attribution/)（Insider Blog）
 
-**CRM/會員留存**（5 篇）
-- 07/17 [TechEsperto Expands from SuiteCRM Specialist to Full-Stack Software Development Company](https://martechseries.com/sales-marketing/crm/techesperto-expands-from-suitecrm-specialist-to-full-stack-software-development-company/)（MarTech Series）
-- 07/15 [Consumers say rewards matter, but many aren’t actually using them](https://www.marketingdive.com/news/consumers-rewards-matter-many-arent-using/825292/)（MarketingDive）
+**電商/OMO**（4 篇）
+- 07/20 [駭客用傳統文字加鹽手法，騙過新式AI郵件防護](https://www.ithome.com.tw/news/177434)（iThome）
+- 07/20 [從智慧決策到自動化執行，祐謙科技如何透過 SAS 與 UiPath 打造企業「行動大腦」？](https://techorange.com/2026/07/20/simentor-sas-uipath/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss)（TechOrange）
+- 07/18 [【AI、機器人與網路的代理化未來】99% 機器人是惡意程式，如何精準分辨「惡意攻擊」與「AI 變現機會」？](https://techorange.com/2026/07/18/ai-bots-and-the-agentic-future-of-the-web/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss)（TechOrange）
+
+**對話式商務**（4 篇）
+- 07/20 [AI Agent 長期記憶成新攻擊面：研究顯示惡意記憶寫入成功率達 98%，企業該如何防守？](https://techorange.com/2026/07/20/hidden-prompts-can-secretly-rewrite-an-ais-memory/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss)（TechOrange）
+- 07/09 [How AI-Powered Campaign Creation Actually Works, and What Many Platforms Get Wrong](https://insiderone.com/ai-campaign-creation/)（Insider Blog）
 - 07/09 [How Event-Triggered Messaging Strategies Turn Behavior into Revenue](https://insiderone.com/event-triggered-messaging-revenue/)（Insider Blog）
 
-**併購/募資**（4 篇）
-- 07/17 [現代砸 3.25 億美元收下 Boston Dynamics 最後股權，2028 量產 Atlas 搶攻實體 AI](https://www.inside.com.tw/article/41845-hyundai-fully-acquires-boston-dynamics-atlas-humanoid-2028-physical-ai)（INSIDE）
-- 07/17 [Uber收購德國外送龍頭Delivery Hero，版圖擴至99個市場](https://www.ithome.com.tw/news/177394)（iThome）
-- 07/16 [Publicis addresses LiveRamp deal, lagging Sapient arm as it raises outlook](https://www.marketingdive.com/news/publicis-addresses-liveramp-deal-lagging-sapient-arm-as-it-raises-outlook/825379/)（MarketingDive）
+**CRM/會員留存**（4 篇）
+- 07/15 [Consumers say rewards matter, but many aren’t actually using them](https://www.marketingdive.com/news/consumers-rewards-matter-many-arent-using/825292/)（MarketingDive）
+- 07/09 [How Event-Triggered Messaging Strategies Turn Behavior into Revenue](https://insiderone.com/event-triggered-messaging-revenue/)（Insider Blog）
+- 07/09 [Mobile App Engagement Metrics: What to Track and Why It Matters](https://insiderone.com/mobile-app-engagement-metrics-track/)（Insider Blog）
 
 **個人化推薦**（4 篇）
 - 07/09 [Insider One vs. MoEngage: Comparing AI Personalization, Automation, and Omnichannel Marketing](https://insiderone.com/insider-one-vs-moengage-compared-enterprise/)（Insider Blog）
@@ -111,7 +111,7 @@
 
 | 公司 | 數量 | |
 |---|---|---|
-| Appier | 83 | `████████████████████` |
+| Appier | 82 | `████████████████████` |
 | 漸強實驗室 | 8 | `██░░░░░░░░░░░░░░░░░░` |
 | 91APP | 0 | `░░░░░░░░░░░░░░░░░░░░` |
 | awoo | 0 | `░░░░░░░░░░░░░░░░░░░░` |
@@ -132,7 +132,7 @@
 | LLM | 13 | `██████████░░░░░░░░░░` |
 | API | 10 | `███████░░░░░░░░░░░░░` |
 | Excel | 8 | `██████░░░░░░░░░░░░░░` |
-| CRM | 8 | `██████░░░░░░░░░░░░░░` |
+| CRM | 7 | `█████░░░░░░░░░░░░░░░` |
 | Git | 7 | `█████░░░░░░░░░░░░░░░` |
 | Spark | 6 | `████░░░░░░░░░░░░░░░░` |
 | Docker | 6 | `████░░░░░░░░░░░░░░░░` |
@@ -142,7 +142,7 @@
 | CDP | 3 | `██░░░░░░░░░░░░░░░░░░` |
 | AI Agent | 3 | `██░░░░░░░░░░░░░░░░░░` |
 
-**判讀**：職缺是「應用趨勢的落地驗證」——文章在談的主題若同步出現在職缺（如 LLM / AI Agent 進技能榜前五），代表趨勢已經走到要人執行的階段。技能分母是有內文的 123 筆。職缺覆蓋限制：只含 Greenhouse（Appier 全球）與 Yourator，91APP/iKala 等主要在 104 刊登者會低估，0 筆 ≠ 沒在招。
+**判讀**：職缺是「應用趨勢的落地驗證」——文章在談的主題若同步出現在職缺（如 LLM / AI Agent 進技能榜前五），代表趨勢已經走到要人執行的階段。技能分母是有內文的 122 筆。職缺覆蓋限制：只含 Greenhouse（Appier 全球）與 Yourator，91APP/iKala 等主要在 104 刊登者會低估，0 筆 ≠ 沒在招。
 
 ### 3c. 追蹤公司「台灣」職缺（可直接投遞清單）
 
@@ -158,9 +158,9 @@
 | Appier | [Data Analyst Intern](https://job-boards.greenhouse.io/appier/jobs/7495834) | 數據分析 | Taipei, Taiwan |
 | Appier | [Data Scientist, Analytics](https://job-boards.greenhouse.io/appier/jobs/1501726) | 數據分析 | Taipei, Taiwan |
 | Appier | [Digital Marketing (Campaign Management team)](https://job-boards.greenhouse.io/appier/jobs/6854145) | 行銷/客戶成功 | Taipei, Taiwan |
+| Appier | [Global Commercial HR Business Partner (HRBP)](https://job-boards.greenhouse.io/appier/jobs/6518407) | 其他 | Taipei, Taiwan |
 | Appier | [Global ESS Sales Operations Manager / Associate Manager](https://job-boards.greenhouse.io/appier/jobs/7075720) | 行銷/客戶成功 | Taipei, Taiwan |
 | Appier | [HR Operations Specialist (Workforce & Equity Operations)](https://job-boards.greenhouse.io/appier/jobs/8052954) | 其他 | Taipei, Taiwan |
-| Appier | [Interactive Advertising Creative Production Intern](https://job-boards.greenhouse.io/appier/jobs/7493416) | 其他 | Taipei, Taiwan |
 | Appier | [Machine Learning Scientist](https://job-boards.greenhouse.io/appier/jobs/1501746) | 數據科學/ML | Taipei, Taiwan |
 | Appier | [Machine Learning Scientist (LLM & Agents)](https://job-boards.greenhouse.io/appier/jobs/7907856) | 數據科學/ML | Taipei, Taiwan |
 | Appier | [Paralegal | Legal Assistant (1-year Contractor / Full-Time) 法務助理](https://job-boards.greenhouse.io/appier/jobs/8000129) | 其他 | Taipei, Taiwan |
@@ -223,24 +223,30 @@
 
 **應用主題聲量升降**（本報告最重要的趨勢訊號）：
 - 行銷自動化: +14
-- 廣告投放/歸因: +13
+- 廣告投放/歸因: +12
 - AI Agent應用: +10
 - AI Agent: -8
-- 對話式商務: +7
+- 併購/募資: +6
 - 廣告科技: -6
 - CDP/第一方數據: +6
-- 電商/OMO: +6
-- CRM/會員留存: +5
+- CRM/會員留存: +4
+- 電商/OMO: +4
 - 個人化推薦: +4
 
-- 新增職缺 **5** 筆、消失職缺 **5** 筆
+- 新增職缺 **8** 筆、消失職缺 **9** 筆
 
 **新增職缺**（最多列 30 筆）：
+- [Global Commercial HR Business Partner (HRBP)](https://job-boards.greenhouse.io/appier/jobs/6518407) — Appier
 - [《天下雜誌》資訊科技部_雲端工程師](https://www.yourator.co/companies/COMMONWEALTH/jobs/47368) — 天下雜誌股份有限公司 
+- [	 企劃主管(商用洗衣)](https://www.yourator.co/companies/upyoung/jobs/40270) — 上洋股份有限公司
 - [【海外】FPCA 電測新產品導入工程師](https://www.yourator.co/companies/honhai/jobs/41898) — 鴻海科技集團 FOXCONN
 - [【海外】軟體工程師](https://www.yourator.co/companies/honhai/jobs/41918) — 鴻海科技集團 FOXCONN
 - [[PMO] AI策略專案經理 / 專案總監](https://www.yourator.co/companies/honhai/jobs/46911) — 鴻海科技集團 FOXCONN
 - [《天下雜誌》主任前端工程師](https://www.yourator.co/companies/COMMONWEALTH/jobs/40741) — 天下雜誌股份有限公司 
+- [數位行銷專員/資深專員](https://www.yourator.co/companies/upyoung/jobs/39904) — 上洋股份有限公司
+
+**技能需求升降**：
+- CRM: -1
 
 **判讀**：主題聲量連續兩週以上上升＝真趨勢，單週跳動＝可能只是某事件洗版（點回 1a 的文章確認）。新增職缺是投遞時機訊號——刊登 7 天內投遞回覆率最高。
 

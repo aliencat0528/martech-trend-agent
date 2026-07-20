@@ -4,6 +4,19 @@
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-07-20
+
+### Added
+- **分析層**：`/martech-report` 指令（`.claude/commands/martech-report.md`）——Claude 讀完資料
+  親自撰寫「分析專區」（跨來源見解、對求職的意涵），非模板；產出 `reports/analysis-*.md`
+- 首份分析專區 `reports/analysis-2026-07-20.md`
+- **半自動排程**：`scripts/refresh.sh`（機械層刷新＋桌面通知）、`install-schedule.sh` /
+  `uninstall-schedule.sh`（macOS launchd，每 3 天）
+- 視覺化 artifact 新增分析專區（三大重點＋見解卡）
+
+### Changed
+- README 使用方式改為「機械層／分析層」兩層架構，新增定期更新（半自動）說明
+
 ## [1.1.0] - 2026-07-20
 
 ### Changed
