@@ -13,9 +13,13 @@
 - **半自動排程**：`scripts/refresh.sh`（機械層刷新＋桌面通知）、`install-schedule.sh` /
   `uninstall-schedule.sh`（macOS launchd，每 3 天）
 - 視覺化 artifact 新增分析專區（三大重點＋見解卡）
+- **通知落點**：Notion 母 page「MarTech 趨勢報告」，每期一個子 page（含見解＋artifact 連結）
 
 ### Changed
 - README 使用方式改為「機械層／分析層」兩層架構，新增定期更新（半自動）說明
+
+### Notes
+- 通知原訂用 Email，但 Gmail 連接器只能建草稿且授權範圍不足，改用 Notion（見 MT-003）
 
 ## [1.1.0] - 2026-07-20
 

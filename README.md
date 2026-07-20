@@ -46,7 +46,7 @@ python3 -m venv .venv
 ### 分析層（見解＋通知，在 Claude Code 內）
 
 在 Claude Code 打 **`/martech-report`** —— 一鍵跑完整流程：抓取 → Claude 撰寫分析專區
-（跨來源見解、對求職的意涵）→ 更新視覺化 artifact → 用 Gmail 寄摘要信 → commit。
+（跨來源見解、對求職的意涵）→ 更新視覺化 artifact → 在 Notion 母 page 下建當期子 page → commit。
 見解由 Claude 親自寫，非模板。
 
 ### 定期更新（半自動，每 3 天）
@@ -59,8 +59,10 @@ launchctl start com.martech-trend-agent.refresh   # 立即測試一次
 bash scripts/uninstall-schedule.sh   # 移除
 ```
 
-> 為何不是全自動：見解需要模型在場、email 需要本機 Gmail 授權，兩者都綁在「Claude 在你
-> 本機 session」。雲端排程存取不到本機 Gmail，故採「機械層自動抓＋你觸發分析」的半自動。
+通知落點：Notion 母 page「MarTech 趨勢報告」，每期一個子 page（含見解＋artifact 連結）。
+
+> 為何不是全自動：見解需要模型在場，本機無法定時喚醒模型，故採「機械層自動抓＋你觸發分析」
+> 的半自動。（Gmail 連接器授權範圍不支援寫入，故通知改用 Notion。）
 
 **加公司／技能／新聞源**：只改 `config.yaml`，不用動程式碼。公司若使用 Greenhouse 徵才，
 在該公司條目加 `greenhouse: <board_token>` 可取得最完整資料。

@@ -5,12 +5,14 @@
 ## 決策日誌
 
 ### MT-003 · 2026-07-20 · 分析層與半自動排程
-- **決策**（用戶確認）：新增「分析專區」——見解由 Claude 親自寫（非 Python 模板）；
-  每 3 天更新；Email 通知寄 **angel.develop98@gmail.com**（非 memory 內信箱）
+- **決策**（用戶確認）：新增「分析專區」——見解由 Claude 親自寫（非 Python 模板）；每 3 天更新
 - **架構**：機械層（run.py 抓取統計，本機 launchd 每 3 天自動＋桌面通知）／
-  分析層（`/martech-report` 由 Claude 就地寫見解＋更新 artifact＋寄信）＝半自動
-- **為何非全自動**：見解需模型在場、email 需本機 Gmail 授權，雲端 routine 存取不到本機
-  Gmail（可用 connector 僅 Notion/Canva），且雲端抓取有被擋風險。棄全雲端。
+  分析層（`/martech-report` 由 Claude 就地寫見解＋更新 artifact＋寫 Notion）＝半自動
+- **為何非全自動**：見解需模型在場，本機無法定時喚醒模型；雲端 routine 存取不到本機資源、
+  抓取有被擋風險。棄全雲端。
+- **通知落點演進**：原訂 Email → Gmail 連接器只能建草稿且授權範圍不足（insufficient scopes）
+  → 改 **Notion**：母 page「MarTech 趨勢報告」`3a3e6df2-9bcf-81f8-9e10-cc9ce907924e`，
+  每期一個子 page
 - **落地**：`.claude/commands/martech-report.md`、`scripts/*.sh`
 
 ### MT-002 · 2026-07-20 · 主軸修正：應用趨勢為主、職缺為次
