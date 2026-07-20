@@ -22,12 +22,12 @@ def matchTerms(text, terms):
 def fetchAll(config, logger, maxAgeDays=30):
     """回傳 (articles, errors)。文章帶 matchedCompanies / matchedTopics 標記。"""
     articles, errors = [], []
-    cutoff = time.time() - maxAgeDays * 86400
 
     allCompanies = config["companies"]["tier1"] + config["companies"]["tier2"]
     topicMap = config.get("newsTopics", {})
 
     for feed in config.get("newsFeeds", []):
+        cutoff = time.time() - feed.get("maxAgeDays", maxAgeDays) * 86400
         try:
             parsed = feedparser.parse(feed["url"])
             if parsed.bozo and not parsed.entries:
@@ -45,7 +45,10 @@ def fetchAll(config, logger, maxAgeDays=30):
                                     if matchTerms(text, c["aliases"])]
                 matchedTopics = [topic for topic, terms in topicMap.items()
                                  if matchTerms(text, terms)]
-                if not matchedCompanies and not matchedTopics:
+                feedCompany = feed.get("company")
+                if feedCompany and feedCompany not in matchedCompanies:
+                    matchedCompanies.append(feedCompany)
+                if not feed.get("keepAll") and not matchedCompanies and not matchedTopics:
                     continue
                 articles.append({
                     "feed": feed["name"],

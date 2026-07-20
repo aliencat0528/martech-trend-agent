@@ -78,7 +78,8 @@ def main():
     jobResult = statsMod.jobStats(jobs, config)
     newsResult = statsMod.newsStats(articles)
     prevDir = statsMod.previousSnapshotDir(ROOT / "data" / "raw", runDate)
-    trendResult = statsMod.trendCompare(jobs, jobResult["skillFrequency"], prevDir)
+    trendResult = statsMod.trendCompare(jobs, jobResult["skillFrequency"],
+                                        newsResult["topicMentions"], prevDir)
 
     allStats = {"date": runDate, "jobs": jobResult, "news": newsResult,
                 "trend": trendResult, "errors": errors}

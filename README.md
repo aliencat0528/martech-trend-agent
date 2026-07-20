@@ -1,16 +1,20 @@
-# martech-trend-agent - MarTech 商業趨勢自動追蹤與統計分析
+# martech-trend-agent - MarTech 應用趨勢自動追蹤與統計分析
 
-自動抓取 Appier 為首的 MarTech 公司職缺與產業新聞，統計分析後產出繁中趨勢報告，回答三個問題：**哪些公司在擴張、市場要我會什麼技能、產業風向往哪吹**。
+自動抓取 MarTech 產業新聞／文章判斷**應用趨勢**（主軸），輔以 Appier 為首的公司職缺作為
+落地驗證訊號（次要），統計分析後產出繁中趨勢報告。回答三個問題：
+**產業風向往哪吹、哪些應用已從概念走到落地、公司在為哪些能力擴編**。
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## 功能特色 【必要】
 
-- **職缺追蹤**：Greenhouse 官方 API（Appier 全球職缺含完整內文）＋ Yourator（台灣新創），僱主名稱過濾避免誤收
-- **統計分析**：公司職缺數、職稱結構、技能關鍵詞需求頻率、薪資樣本、台灣可投遞清單
-- **新聞聲量**：5 個 RSS 源（iThome／TechOrange／INSIDE／MarTech.org／MarketingDive），公司提及數與主題聲量
-- **趨勢比較**：每次執行存日期快照，自動與上次比較（新增／消失職缺、技能需求升降）
+- **應用趨勢（主軸）**：9 個 RSS 源（iThome／TechOrange／INSIDE／MarTech.org／MarketingDive
+  ／ChiefMartec／MarTech Series／Appier Blog／Insider Blog），12 類應用主題聲量＋每主題代表文章；
+  純 MarTech 源可設 `keepAll` 全收、公司部落格自動掛公司標記
+- **職缺訊號（次要）**：Greenhouse 官方 API（Appier 全球含內文）＋ Yourator（台灣新創），
+  職稱結構、技能關鍵詞頻率、台灣可投遞清單、薪資樣本
+- **趨勢比較**：每次執行存日期快照，自動與上次比較（主題聲量升降、新增／消失職缺、技能升降）
 - **報告自帶判讀指引**：每個統計節附「怎麼讀這個數字」
 
 ## 快速開始 【必要】

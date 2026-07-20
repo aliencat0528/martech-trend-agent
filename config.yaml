@@ -77,7 +77,7 @@ skillKeywords:
    "Machine Learning", "LLM", "AI Agent", "GPT", "Prompt", "CRM", "CDP", "SEO", "LINE API",
    "Docker", "Git", "API", "ETL", "Dashboard", "英文"]
 
-# 新聞 RSS 來源
+# 新聞 RSS 來源（產業媒體 + 指標公司部落格；公司部落格反映廠商正在推什麼應用）
 newsFeeds:
   - name: iThome
     url: https://www.ithome.com.tw/rss
@@ -85,18 +85,46 @@ newsFeeds:
     url: https://buzzorange.com/techorange/feed/
   - name: INSIDE
     url: https://www.inside.com.tw/feed/rss
+  # keepAll: 純 MarTech 媒體/公司部落格，文章天生相關，不經關鍵詞過濾全數保留
+  # company: 公司部落格，文章自動掛該公司標記
   - name: MarTech.org
     url: https://martech.org/feed/
+    keepAll: true
   - name: MarketingDive
     url: https://www.marketingdive.com/feeds/news/
+  - name: ChiefMartec
+    url: https://chiefmartec.com/feed/
+    keepAll: true
+    maxAgeDays: 180   # 低頻高價值：年度 Landscape 等重磅文
+  - name: MarTech Series
+    url: https://martechseries.com/feed/
+    keepAll: true
+  - name: Appier Blog
+    url: https://www.appier.com/en/blog/rss.xml
+    keepAll: true
+    company: Appier
+    maxAgeDays: 365   # 官方部落格低頻，但反映產品主打方向
+  - name: Insider Blog
+    url: https://www.insiderone.com/blog/feed/
+    keepAll: true
+    company: Insider
 
-# 新聞主題分類關鍵詞（一篇可命中多主題）
+# 新聞主題分類關鍵詞（一篇可命中多主題）——主軸：判斷 MarTech「應用趨勢」
 newsTopics:
-  AI Agent: ["ai agent", "agentic", "自主決策", "智慧代理", "ai 代理"]
-  生成式AI: ["生成式", "generative", "llm", "gpt", "claude", "gemini", "大型語言模型"]
-  CDP/數據: ["cdp", "customer data", "第一方數據", "顧客數據", "data platform"]
-  個人化/CRM: ["personalization", "個人化", "crm", "顧客關係", "會員經營", "retention"]
-  廣告科技: ["adtech", "廣告", "dsp", "程序化", "advertising"]
-  電商/零售: ["電商", "e-commerce", "ecommerce", "零售", "retail", "omo"]
-  隱私/法規: ["隱私", "privacy", "個資", "gdpr", "cookie", "第三方"]
+  AI Agent應用: ["ai agent", "agentic", "自主決策", "智慧代理", "ai 代理", "autonomous"]
+  生成式AI: ["生成式", "generative", "llm", "gpt", "claude", "gemini", "大型語言模型",
+             "creative generation", "ai 生成"]
+  CDP/第一方數據: ["cdp", "customer data", "第一方數據", "顧客數據", "data platform",
+                  "first-party", "data clean room"]
+  個人化推薦: ["personalization", "個人化", "recommendation", "推薦引擎", "動態內容"]
+  CRM/會員留存: ["crm", "顧客關係", "會員經營", "retention", "留存", "loyalty", "忠誠",
+                "churn", "流失", "lifecycle"]
+  對話式商務: ["conversational", "chatbot", "對話式", "line oa", "whatsapp", "messaging",
+              "聊天機器人", "voice"]
+  廣告投放/歸因: ["adtech", "廣告", "dsp", "程序化", "advertising", "attribution", "歸因",
+                 "measurement", "mmm", "roas"]
+  零售媒體: ["retail media", "零售媒體", "commerce media", "聯播網"]
+  電商/OMO: ["電商", "e-commerce", "ecommerce", "零售", "retail", "omo", "d2c"]
+  行銷自動化: ["automation", "自動化", "workflow", "journey", "旅程", "no-code"]
+  隱私/法規: ["隱私", "privacy", "個資", "gdpr", "cookie", "第三方", "同意管理"]
   併購/募資: ["收購", "併購", "募資", "acquisition", "merger", "funding", "ipo", "上市"]

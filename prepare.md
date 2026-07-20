@@ -4,6 +4,12 @@
 
 ## 決策日誌
 
+### MT-002 · 2026-07-20 · 主軸修正：應用趨勢為主、職缺為次
+- **決策**（用戶指示）：報告主軸＝新聞/文章的應用趨勢判斷；職缺降為次要節（公司需求訊號）
+- **落地**：新聞源 5→9（加 ChiefMartec/MarTech Series/Appier Blog/Insider Blog）、
+  主題分類 8→12 類、每主題附代表文章、趨勢比較新增主題聲量升降；
+  feed 支援 `keepAll`（純 MarTech 源全收）與 `maxAgeDays`（低頻源放寬時間窗）
+
 ### MT-001 · 2026-07-19 · 職缺來源選擇
 - **決策**：職缺來源＝Greenhouse 官方 API（Appier）＋ Yourator；104 不納入
 - **理由**：104 搜尋端點已上 Cloudflare bot 防護（實測 403／挑戰頁），規避防護不做；

@@ -100,11 +100,23 @@ def newsStats(articles):
     topArticles = sorted(
         [a for a in articles if a["matchedCompanies"]],
         key=lambda a: a["publishedTs"], reverse=True)[:20]
+
+    # 每個主題挑最新的代表文章（應用趨勢的證據，不只給數字）
+    topicArticles = {}
+    for topic in topicCounter:
+        matched = sorted([a for a in articles if topic in a["matchedTopics"]],
+                         key=lambda a: a["publishedTs"], reverse=True)
+        topicArticles[topic] = [
+            {"title": a["title"], "link": a["link"], "feed": a["feed"],
+             "publishedTs": a["publishedTs"]}
+            for a in matched[:3]]
+
     return {
         "totalArticles": len(articles),
         "companyMentions": dict(companyCounter.most_common()),
         "topicMentions": dict(topicCounter.most_common()),
         "companyArticles": topArticles,
+        "topicArticles": topicArticles,
     }
 
 
@@ -115,8 +127,8 @@ def previousSnapshotDir(rawRoot, currentDate):
     return Path(rawRoot) / dirs[-1] if dirs else None
 
 
-def trendCompare(currentJobs, currentSkillFreq, prevDir):
-    """與上一次快照比較：職缺增減、技能關鍵詞升降。"""
+def trendCompare(currentJobs, currentSkillFreq, currentTopicMentions, prevDir):
+    """與上一次快照比較：主題聲量升降、職缺增減、技能關鍵詞升降。"""
     if prevDir is None or not (prevDir / "jobs.json").exists():
         return {"hasBaseline": False}
 
@@ -138,7 +150,15 @@ def trendCompare(currentJobs, currentSkillFreq, prevDir):
         if diff != 0:
             skillDelta[skill] = diff
 
+    topicDelta = {}
+    prevTopics = prevStats.get("news", {}).get("topicMentions", {})
+    for topic in set(currentTopicMentions) | set(prevTopics):
+        diff = currentTopicMentions.get(topic, 0) - prevTopics.get(topic, 0)
+        if diff != 0:
+            topicDelta[topic] = diff
+
     return {
+        "topicDelta": dict(sorted(topicDelta.items(), key=lambda kv: -abs(kv[1]))),
         "hasBaseline": True,
         "baselineDate": prevDir.name,
         "newJobs": [{"title": j["title"], "company": j["company"], "link": j["link"]}
