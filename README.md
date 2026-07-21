@@ -7,8 +7,7 @@
 ![Version](https://img.shields.io/badge/version-1.2.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-## 功能特色 【必要】
-
+## 功能特色
 - **應用趨勢（主軸）**：9 個 RSS 源（iThome／TechOrange／INSIDE／MarTech.org／MarketingDive
   ／ChiefMartec／MarTech Series／Appier Blog／Insider Blog），12 類應用主題聲量＋每主題代表文章；
   純 MarTech 源可設 `keepAll` 全收、公司部落格自動掛公司標記
@@ -17,8 +16,7 @@
 - **趨勢比較**：每次執行存日期快照，自動與上次比較（主題聲量升降、新增／消失職缺、技能升降）
 - **報告自帶判讀指引**：每個統計節附「怎麼讀這個數字」
 
-## 快速開始 【必要】
-
+## 快速開始
 ```bash
 cd martech-trend-agent
 python3 -m venv .venv
@@ -29,8 +27,7 @@ python3 -m venv .venv
 #    報告：reports/report-YYYY-MM-DD.md（latest.md 同步更新）
 ```
 
-## 使用方式 【必要】
-
+## 使用方式
 本工具分兩層：**機械層**（Python 抓取＋統計，可排程自動跑）與**分析層**（Claude 讀完
 資料撰寫見解，需模型在場）。
 
@@ -69,8 +66,7 @@ bash scripts/uninstall-schedule.sh   # 移除
 
 **判讀方式**：先讀 `reports/analysis-<日期>.md`（見解）→ 再看 `report-<日期>.md`（統計數字）。
 
-## 專案結構 【必要】
-
+## 專案結構
 ```
 martech-trend-agent/
 ├── config.yaml          # 公司清單、關鍵詞、RSS 來源（唯一需要編輯的檔案）
@@ -85,14 +81,12 @@ martech-trend-agent/
 
 分析層流程定義在 `../.claude/commands/martech-report.md`（`/martech-report` 指令）。
 
-## 測試 【必要】
-
+## 測試
 ```bash
 .venv/bin/python run.py --reanalyze <既有快照日期>   # 不打網路，驗證分析與報告層
 ```
 
-## 版本歷史 【必要】
-
+## 版本歷史
 ### v1.2.0 (2026-07-20)
 
 - **分析層＋半自動排程** — `/martech-report` 由 Claude 撰寫見解、`scripts/` launchd 每 3 天刷新
@@ -105,8 +99,7 @@ martech-trend-agent/
 
 - **首版 pipeline** — Greenhouse＋Yourator＋RSS 三源抓取、統計分析、繁中報告與趨勢快照
 
-## 授權 【必要】
-
+## 授權
 MIT License
 
 ---
