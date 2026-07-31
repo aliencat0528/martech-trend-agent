@@ -4,6 +4,13 @@
 
 ## [Unreleased]
 
+### Fixed
+- **RSS 抓取無逾時上限**：`feedparser.parse()` 不吃 timeout 參數，來源掛住連線會讓程序永不結束；
+  排程情境下 launchd 不會在前次仍在跑時啟動新的一次，等於**靜默停擺且無任何錯誤訊息**。
+  於 `run.py` 入口設 `socket.setdefaulttimeout(30)`（requests 自帶的 20/30 秒更短，優先生效）
+- `scripts/refresh.log` 加入 `.gitignore`——排程一跑就產生，本專案 commit 流程用 `git add -A`，
+  否則會被一起提交進版控
+
 ## [1.2.0] - 2026-07-20
 
 ### Added

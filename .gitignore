@@ -1,3 +1,6 @@
 .venv/
 __pycache__/
 *.pyc
+
+# 排程執行記錄（launchd StandardOut/ErrorPath 落點）；非資料資產，不進版控
+scripts/refresh.log
