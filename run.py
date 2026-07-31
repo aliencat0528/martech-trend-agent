@@ -9,11 +9,17 @@
 
 import argparse
 import json
+import socket
 import sys
 import time
 from pathlib import Path
 
 import yaml
+
+# feedparser.parse() 不吃 timeout 參數，只認全域 socket 逾時。無此設定時，來源掛住連線會讓
+# 程序永遠不結束——排程情境下 launchd 不會在前次還在跑時啟動新的一次，等於靜默停擺。
+# 在入口點設定，讓整個 process 的網路呼叫都有上限（requests 自帶的 timeout 更短，優先生效）。
+socket.setdefaulttimeout(30)
 
 ROOT = Path(__file__).parent
 sys.path.insert(0, str(ROOT))
