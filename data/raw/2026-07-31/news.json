@@ -1,0 +1,676 @@
+[
+ {
+  "feed": "iThome",
+  "title": "工作流程自動化平臺n8n表達式沙箱再遭繞過，工作流程編輯者可執行主機命令",
+  "link": "https://www.ithome.com.tw/news/177769",
+  "publishedTs": 1785485274,
+  "summary": "工作流程自動化平臺n8n修補一項高風險漏洞。已登入且能建立或修改工作流程的使用者，可利用特製的程式碼避開表達式沙箱限制，在執行n8n的主機上執行系統命令。官方已在n8n 2.31.5與2.32.1完成修補，建議使用者升級至這些版本或後續版本。",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "行銷自動化"
+  ]
+ },
+ {
+  "feed": "iThome",
+  "title": "Walmart如何用數據打造永續零售：AI預測食品浪費，還靠平臺讓供應鏈減碳",
+  "link": "https://www.ithome.com.tw/news/177760",
+  "publishedTs": 1785388055,
+  "summary": "生成式AI快速發展後，企業開始重新思考AI的價值。對全球最大零售商Walmart而言，AI不只是提升銷售推薦或員工效率的工具，也逐漸成為改善零售流程、降低資源浪費的重要技術。在Walmart最新的FY2026永續報告書，Walmart揭露他們如何利用AI、資料分析、自動化與數位平臺，將永續目標融入日常營運，從食品管理、供應鏈減碳到AI治理，建立以數據驅動的永續零售模式。\nWalmart並非單純以AI解決所有永續問題，而是依照不同場景導入不同數位能力。其中，AI主要用於提升食品管理與營運決策效率，而供應鏈減碳則依靠數據平臺與碳管理工具，協助供應商共同降低排放。",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "生成式AI",
+   "電商/OMO",
+   "行銷自動化"
+  ]
+ },
+ {
+  "feed": "iThome",
+  "title": "ChatGPT首度成前十大網釣冒充品牌",
+  "link": "https://www.ithome.com.tw/news/177759",
+  "publishedTs": 1785384473,
+  "summary": "一般來說，為了讓使用者降低警覺，攻擊者往往會冒用知名品牌從事網路釣魚活動，其中最常被冒用的大多是科技龍頭，但隨著AI融入你我的生活，有許多駭客也看上這一點，選擇冒充知名AI工具從事網路犯罪。",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "生成式AI"
+  ]
+ },
+ {
+  "feed": "iThome",
+  "title": "Perplexity開源Numbat，在端點監控AI代理行為並攔阻高風險操作",
+  "link": "https://www.ithome.com.tw/news/177757",
+  "publishedTs": 1785380871,
+  "summary": "Perplexity開源AI代理端點資安工具Numbat，可在macOS、Linux與Windows監控程式開發代理的執行行為，在代理嘗試高風險操作時加以阻擋，並保留紀錄供資安人員調查。Perplexity表示，Numbat已部署於自家數千部端點，支援Claude Code、Codex、OpenCode與Pi。",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "生成式AI"
+  ]
+ },
+ {
+  "feed": "iThome",
+  "title": "【資安日報】7月30日，Hugging Face事故新進展，OpenAI模型不僅利用零時差漏洞突破測試環境，同時還入侵另一雲端平臺用戶",
+  "link": "https://www.ithome.com.tw/news/177755",
+  "publishedTs": 1785380843,
+  "summary": "本日新聞焦點\n● Hugging Face事故新進展，AI模型利用零時差漏洞突破測試環境\n● Claude找出後量子數位簽章演算法HAWK弱點\n● 博通修補VMware三項重大漏洞",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "生成式AI"
+  ]
+ },
+ {
+  "feed": "iThome",
+  "title": "俄羅斯駭客Laundry Bear攻擊Exchange用戶，藉由半點擊漏洞散布惡意程式OWAReaper",
+  "link": "https://www.ithome.com.tw/news/177749",
+  "publishedTs": 1785413227,
+  "summary": "上週五眼聯盟與歐洲多國對俄羅斯駭客Laundry Bear（Void Blizzard、CL-STA-1114、TA488）的網路間諜活動提出警告，駭客鎖定郵件協作平臺Zimbra Collaboration Suite（ZCS）已知漏洞從事攻擊，參與這波活動調查的威脅情報公司Proofpoint指出，這些駭客在聯合公告發出前夕，已改用另一個資安漏洞從事攻擊。",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "隱私/法規"
+  ]
+ },
+ {
+  "feed": "TechOrange",
+  "title": "被 AI 引用不等於被推薦！AI 搜尋優化的關鍵不是可見度，而是品牌精準度",
+  "link": "https://techorange.com/2026/07/31/how-to-measure-ai-search-visibility/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+  "publishedTs": 1785461851,
+  "summary": "<p>在 AI 搜尋快速崛起之際，許多企業開始投入「AI 可見度（AI Visibility）」優化，希望提升品牌在 ChatGPT、Google AI Overviews、Perplexity 等生成式 AI 回答中的曝光率。 數位行銷 Podcast《No Hacks》指出，目前市場最流行的 AI 可見度指標，其實很可能只是新的「虛榮指標（Vanity Metric）」。真正影響商業成果的，並非品牌被 AI 提及多少次，而是 AI 是否願意主動推薦品牌，以及 AI 對品牌本身是否建立正確且完整的認知。 AI 的「背景搜尋」正在嚴重虛胖品牌的數據 《No Hacks》指出，目前多數 AI 搜尋分析工具採用的都是「Prompt Tracking（提示詞追蹤）」模式，也就是預先設定一組問題，反覆詢問 ChatGPT、Perplexity 或 Google AI Overviews，再統計品牌出現次數。這種做法看似延續過去 SEO 關鍵字排名追蹤的邏輯，實際上卻難以反映 AI 搜尋的運作方式。技術 SEO 顧問、《No Hacks》節目來賓 Jono Alderson 指出，「這種方式有其",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "生成式AI"
+  ]
+ },
+ {
+  "feed": "TechOrange",
+  "title": "【科技早餐】AI 算力仍供不應求：Microsoft Azure 年營收破千億美元、Meta 投資上看 1,450 億美元",
+  "link": "https://techorange.com/2026/07/31/ai-compute-demand-microsoft-azure-meta-capex/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+  "publishedTs": 1785447000,
+  "summary": "<p>【科技早餐】今天精選 7 則國內外重要科技新聞。 ＊Microsoft Azure 年營收首破千億，算力仍供不應求 Microsoft 最新財報顯示，2026 會計年度 Azure 營收首度突破 1,000 億美元，年增 41%；最新一季 Azure 與其他雲端服務營收也成長 43%。Microsoft 表示，企業雲端與 AI 算力需求持續超過現有供給，新增容量在當季很快轉化為用量與營收。公司最新一季在五大洲新增 31 座資料中心，全年合計新增 88 座，並增加 1 GW 運算容量，預計未來兩年讓整體容量大致增加一倍。 不過，個人電腦業務走勢明顯不同。Microsoft 最新一季 Windows OEM 與裝置營收下滑 7%，並預估新會計年度將衰退接近兩成，原因包括 PC 市場需求轉弱、零組件成本推高裝置售價、通路庫存偏高，以及去年 Windows 10 停止支援帶來的較高比較基期。Microsoft 最新一季資本支出達 410 億美元，其中約三分之二用於 CPU、GPU 等較短年限資產。這份財報顯示，大型科技公司的資源持續轉向雲端與 AI 基礎設施，企業算力與個人裝置需求也進一",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "廣告投放/歸因"
+  ]
+ },
+ {
+  "feed": "TechOrange",
+  "title": "三分之二程式碼由 AI 寫仍不夠：DoorDash、GM、Weave 揭企業生產力真正瓶頸",
+  "link": "https://techorange.com/2026/07/30/doordash-gm-weave/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+  "publishedTs": 1785378045,
+  "summary": "<p>AI 工具已大幅接管軟體開發流程中的程式碼撰寫工作，但這並不代表企業的整體生產力或組織架構會自動跟著轉型。以線上餐點與商品外送平台 DoorDash 為例，DoorDash 執行長 Tony Xu 表示：「我們現在從 AI 看到許多生產力提升，目前我們有超過一半、可能接近三分之二的程式碼是由 AI 所撰寫，但單憑這一點，並不足以說明工作流程與團隊配置應該如何改變。」 Tony Xu 在近期的財報會議上指出，儘管 AI 已顯著提高程式碼編寫效率，至今卻未改變 DoorDash 的組織結構。背後原因在於，對軟體工程師而言，寫程式只占一天工作中的一部分；即使 AI 模型大幅縮短撰寫程式碼所需的時間，工程師的其他工作環節仍未因此消失。這也讓企業面臨另一個問題：除了導入 AI 寫碼工具，其他工作流程是否也能同步改變。 AI 寫程式碼只是部分工作，DoorDash 還要重塑跨部門協作與實體營運 Tony Xu 表示，工程師每天除了寫程式，還會花費大量時間參與產品審查、設計會議，以及與不同業務團隊進行協調，這些工作環節同樣需要導入 AI。 「如果這些環節沒有一起改變並相互整合，可能無法獲得你所",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "生成式AI"
+  ]
+ },
+ {
+  "feed": "TechOrange",
+  "title": "【家庭 AI 代理崛起】運轉一個家庭比管理一間公司更複雜，SuperNori 想成為 AI 管家",
+  "link": "https://techorange.com/2026/07/30/opportunity-in-household-ai/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+  "publishedTs": 1785376692,
+  "summary": "<p>過去十年，人工智慧被大量運用在寫作、分析數據、自動化流程等工作領域方面，現在一批新創公司正把目光轉向被長期忽略的場域：家庭。 舊金山新創 Domus Next Inc. 便是其中之一，其產品 SuperNori 試圖將 AI 從「工作生產力」延伸到「家庭經濟」，讓智慧系統參與家庭的決策、消費與預算分配。 家庭工作繁瑣，責任大多落在媽媽身上 若以家庭為單位，可以發現單一家庭其實都是一套套複雜的工作系統。每個家庭都要管理預算、協調行程、規劃三餐、追蹤家用品庫存，每個月做出數十甚至上百個採購決策。這些工作瑣碎、分散且持續不斷。 Nori 共同創辦人 Isaac Long 直言，運轉一個家庭「複雜到大多數軟體從未真正搞懂」，而這份「隱形勞動」的重擔，在許多家庭中主要落在媽媽身上。 問題在於，市面上雖有各種待辦、行事曆、購物清單 app，卻始終缺乏一套統整的系統來承接這類家庭工作。而這個缺口的規模並不小。 PwC 一份由 Meta 贊助的研究估計，若將 AI 輔助導入全美逾 1.3 億個家庭的無償勞動，每年可帶來高達 3,300 億美元的社會經濟效益，並讓相關家務所耗時間減少約 18% 至",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "AI Agent應用",
+   "行銷自動化"
+  ]
+ },
+ {
+  "feed": "TechOrange",
+  "title": "三秒複製聲音、一通電話掏空存款，Savi 要用「即時通話監控」反制 AI 詐騙",
+  "link": "https://techorange.com/2026/07/30/savis-app/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+  "publishedTs": 1785375442,
+  "summary": "<p>美國聯邦貿易委員會（FTC）指出，2025 年民眾因冒充詐騙損失達 35 億美元，是 2020 年的三倍。通報者雖以年長族群居多，年輕世代同樣難以倖免——資安公司 Malwarebytes 的研究發現，Z 世代收到簡訊詐騙的頻率高於其他世代，且約有四分之一的人真的中招。 這股趨勢背後，是 AI 語音複製技術正在改寫詐騙集團的犯罪模式：只需一小段音訊，就能複製出任何人的聲音。資安新創 Savi 便是在這個背景下誕生，由 Cisco 前資安產品資深副總 Patrick Coughlin 與弟弟 Ryan Coughlin 共同創立，鎖定「即時通話監控」這個市場缺口，主打用 AI 反制 AI 詐騙。 上線約四個月，累積十萬筆資料 Coughlin 指出，只要三秒鐘的音訊就能複製一個人的聲音，而這三秒往往就藏在社群媒體的公開貼文裡——父母在球場邊替孩子加油、隨手拍下影片上傳 Facebook，這些日常的聲音碎片，全成了詐騙者現成的素材。 有感於此，Coughlin 兄弟決定打造一套「即時介入」的工具，並先以免費網站 Scamwise 驗證構想。 這個網站匿名、免註冊，任何人都能上傳可疑的",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "生成式AI"
+  ]
+ },
+ {
+  "feed": "TechOrange",
+  "title": "【科技早餐】中國傳啟動國產 DUV、美國封殺中國機器人，AI 供應鏈進入管制與長約戰",
+  "link": "https://techorange.com/2026/07/30/china-duv-us-robot-ban-ai-memory-contracts/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+  "publishedTs": 1785360600,
+  "summary": "<p>【科技早餐】今天精選 8 則國內外重要科技新聞。 ＊中國傳啟動國產浸潤式 DUV 生產，ASML 兩天跌 10% 《路透》引述知情人士報導，中國已開始生產國產浸潤式深紫外光微影（DUV）設備。生產計畫由成立於 2023 年的上海愛晟納電子科技集團（Aishengna）主導，整合中國微影設備新創團隊，希望降低對荷蘭艾司摩爾（ASML）的依賴。《The Information》指出，今年預計生產約 5 台、2027 年增至約 20 台，首批設備可能交付中芯國際、華虹半導體與長鑫存儲。 DUV 是半導體製造的關鍵設備，廣泛用於各類晶片生產，也能透過多重曝光支援部分先進製程。消息曝光後，ASML 股價兩個交易日累計下跌約 10%，市值蒸發超過 600 億歐元；中國占 ASML 上半年淨銷售額約 16%，讓市場對本土替代進展高度敏感。不過，中國設備仍須進一步測試，目前效能遠未追上 ASML；中國今年預計生產約 5 台，也遠低於 ASML 去年出貨的 131 台同類設備。若能順利投入使用，這批設備將在西方進一步限制出口或維修服務時，成為中國晶片業的國產備援來源。 ＊AI 貨物重畫亞洲航線，台",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "電商/OMO"
+  ]
+ },
+ {
+  "feed": "TechOrange",
+  "title": "美國封殺中國新型人形機器人、機器狗：宇樹科技首當其衝，禁令能否帶動製造回流？",
+  "link": "https://techorange.com/2026/07/29/trump-administration-ban-new-chinese-robots-inverters-protecting-us-ai-buildout/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+  "publishedTs": 1785319405,
+  "summary": "<p>川普政府近日透過美國聯邦通訊委員會（FCC）正式祭出新措施，宣布禁止中國製造的新型人形機器人、四足機器人與聯網型電力逆變器進入美國市場。美國政府表示，這項措施旨在防範 AI 供應鏈中斷、資料竊取與網路攻擊等威脅，同時推動關鍵產業將製造活動移回美國本土。 這項禁令在發布後立即生效，目前僅適用於尚未上市的新型號產品，但 FCC 仍有權撤銷既有產品在美國銷售的授權。在具體涵蓋的設備中，聯網型電力逆變器能讓再生能源與電池系統連接電網及資料中心設備，因此也被納入保護美國 AI 基礎建設的安全防線。FCC 在聲明中警告，這些設備可能形成供應鏈弱點，不僅可能危及美國的經濟與國家安全，也可能帶來威脅關鍵基礎設施的網路安全風險。 瞄準中國供應鏈優勢，宇樹科技首當其衝 在防堵硬體漏洞的同時，美國官員也希望避免重演過去在稀土供應上遭遇的困境，防止中國再次利用其在科技製造關鍵投入上的主導地位取得談判優勢。在這樣的戰略考量下，這項禁令預計將衝擊全球人形機器人市占率近五分之一的中國企業宇樹科技（Unitree）。 身為目前主導新興人形機器人產業的三家中國企業之一，宇樹科技近期也被美國國防部列入涉嫌獲中國軍方",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "行銷自動化",
+   "併購/募資"
+  ]
+ },
+ {
+  "feed": "TechOrange",
+  "title": "MCP 史上最大更新來了：AI Agent 為何終於更適合大規模部署？",
+  "link": "https://techorange.com/2026/07/29/mcp-update-ai-agent/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+  "publishedTs": 1785314944,
+  "summary": "<p>這一年，越來越多企業開始嘗試導入 AI Agent，卻大多卡在同一關：試點跑得動，正式環境卻上不了。很多人以為問題出在模型不夠聰明或找不到商業價值，但真正的癥結可能在更底層：串起 AI Agent 與各種軟體的 MCP（Model Context Protocol）協定，本身還沒準備好承接企業級的規模。 如今這道關卡開始鬆動。MCP 本週推出問世以來最大一次改版，架構核心從「有狀態」（stateful）全面轉向「無狀態」（stateless），規格由 Linux Foundation 旗下的 Agentic AI Foundation（AAIF）主導。這個工程轉向聽來抽象，但值得關注的是究竟為何拿掉「有狀態」這塊地基，反而讓 AI Agent 更適合大規模部署呢？ 卡住企業的，從來不是 AI 本身 根據《VentureBeat》報導，AAIF 執行董事 Mazin Gilbert 表示，自己接觸過打算部署上萬個 AI Agent 的公司，若不朝這個方向改，根本做不到規模化，而真正的障礙不在技術，也不在商業案例，而在協定底層必須先動的一些基本設計。 舊架構的運作方式就是問題之一。過",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "AI Agent應用"
+  ]
+ },
+ {
+  "feed": "TechOrange",
+  "title": "Anthropic Mythos 找到密碼攻擊新方法：量子電腦之外，AI 成加密安全新變數？",
+  "link": "https://techorange.com/2026/07/29/anthropic-mythos-cryptographic-weaknesses/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+  "publishedTs": 1785296898,
+  "summary": "<p>企業近年佈局後量子密碼（PQC），一個主要考量是未來量子電腦可能破解現行加密標準，然而 AI 巨頭 Anthropic 最新研究指出一個更早到來的變數：AI 本身。該公司研究團隊以尚未公開的 Claude Mythos Preview，在兩套重要的密碼演算法上，各自找出人類專家歷經多年審查仍未發現的新攻擊方法。 根據《New York Times》與 Anthropic 官方部落格，這兩項成果都不會立即影響現行系統，也不代表現有加密已被攻破。但它們共同指向一個值得決策者留意的轉變：挑戰密碼安全的力量，可能不再只有量子運算。 兩項成果：人類長年審查沒發現，AI 短時間內就找出弱點 第一項成果針對 HAWK，這是美國國家標準暨技術研究院（NIST）後量子數位簽章徵選中進入第三輪的候選演算法，旨在抵禦傳統電腦和量子電腦的攻擊。Anthropic 表示，HAWK 已通過兩年的專家人工審查，而 Mythos 在約 60 小時內就完成發現與驗證了已知最佳攻擊法，等於把它的有效金鑰強度減半。 以最小的 HAWK-256 為例，完整金鑰復原攻擊的預期成本，從 2 的 64 次方降到 2 的 38",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "生成式AI"
+  ]
+ },
+ {
+  "feed": "TechOrange",
+  "title": "OpenAI、Anthropic 等千人聯署要 AI「踩煞車」，祖克柏卻警告：真正危險的是權力集中",
+  "link": "https://techorange.com/2026/07/29/ai-open-letter-automated-development/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+  "publishedTs": 1785296831,
+  "summary": "<p>截至美國時間 7 月 28 日下午，已有超過 1,100 名來自 OpenAI、Anthropic、Google、Meta、Microsoft、Mistral、Thinking Machines 等 AI 公司的從業人員，簽署一封名為「Pacing the Frontier」的公開信，呼籲美國政府支持國際合作，建立能刻意調節自動化 AI 發展速度的技術與治理工具。公開信警告，一旦 AI 開始參與下一代 AI 的開發，技術進展可能顯著加速。 就在 AI 從業人員要求預先建立減速工具之際，Meta 執行長祖克柏（Mark Zuckerberg）卻提出相反警告：AI 安全不能只靠將權力交給少數機構。他強調，這個時代的決定性問題已不再是超級智慧是否會出現，而是這項能力將集中於少數機構，還是成為賦能每個人的工具。 逾千名 AI 高層聯署：政府應先建立「減速機制」 這封公開信的簽署陣容涵蓋多家前沿 AI 實驗室，包括 Anthropic 共同創辦人 Jack Clark 與 Jared Kaplan、OpenAI 首席科學家 Jakub Pachocki、Meta 首席科學家 Shengji",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "行銷自動化"
+  ]
+ },
+ {
+  "feed": "TechOrange",
+  "title": "【AppSec 防不住的新戰場】AI 深度參與軟體開發，資安新學科 AISec 成形",
+  "link": "https://techorange.com/2026/07/29/security-challenges-in-ai/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+  "publishedTs": 1785292412,
+  "summary": "<p>近 70% 的組織，已經在自家系統裡發現由 AI 工具造成的漏洞，其中五分之一，甚至因此發生了重大資安事件。面對這個現實，業界正在提出一個新名詞：AI 軟體安全，簡稱 AISec，用來因應 AI 從輔助角色，正式走進軟體開發核心之後所帶來的全新風險。 AI 不只寫程式，還自己上線改系統 過去二十年，應用程式安全建立在一個幾乎沒人質疑過的假設上：被保護的軟體，是由人開發、由人維運的。但 AI 已經深度進入軟體生命週期，傳統 AppSec 的假設仍停留在「人寫、人測、人負責」。 當 AI 也開始參與編碼、測試、部署與維運時，資安風險就從程式漏洞擴大到模型、代理、權限與責任邊界。 這個轉變的起點，是 AI 在軟體生命週期裡角色的質變。AI 過去只是幫助開發者加快寫程式速度的工具，如今卻參與從系統設計、實作、測試，到維運與調校的每一個階段，人力介入的比例愈來愈低。 與此同時，企業正朝著「自主企業」（Autonomous Enterprise）的方向前進，讓 AI 代理人在商業流程與 IT 維運中，自行完成感知、推理、決策、行動與學習的完整循環。這不是軟體開發的小幅演進，而是本質上的一場革",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "AI Agent應用",
+   "生成式AI",
+   "電商/OMO"
+  ]
+ },
+ {
+  "feed": "TechOrange",
+  "title": "AI 分身是帶貨神隊友，還是信任終結者？拆解 TikTok Shop 的 AI 分潤紅利與爭議",
+  "link": "https://techorange.com/2026/07/29/ai-videos-tiktok-shop/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+  "publishedTs": 1785283620,
+  "summary": "<p>在 TikTok Shop 上，愈來愈多商品展示影片已不再由真人拍攝，而是交由 AI 自動生成。只要提供幾張商品圖片，平台便能快速產出試穿、化妝、產品開箱等帶貨影片。 這類型的 AI 工具和應用，大幅降低創作門檻，也讓品牌得以用更低成本、大量生產符合不同市場需求的行銷內容，但同時也引發創作者、品牌與消費者對真實性與信任的激烈討論。 AI 創作帶貨影片，讓導購素材實現「無限量產」 AI 工具的普及，首先打破了過去網紅行銷在時間與產能上的物理限制。過去品牌若想經營不同市場，必須尋找符合當地文化、語言與形象的 KOL（網紅），拍攝流程涉及商品寄送、腳本溝通、檔期安排與後製，往往需要投入大量時間與成本。如今，AI 能在幾秒鐘內生成多個版本的宣傳影片，同一件商品可以立即切換不同性別、年齡、膚色、語言甚至穿搭風格的虛擬代言人，針對不同族群快速完成在地化內容，大幅壓低成本，也讓品牌更容易進行 A/B Test，持續優化轉換率。 對創作者而言，AI 也提供新的商業模式。部分 TikTok Shop 聯盟創作者每天利用 AI 製作大量短影音，同時經營多個虛擬人物帳號，甚至提供企業客製化 AI 分身",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "生成式AI",
+   "廣告投放/歸因"
+  ]
+ },
+ {
+  "feed": "TechOrange",
+  "title": "Sam Altman 認為 AI「奇點已到」，多位專家卻吵翻：何時才算真正跨越臨界點？",
+  "link": "https://techorange.com/2026/07/28/ai-singularity-experts-disagree-sam-altman/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+  "publishedTs": 1785228688,
+  "summary": "<p>OpenAI 執行長 Sam Altman 近日在《Relentless》Podcast 節目中表示，人類現在已經身處 AI 奇點之中。他回憶，十年前，超級智慧對他和同事而言，仍像是遙遠夢想，大家甚至不指望能在有生之年目睹。然而，如今這一切已成為現實。 所謂的「奇點」，在一般媒體與學界的定義中，通常被用來描述 AI 快速改進自身，以至於人類無法再可靠地理解、預測或控制後續發展的臨界點。然而，Sam Altman 對「奇點」的理解與傳統定義有所不同，他在 2025 年 6 月發表的文章《溫柔奇點》（The Gentle Singularity）中指出，這場轉變並非突然發生的斷裂，而是隨著 AI 能力持續提升並逐漸融入日常生活，讓轉變在生活中展開，使人類能逐步地適應新時代的到來。 儘管如此，OpenAI 近期披露的一起事件，卻讓「奇點是否已到」的爭論迅速升溫：一個由兩款模型驅動的自主 AI Agent，在執行網路安全挑戰任務時，意外離開沙盒，進一步連上網路並存取開源 AI 平台 Hugging Face 的系統。這場意外不僅引發各界關注，也讓 Elon Musk 等科技界人士紛紛在社",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "AI Agent應用"
+  ]
+ },
+ {
+  "feed": "INSIDE",
+  "title": "MCP 新版規格 2026-07-28 上線！交握與工作階段全砍，AI Agent 協定改採無狀態核心",
+  "link": "https://www.inside.com.tw/article/41971-mcp-2026-07-28-spec-stateless-core-anthropic",
+  "publishedTs": 1785401640,
+  "summary": "模型上下文協定（MCP）2026-07-28 版規格，將協定重構為無狀態（stateless）請求／回應架構。此變更廢除交握與工作階段，以利於規模化部署及 Serverless 運算，並淘汰數項舊有功能。",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "AI Agent應用"
+  ]
+ },
+ {
+  "feed": "INSIDE",
+  "title": "Claude Opus 5 販賣機測試奪冠，六場模擬毀約 11 次、退款只付 8.54 美元",
+  "link": "https://www.inside.com.tw/article/41969-claude-opus-5-vending-bench-andon-labs-collusion",
+  "publishedTs": 1785398460,
+  "summary": "Vending-Bench 測試顯示，最賺錢的 AI 模型 Claude Opus 5 為達目標而採取價格共謀、欺騙等手段。此結果顯示，為商業目標最佳化的 AI 其行為可能與倫理法規衝突，凸顯了對齊（alignment）挑戰。",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "生成式AI"
+  ]
+ },
+ {
+  "feed": "MarTech.org",
+  "title": "The latest AI-powered martech news and releases",
+  "link": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
+  "publishedTs": 1785420923,
+  "summary": "<div><img alt=\"\" class=\"attachment-large size-large wp-post-image\" height=\"450\" src=\"https://martech.org/wp-content/uploads/2026/07/AI-roundup2-800x450.png\" style=\"margin-bottom: 15px;\" width=\"800\" /></div>\n<p>PwC tried to combine “thought leadership” with AI-written reports, and you know what happened next.</p>\n<p>The post <a href=\"https://martech.org/the-latest-ai-powered-martech-news-and-releases/\">The latest AI-powered martech news and releases</a> appeared first on <a href=\"https://martech.",
+  "matchedCompanies": [],
+  "matchedTopics": []
+ },
+ {
+  "feed": "MarTech.org",
+  "title": "IAB Tech Lab gets AI agents ready for real advertising",
+  "link": "https://martech.org/iab-tech-lab-gets-ai-agents-ready-for-real-advertising/",
+  "publishedTs": 1785416880,
+  "summary": "<div><img alt=\"\" class=\"attachment-large size-large wp-post-image\" height=\"450\" src=\"https://martech.org/wp-content/uploads/2025/10/iab-tech-labBIG.png\" style=\"margin-bottom: 15px;\" width=\"800\" /></div>\n<p>AAMP 2.3 adds the governance, integrations, and privacy controls organizations need to move AI agents into production.</p>\n<p>The post <a href=\"https://martech.org/iab-tech-lab-gets-ai-agents-ready-for-real-advertising/\">IAB Tech Lab gets AI agents ready for real advertising</a> appeared first",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "AI Agent應用",
+   "廣告投放/歸因",
+   "隱私/法規"
+  ]
+ },
+ {
+  "feed": "MarTech.org",
+  "title": "How to measure marketing when AI owns discovery",
+  "link": "https://martech.org/how-to-measure-marketing-when-ai-owns-discovery/",
+  "publishedTs": 1785415380,
+  "summary": "<div><img alt=\"Computer dials connections 360 network graph\" class=\"attachment-large size-large wp-post-image\" height=\"450\" src=\"https://martech.org/wp-content/uploads/2026/03/measurement-computer-ecommerce-800x450.png\" style=\"margin-bottom: 15px;\" width=\"800\" /></div>\n<p>AI is becoming the new top of the funnel. Learn how to update lagging analytics to capture brand demand, engagement and buyer intent.</p>\n<p>The post <a href=\"https://martech.org/how-to-measure-marketing-when-ai-owns-discovery/",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "廣告投放/歸因",
+   "電商/OMO"
+  ]
+ },
+ {
+  "feed": "MarTech.org",
+  "title": "Why directing AI agents is the next step in marketing work",
+  "link": "https://martech.org/why-directing-ai-agents-is-the-next-step-in-marketing-work/",
+  "publishedTs": 1785414420,
+  "summary": "<div><img alt=\"a person in business casual, conducting an orchestra of robots who are doing things like writing a document, sending an email, generating an image.\" class=\"attachment-large size-large wp-post-image\" height=\"450\" src=\"https://martech.org/wp-content/uploads/2026/07/directing-conducting-AI-agents-agentic-800x450.png\" style=\"margin-bottom: 15px;\" width=\"800\" /></div>\n<p>As AI takes on more execution, your value comes from knowing what to delegate, how to evaluate the output, and when ",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "AI Agent應用"
+  ]
+ },
+ {
+  "feed": "MarTech.org",
+  "title": "Google testing a way to ease email signups",
+  "link": "https://martech.org/google-testing-a-way-to-ease-email-signups/",
+  "publishedTs": 1785329100,
+  "summary": "<div><img alt=\"A cheerful cartoon email-envelope character smiles from inside a computer monitor displaying a colorful marketing dashboard with charts and performance metrics.\" class=\"attachment-large size-large wp-post-image\" height=\"450\" src=\"https://martech.org/wp-content/uploads/2026/06/email-newsletter-happy-success-800x450.png\" style=\"margin-bottom: 15px;\" width=\"800\" /></div>\n<p>The browser-based alternative to OTPs and magic links could improve sign-up conversions and first-party data qu",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "CDP/第一方數據"
+  ]
+ },
+ {
+  "feed": "MarTech.org",
+  "title": "How to make trust your competitive differentiator in AI",
+  "link": "https://martech.org/how-to-make-trust-your-competitive-differentiator-in-ai/",
+  "publishedTs": 1785328620,
+  "summary": "<div><img alt=\"the word trust carved from a giant block of stone and people looking up at it with admiration\" class=\"attachment-large size-large wp-post-image\" height=\"450\" src=\"https://martech.org/wp-content/uploads/2026/07/trust-admiration-800x450.png\" style=\"margin-bottom: 15px;\" width=\"800\" /></div>\n<p>AI can accelerate marketing, but lasting B2B growth depends on human connection, customer value and relationships that endure.</p>\n<p>The post <a href=\"https://martech.org/how-to-make-trust-yo",
+  "matchedCompanies": [],
+  "matchedTopics": []
+ },
+ {
+  "feed": "MarTech.org",
+  "title": "3 ways to document and guide your brand’s evolution",
+  "link": "https://martech.org/3-ways-to-document-and-guide-your-brands-evolution/",
+  "publishedTs": 1785327960,
+  "summary": "<div><img alt=\"a five-step visual sequence from left to right, depicting a digital metamorphosis from caterpillar to butterfly.\" class=\"attachment-large size-large wp-post-image\" height=\"450\" src=\"https://martech.org/wp-content/uploads/2026/07/brand-evolution-growth-800x450.png\" style=\"margin-bottom: 15px;\" width=\"800\" /></div>\n<p>Create an institutional memory that helps teams understand past brand decisions and make more intentional ones going forward.</p>\n<p>The post <a href=\"https://martech.",
+  "matchedCompanies": [],
+  "matchedTopics": []
+ },
+ {
+  "feed": "MarTech.org",
+  "title": "Yelp brings reviews and local leads to ChatGPT",
+  "link": "https://martech.org/yelp-brings-reviews-and-local-leads-to-chatgpt/",
+  "publishedTs": 1785254081,
+  "summary": "<div><img alt=\"\" class=\"attachment-large size-large wp-post-image\" height=\"450\" src=\"https://martech.org/wp-content/uploads/2026/07/yelpgpt-800x450.png\" style=\"margin-bottom: 15px;\" width=\"800\" /></div>\n<p>ChatGPT gets access to Yelp's reviews and business data, Yelp's gets prime placement and links. </p>\n<p>The post <a href=\"https://martech.org/yelp-brings-reviews-and-local-leads-to-chatgpt/\">Yelp brings reviews and local leads to ChatGPT</a> appeared first on <a href=\"https://martech.org\">MarT",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "生成式AI"
+  ]
+ },
+ {
+  "feed": "MarTech.org",
+  "title": "AI shopping stats 2026: What you need to know",
+  "link": "https://martech.org/the-ai-shopping-stats-2026-what-you-need-to-know/",
+  "publishedTs": 1785243600,
+  "summary": "<div><img alt=\"\" class=\"attachment-large size-large wp-post-image\" height=\"533\" src=\"https://martech.org/wp-content/uploads/2025/07/What-You-Need-to-Know-NEW.png\" style=\"margin-bottom: 15px;\" width=\"800\" /></div>\n<p>AI shopping went mainstream faster than any channel before it. Here are the numbers you need to know about where it is and where it's going.</p>\n<p>The post <a href=\"https://martech.org/the-ai-shopping-stats-2026-what-you-need-to-know/\">AI shopping stats 2026: What you need to know</",
+  "matchedCompanies": [],
+  "matchedTopics": []
+ },
+ {
+  "feed": "MarTech.org",
+  "title": "StackAdapt rethinks DSPs for the post-dashboard world",
+  "link": "https://martech.org/stackadapt-re-thinks-dsps-for-the-post-dashboard-world/",
+  "publishedTs": 1785243600,
+  "summary": "<div><img alt=\"Robots reading books.\" class=\"attachment-large size-large wp-post-image\" height=\"450\" src=\"https://martech.org/wp-content/uploads/2025/11/robots-reading.png\" style=\"margin-bottom: 15px;\" width=\"800\" /></div>\n<p>Juggling endless dashboards drains your time. StackAdapt wants AI agents to transform ad workflows into real outcomes.</p>\n<p>The post <a href=\"https://martech.org/stackadapt-re-thinks-dsps-for-the-post-dashboard-world/\">StackAdapt rethinks DSPs for the post-dashboard world",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "AI Agent應用",
+   "廣告投放/歸因",
+   "行銷自動化"
+  ]
+ },
+ {
+  "feed": "MarketingDive",
+  "title": "Why FX gave an iconic mall an ‘80s makeover to promote ‘The Shards’",
+  "link": "https://www.marketingdive.com/news/why-fx-gave-an-iconic-mall-an-80s-makeover-to-promote-the-shards/826299/",
+  "publishedTs": 1785262980,
+  "summary": "<p>The network transformed the Sherman Oaks Galleria in collaboration with several brands to boost a new series from Bret Easton Ellis and Ryan Murphy.</p>",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "電商/OMO"
+  ]
+ },
+ {
+  "feed": "MarketingDive",
+  "title": "Hilton’s CMO on why brand marketing is an ‘irrational affinity business’",
+  "link": "https://www.marketingdive.com/news/hilton-cmo-on-why-brand-marketing-is-an-irrational-affinity-business/826246/",
+  "publishedTs": 1785243180,
+  "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/IZdML6zG-UgN5hYUslVipZum7Dp1EE9hR8m6TFHLmf8/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9wYXJpcy1oaWx0b24tbGFuZG8tbm9ycmlzLXBvaW50cy1oZXJvLmpwZw==.webp\" /></div></figure><p>Global CMO Mark Weinstein explains how the hospitality titan is utilizing creators, AI and loyalty in an evolving advertising landscape.</p>",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "CRM/會員留存",
+   "廣告投放/歸因"
+  ]
+ },
+ {
+  "feed": "ChiefMartec",
+  "title": "2026 Marketing Technology Landscape Supergraphic: Peak Martech Achieved! (Maybe)",
+  "link": "https://chiefmartec.com/2026/05/2026-marketing-technology-landscape-supergraphic-peak-martech-achieved-maybe/",
+  "publishedTs": 1777993146,
+  "summary": "<img alt=\"2026 Marketing Technology Landscape (Martech Map Slide)\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" height=\"150\" src=\"https://chiefmartec.com/wp-content/uploads/2026/05/martech-landscape-2026-1456px-150x150.jpg\" width=\"150\" />tl;dr The martech landscape effectively stopped growing this year, up just 0.79% to 15,505 products. After 15 years of relentless expansion, we may have finally hit peak martech — or at least a plateau. But underneath that flat headline, the market ",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "CRM/會員留存"
+  ]
+ },
+ {
+  "feed": "MarTech Series",
+  "title": "ByteBrew Brings Real-Time Mobile App Intelligence Directly Into Developers’ AI Workflows",
+  "link": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/bytebrew-brings-real-time-mobile-app-intelligence-directly-into-developers-ai-workflows/",
+  "publishedTs": 1785419127,
+  "summary": "Shift extends the platform&#8217;s intelligence into where developers already work, completing an agentic path from integration to optimization — growing users and monetization along the way ByteBrew, the leading all-in-one mobile platform to analyze, operate, and grow mobile apps, today announced the launch of Shift, a real-time app intelligence Model Context Protocol (MCP) server integrated into [&#8230;]",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "AI Agent應用",
+   "行銷自動化"
+  ]
+ },
+ {
+  "feed": "MarTech Series",
+  "title": "Tredence Named an OpenAI Select Partner",
+  "link": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/tredence-named-an-openai-select-partner/",
+  "publishedTs": 1785418826,
+  "summary": "Combining OpenAI&#8217;s frontier AI with Tredence&#8217;s industry expertise, enterprise data modernization, and AI-native engineering to help organizations operationalize AI at scale. Tredence, the world&#8217;s leading data &#38; AI services company, today announced that it has been named an OpenAI Select Partner within the OpenAI Partner Network. The partnership places Tredence among a group of global [&#8230;]",
+  "matchedCompanies": [],
+  "matchedTopics": []
+ },
+ {
+  "feed": "MarTech Series",
+  "title": "MediaRadar Builds Toward a More Connected Advertising Ecosystem with Expanded VideoAmp Integration",
+  "link": "https://martechseries.com/sales-marketing/programmatic-buying/mediaradar-builds-toward-a-more-connected-advertising-ecosystem-with-expanded-videoamp-integration/",
+  "publishedTs": 1785418609,
+  "summary": "MediaRadar integrates VideoAmp viewership data into its ad intelligence platform to help brands, agencies and publishers better understand advertising value, share of voice and competitive performance MediaRadar today announced the integration of ratings from VideoAmp into its industry-leading advertising intelligence platform. This deal brings together MediaRadar&#8217;s granular TV ad occurrence and spend data with VideoAmp&#8217;s advanced national and [&#8230;]",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "對話式商務",
+   "廣告投放/歸因"
+  ]
+ },
+ {
+  "feed": "MarTech Series",
+  "title": "Grocery TV and Esri Partner to Bring Data-Driven Media Planning to In-Store Retail Media",
+  "link": "https://martechseries.com/sales-marketing/programmatic-buying/grocery-tv-and-esri-partner-to-bring-data-driven-media-planning-to-in-store-retail-media/",
+  "publishedTs": 1785418364,
+  "summary": "Partnership lets brands plan against 3,500+ behavioral and psychographic audience attributes across 6,700+ grocery stores, aligning in-store buys with how national advertisers plan TV and digital Grocery TV, the leading in-store retail media platform, today announced a partnership with Esri to enhance Grocery TV&#8217;s behavioral and psychographic targeting across its national retailer-owned network of 6,700+ stores. Through [&#8230;]",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "零售媒體",
+   "電商/OMO"
+  ]
+ },
+ {
+  "feed": "MarTech Series",
+  "title": "Universal Ads Brings Audience and Mobile Measurement Partners to Premium TV",
+  "link": "https://martechseries.com/sales-marketing/programmatic-buying/universal-ads-brings-audience-and-mobile-measurement-partners-to-premium-tv/",
+  "publishedTs": 1785417900,
+  "summary": "New Audience partners Klaviyo, LiveRamp, and TransUnion, plus Mobile Measurement Partners Adjust, AppsFlyer, Branch, Kochava, and Singular, help advertisers activate the customer segments and app measurement workflows they already use across digital channels on premium TV Universal Ads, which enables brands of any size to create, buy, and measure ads across premium video, launched two [&#8230;]",
+  "matchedCompanies": [
+   "Klaviyo"
+  ],
+  "matchedTopics": [
+   "廣告投放/歸因",
+   "行銷自動化"
+  ]
+ },
+ {
+  "feed": "MarTech Series",
+  "title": "Monetate Acquires Simon AI, Uniting the Leader in AI-Powered Experience Optimization with the AI-First Composable CDP",
+  "link": "https://martechseries.com/content/monetate-acquires-simon-ai-uniting-the-leader-in-ai-powered-experience-optimization-with-the-ai-first-composable-cdp/",
+  "publishedTs": 1785417792,
+  "summary": "Acquisition connects on-site personalization and experimentation to full omnichannel journeys, powered by a live unified customer profile, agentic AI, and a major new investment in innovation across both platforms Monetate, the leader in AI-powered digital and omnichannel personalization, experimentation, and experience optimization, announced it has acquired Simon AI, the agentic platform built on the AI-first [&#8230;]",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "AI Agent應用",
+   "CDP/第一方數據",
+   "個人化推薦",
+   "行銷自動化",
+   "併購/募資"
+  ]
+ },
+ {
+  "feed": "MarTech Series",
+  "title": "Elastic and OpenAI Collaborate to Bring Frontier Intelligence to Unstructured Enterprise Data",
+  "link": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/elastic-and-openai-collaborate-to-bring-frontier-intelligence-to-unstructured-enterprise-data/",
+  "publishedTs": 1785417672,
+  "summary": "Collaboration combines OpenAI’s advanced reasoning models with governed enterprise context in Elasticsearch across AI applications, security operations, and observability Elastic, the Search AI Company,  announced an expanded collaboration with OpenAI to help organizations build production-ready AI applications and agents using OpenAI models with Elasticsearch. By combining Elasticsearch&#8217;s retrieval, search and governance capabilities with OpenAI&#8217;s advanced [&#8230;]",
+  "matchedCompanies": [],
+  "matchedTopics": []
+ },
+ {
+  "feed": "MarTech Series",
+  "title": "Veritone Adds Document Redaction to Create an All-in-One, AI-Powered Redaction Suite",
+  "link": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/veritone-adds-document-redaction-to-create-an-all-in-one-ai-powered-redaction-suite/",
+  "publishedTs": 1785417572,
+  "summary": "Reducing the need for expensive, disconnected point solutions, Veritone Redact becomes a single source for a broad range of digital redaction Veritone, Inc. , a leader in enterprise AI and data solutions, announced the addition of AI-powered document redaction to Veritone Redact, expanding the platform into a unified solution for securely redacting documents, images, audio [&#8230;]",
+  "matchedCompanies": [],
+  "matchedTopics": []
+ },
+ {
+  "feed": "MarTech Series",
+  "title": "LEO Technologies Launches Verus Vision AI, Transforming Correctional Cameras into Active Operational Intelligence",
+  "link": "https://martechseries.com/video/leo-technologies-launches-verus-vision-ai-transforming-correctional-cameras-into-active-operational-intelligence/",
+  "publishedTs": 1785410923,
+  "summary": "LEO Technologies (“LeoTech”) announces the launch of Verus Vision AI, an agentic AI video intelligence solution purpose-built for corrections that transforms existing correctional camera infrastructure into an active layer of operational intelligence. Built on years of experience supporting correctional agencies across the United States, Verus Vision AI enables facilities to identify developing risks earlier, automate [&#8230;]",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "AI Agent應用"
+  ]
+ },
+ {
+  "feed": "MarTech Series",
+  "title": "Assertive Yield Secures Multi-Year Agreement with Trusted Media Brands",
+  "link": "https://martechseries.com/sales-marketing/programmatic-buying/assertive-yield-secures-multi-year-agreement-with-trusted-media-brands/",
+  "publishedTs": 1785410707,
+  "summary": "Assertive Yield announced a multi-year partnership with Trusted Media Brands (TMB), owner of properties such as Reader’s Digest, Taste of Home, Family Handyman, and The Pet Collective. TMB selected Assertive Yield over its previous solution to modernize its programmatic ad stack and unlock faster, more agile monetization. This engagement followed a partnership-first onboarding approach, where Assertive [&#8230;]",
+  "matchedCompanies": [],
+  "matchedTopics": []
+ },
+ {
+  "feed": "Appier Blog",
+  "title": "The Incrementality Imperative: A Comparative Analysis of Measurement Tools",
+  "link": "https://www.appier.com/en/blog/the-incrementality-imperative-a-comparative-analysis-of-measurement-tools",
+  "publishedTs": 1759966519,
+  "summary": "<div class=\"hs-featured-image-wrapper\"> \n <a class=\"hs-featured-image-link\" href=\"https://www.appier.com/en/blog/the-incrementality-imperative-a-comparative-analysis-of-measurement-tools?hsLang=en\" title=\"\"> <img alt=\"The Incrementality Imperative: A Comparative Analysis of Measurement Tools\" class=\"hs-featured-image\" src=\"https://www.appier.com/hubfs/The%20Incrementality%20Imperative.png\" style=\"width: auto !important; float: left; margin: 0 15px 15px 0;\" /> </a> \n</div> \n<h1><span style=\"backg",
+  "matchedCompanies": [
+   "Appier"
+  ],
+  "matchedTopics": [
+   "廣告投放/歸因",
+   "行銷自動化"
+  ]
+ },
+ {
+  "feed": "Appier Blog",
+  "title": "What Is Marketing Mix Modeling (MMM)? A Complete Guide to Meridian and How It Revolutionizes Traditional Approaches",
+  "link": "https://www.appier.com/en/blog/what-is-marketing-mix-modeling-mmm-a-complete-guide-to-meridian-and-how-it-revolutionizes-traditional-approaches",
+  "publishedTs": 1759963345,
+  "summary": "<div class=\"hs-featured-image-wrapper\"> \n <a class=\"hs-featured-image-link\" href=\"https://www.appier.com/en/blog/what-is-marketing-mix-modeling-mmm-a-complete-guide-to-meridian-and-how-it-revolutionizes-traditional-approaches?hsLang=en\" title=\"\"> <img alt=\"What Is Marketing Mix Modeling (MMM)? A Complete Guide to Meridian and How It Revolutionizes Traditional Approaches\" class=\"hs-featured-image\" src=\"https://www.appier.com/hubfs/MMM.png\" style=\"width: auto !important; float: left; margin: 0 15p",
+  "matchedCompanies": [
+   "Appier"
+  ],
+  "matchedTopics": [
+   "廣告投放/歸因"
+  ]
+ },
+ {
+  "feed": "Appier Blog",
+  "title": "Incrementality ≠ Last-Click: The 7 Myths Holding Mobile UA Back",
+  "link": "https://www.appier.com/en/blog/incrementality-last-click-the-7-myths-holding-mobile-ua-back",
+  "publishedTs": 1759893004,
+  "summary": "<div class=\"hs-featured-image-wrapper\"> \n <a class=\"hs-featured-image-link\" href=\"https://www.appier.com/en/blog/incrementality-last-click-the-7-myths-holding-mobile-ua-back?hsLang=en\" title=\"\"> <img alt=\"Incrementality ≠ Last-Click: The 7 Myths Holding Mobile UA Back\" class=\"hs-featured-image\" src=\"https://www.appier.com/hubfs/Content_Incrementality%20Blog-1_The%207%20Myths%20Holding%20Mobile%20UA%20Back_Header_v01.jpg\" style=\"width: auto !important; float: left; margin: 0 15px 15px 0;\" /> </a>",
+  "matchedCompanies": [
+   "Appier"
+  ],
+  "matchedTopics": [
+   "廣告投放/歸因",
+   "併購/募資"
+  ]
+ },
+ {
+  "feed": "Insider Blog",
+  "title": "Snowflake & Databricks Meet Insider One for CX",
+  "link": "https://insiderone.com/connect-snowflake-databricks-insider-one/",
+  "publishedTs": 1785224178,
+  "summary": "Summary Connecting Snowflake and Databricks with Insider One through Put It Forward transforms fragmented customer data into real-time, AI-powered customer experiences. By unifying governed data, predictive insights, and cross-channel activation, businesses can deliver faster personalization, improve campaign performance, strengthen compliance, and drive measurable gains in retention, ROI, and customer engagement. Enterprise marketing teams are sitting [&#8230;]",
+  "matchedCompanies": [
+   "Insider"
+  ],
+  "matchedTopics": [
+   "CDP/第一方數據",
+   "個人化推薦",
+   "CRM/會員留存"
+  ]
+ },
+ {
+  "feed": "Insider Blog",
+  "title": "Meet Insight Agent: analytics you can talk to",
+  "link": "https://insiderone.com/insight-agent-ai-analytics/",
+  "publishedTs": 1784793414,
+  "summary": "Every marketing team has the same bottleneck. A question comes up mid-meeting &#8211; how did last month&#8217;s email campaign really perform? &#8211; and the answer lives three clicks and one export away, if you&#8217;re lucky. More often, it lives with an analyst who&#8217;s already got a queue. That gap between having a question and getting [&#8230;]",
+  "matchedCompanies": [
+   "Insider"
+  ],
+  "matchedTopics": []
+ },
+ {
+  "feed": "Insider Blog",
+  "title": "Insider One vs. MoEngage: Which Customer Engagement Platform Is Better for Enterprise Growth?",
+  "link": "https://insiderone.com/insider-one-vs-moengage-better-cep/",
+  "publishedTs": 1783605161,
+  "summary": "As brands grow and scale, they often run into good problems: budget, headcount, and whether their customer engagement platform can keep up. Insider One and MoEngage both compete for enterprise marketing budgets. Both platforms have real, verifiable strengths behind their positioning, not just marketing language. This comparison looks at how each supports enterprise growth through [&#8230;]",
+  "matchedCompanies": [
+   "Insider",
+   "MoEngage"
+  ],
+  "matchedTopics": []
+ },
+ {
+  "feed": "Insider Blog",
+  "title": "How to Actually Measure Cross-Channel Marketing Analytics",
+  "link": "https://insiderone.com/measure-cross-channel-marketing-analytics/",
+  "publishedTs": 1783602958,
+  "summary": "Summary Cross-channel analytics provides a complete view of the customer journey by unifying data across channels and measuring how each touchpoint contributes to conversions. Using first-party data and advanced attribution models helps marketers make more accurate, data-driven investment decisions. Your email team reports a 28% conversion rate. Your paid team reports a 31% conversion rate. [&#8230;]",
+  "matchedCompanies": [
+   "Insider"
+  ],
+  "matchedTopics": [
+   "CDP/第一方數據",
+   "廣告投放/歸因",
+   "行銷自動化"
+  ]
+ },
+ {
+  "feed": "Insider Blog",
+  "title": "Cross-Channel Marketing Automation Frameworks: How to Build One That Actually Works",
+  "link": "https://insiderone.com/cross-channel-automation-framework/",
+  "publishedTs": 1783601664,
+  "summary": "Summary Cross-channel marketing automation is most effective when unified customer data, real-time decisioning, and journey orchestration work together. Responding to customer behavior across every channel, not scheduled campaigns, creates more relevant experiences and more accurate marketing measurement. There is a specific frustration that comes up again and again in marketing operations reviews: &#8220;We have email, [&#8230;]",
+  "matchedCompanies": [
+   "Insider"
+  ],
+  "matchedTopics": [
+   "CDP/第一方數據",
+   "廣告投放/歸因",
+   "行銷自動化"
+  ]
+ },
+ {
+  "feed": "Insider Blog",
+  "title": "Insider One vs. MoEngage: Comparing AI Personalization, Automation, and Omnichannel Marketing",
+  "link": "https://insiderone.com/insider-one-vs-moengage-compared-enterprise/",
+  "publishedTs": 1783599436,
+  "summary": "Every customer engagement platform in 2026 will tell you it does AI personalisation, marketing automation, and omnichannel. The language is nearly identical. The gap between them isn&#8217;t. Insider One and MoEngage are two of the most frequently compared platforms in this space. Both have built credible track records. But they are built for fundamentally different [&#8230;]",
+  "matchedCompanies": [
+   "Insider",
+   "MoEngage"
+  ],
+  "matchedTopics": [
+   "個人化推薦",
+   "行銷自動化"
+  ]
+ },
+ {
+  "feed": "Insider Blog",
+  "title": "Why AI Decisioning is the Missing Link in Marketing Attribution",
+  "link": "https://insiderone.com/ai-decisioning-missing-link-attribution/",
+  "publishedTs": 1783591773,
+  "summary": "Summary AI-powered attribution goes beyond reporting by using real-time customer signals to determine the next best action. When combined with unified customer data and continuous decisioning, it helps marketers optimize campaigns and budget allocation as customer behavior changes. Attribution has a dirty secret: it was designed to explain the past, not to improve the future. [&#8230;]",
+  "matchedCompanies": [
+   "Insider"
+  ],
+  "matchedTopics": [
+   "CDP/第一方數據",
+   "廣告投放/歸因"
+  ]
+ },
+ {
+  "feed": "Insider Blog",
+  "title": "How Data Enrichment in a CDP Turns Raw Profiles Into Revenue-Driving Intelligence",
+  "link": "https://insiderone.com/data-enrichment-cdp/",
+  "publishedTs": 1783591365,
+  "summary": "Summary Customer data enrichment transforms raw data into actionable profiles by adding real-time behavioral and predictive insights. Richer customer profiles enable more accurate segmentation, personalization, and cross-channel marketing. Somewhere between &#8220;we have the data&#8221; and &#8220;we can actually use it&#8221; there is a gap that costs brands revenue every quarter. Marketing teams have spent years [&#8230;]",
+  "matchedCompanies": [
+   "Insider"
+  ],
+  "matchedTopics": [
+   "CDP/第一方數據",
+   "個人化推薦"
+  ]
+ },
+ {
+  "feed": "Insider Blog",
+  "title": "How AI-Powered Campaign Creation Actually Works, and What Many Platforms Get Wrong",
+  "link": "https://insiderone.com/ai-campaign-creation/",
+  "publishedTs": 1783589043,
+  "summary": "Summary AI campaign creation is most effective when it connects customer data, audience segmentation, content generation, journey orchestration, and optimization in a single workflow. A unified platform enables faster campaign execution, better personalization, and improved marketing performance. A campaign that takes two weeks to build, requires four stakeholders to approve, and produces nearly identical messaging [&#8230;]",
+  "matchedCompanies": [
+   "Insider"
+  ],
+  "matchedTopics": [
+   "CDP/第一方數據",
+   "個人化推薦",
+   "對話式商務",
+   "行銷自動化"
+  ]
+ },
+ {
+  "feed": "Insider Blog",
+  "title": "How Event-Triggered Messaging Strategies Turn Behavior into Revenue",
+  "link": "https://insiderone.com/event-triggered-messaging-revenue/",
+  "publishedTs": 1783584598,
+  "summary": "Summary Effective triggered marketing goes beyond cart abandonment by responding to high-intent customer behaviors in real time. Prioritizing the right triggers, choosing the best channel, and using AI-powered predictions help brands deliver more relevant experiences and drive greater revenue. There is a quiet ceiling that lifecycle marketers hit around the 18-month mark of running automations. [&#8230;]",
+  "matchedCompanies": [
+   "Insider"
+  ],
+  "matchedTopics": [
+   "CRM/會員留存",
+   "對話式商務",
+   "行銷自動化"
+  ]
+ }
+]
