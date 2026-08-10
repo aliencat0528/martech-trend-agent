@@ -81,6 +81,28 @@ martech-trend-agent/
 
 分析層流程定義在 `../.claude/commands/martech-report.md`（`/martech-report` 指令）。
 
+## 對外契約：`data/raw/<日期>/jobs.json`
+
+⚠️ **這個檔案有下游在讀，欄位改動需通知下游。**
+
+姊妹專案 [`martech-job-radar`](https://github.com/aliencat0528/martech-job-radar)
+（求職情報彙整）**唯讀取用**本檔，藉此不必重寫 Greenhouse 與 Yourator 兩支已跑過多期、
+坑都補好的 fetcher。它不 import 本專案的模組、也不改 `config.yaml`——
+所以本專案內部怎麼重構都不會弄壞它，**只要下列欄位不變**（← 根 `prepare.md` D-018）：
+
+| 欄位 | 意義 | 為什麼下游需要它 |
+|------|------|-----------------|
+| `company` | 公司名 | 跨管道去重鍵的一半 |
+| `title` | 職稱 | 去重鍵的另一半 |
+| `area` | 地點 | 篩台灣職缺 |
+| `link` | 職缺網址 | 報告要能點回原始頁面 |
+| `appearDate` | **首次刊登日**（Greenhouse `first_published`） | 分辨「掛了三年的常駐缺」與「上週新開的缺」——下游最倚重的一欄 |
+| `source` | 來源管道 | 報告標示職缺從哪個平台取得 |
+
+**要改這些欄位時**：先在 `martech-job-radar` 開一個 issue 或直接改它的
+`companies.yaml` 內 `trendAgentContractFields`，兩邊一起改再合併。
+新增欄位不受此限（下游只讀它認得的欄位，多的會忽略）。
+
 ## 測試
 ```bash
 .venv/bin/python run.py --reanalyze <既有快照日期>   # 不打網路，驗證分析與報告層
