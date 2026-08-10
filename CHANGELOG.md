@@ -4,12 +4,29 @@
 
 ## [Unreleased]
 
+## [1.2.1] - 2026-08-10
+
+### Added
+- `docs/ARCHITECTURE.md`：四層管線圖、模組職責、識別鍵與跨期比較是否成立、對下游的六欄契約
+- README 新增判讀限制：**主題聲量不可跨期比較**（見下方 Notes）
+
 ### Fixed
 - **RSS 抓取無逾時上限**：`feedparser.parse()` 不吃 timeout 參數，來源掛住連線會讓程序永不結束；
   排程情境下 launchd 不會在前次仍在跑時啟動新的一次，等於**靜默停擺且無任何錯誤訊息**。
   於 `run.py` 入口設 `socket.setdefaulttimeout(30)`（requests 自帶的 20/30 秒更短，優先生效）
 - `scripts/refresh.log` 加入 `.gitignore`——排程一跑就產生，本專案 commit 流程用 `git add -A`，
   否則會被一起提交進版控
+
+### Notes
+- **查出主題聲量的測量方式不支援跨期比較**（2026-08-10 第 5 期分析）：
+  `fetch/newsRss.py` 只讀 feed 當下的 `entries`，`maxAgeDays` 只能剔除舊文、無法找回已滑出
+  feed 的文章，也沒有跨期累積儲存。實測相鄰兩期文章重疊數為 9、13、4、6（分母 31～66），
+  能跨期存活的幾乎只有低頻源的舊文。因此 `stats.json` 的 `topicDelta` 是兩批幾乎不相交樣本
+  之間的差，**不是趨勢**。
+- 要修得把新聞改成累積式儲存（`data/news-store.json`，每期併入新抓到的、依 `maxAgeDays` 過期），
+  這會讓歷史五期快照無法直接沿用，**屬於需要先立一筆 MT 決策的改動**，本版不動程式碼，
+  只把限制寫進 README 與 `docs/ARCHITECTURE.md`
+- 職缺面不受影響：差集以 `jobId` 為鍵，同 id 改標題不會製造假異動（本期實測 `gh-6820898`）
 
 ## [1.2.0] - 2026-07-20
 
