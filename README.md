@@ -4,7 +4,7 @@
 落地驗證訊號（次要），統計分析後產出繁中趨勢報告。回答三個問題：
 **產業風向往哪吹、哪些應用已從概念走到落地、公司在為哪些能力擴編**。
 
-![Version](https://img.shields.io/badge/version-1.2.0-blue.svg)
+![Version](https://img.shields.io/badge/version-1.2.1-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## 功能特色
@@ -13,7 +13,8 @@
   純 MarTech 源可設 `keepAll` 全收、公司部落格自動掛公司標記
 - **職缺訊號（次要）**：Greenhouse 官方 API（Appier 全球含內文）＋ Yourator（台灣新創），
   職稱結構、技能關鍵詞頻率、台灣可投遞清單、薪資樣本
-- **趨勢比較**：每次執行存日期快照，自動與上次比較（主題聲量升降、新增／消失職缺、技能升降）
+- **趨勢比較**：每次執行存日期快照，自動與上次比較（新增／消失職缺、技能升降、主題聲量升降）。
+  ⚠️ 職缺面以 `jobId` 為鍵、跨期成立；**主題聲量面不成立**，見「資料來源限制」第一條
 - **報告自帶判讀指引**：每個統計節附「怎麼讀這個數字」
 
 ## 快速開始
@@ -75,10 +76,12 @@ martech-trend-agent/
 ├── analyze/stats.py     # 統計層（分類、頻率、趨勢比較）
 ├── report/buildReport.py# 報告層（繁中 markdown，含判讀指引）
 ├── scripts/             # refresh.sh（排程刷新）＋ install/uninstall-schedule.sh
+├── docs/ARCHITECTURE.md # 四層管線圖、模組職責、識別鍵、對下游的契約
 ├── data/raw/YYYY-MM-DD/ # 每次執行的原始快照（趨勢比較的基準）
 └── reports/             # analysis-*.md（Claude 見解）、report-*.md（機械統計）、latest.md
 ```
 
+模組職責與資料流見 `docs/ARCHITECTURE.md`。
 分析層流程定義在 `../.claude/commands/martech-report.md`（`/martech-report` 指令）。
 
 ## 測試
@@ -87,6 +90,12 @@ martech-trend-agent/
 ```
 
 ## 版本歷史
+### v1.2.1 (2026-08-10)
+
+- **查出主題聲量不能跨期比較** — 新聞是每期重抓 feed 當下內容，相鄰兩期文章重疊只有 4～6 篇；
+  限制寫進 README 與新增的 `docs/ARCHITECTURE.md`，程式未動（修法需先立決策）
+- RSS 抓取補上逾時上限（`socket.setdefaulttimeout(30)`），避免排程情境靜默停擺
+
 ### v1.2.0 (2026-07-20)
 
 - **分析層＋半自動排程** — `/martech-report` 由 Claude 撰寫見解、`scripts/` launchd 每 3 天刷新
@@ -106,6 +115,14 @@ MIT License
 
 ## 資料來源限制（判讀前必讀）
 
+- **主題聲量不可跨期比較（最重要的一條）**：新聞抓取只讀 RSS feed **當下**的內容，
+  多數源一次只回 10 篇，且沒有跨期累積儲存——`maxAgeDays` 只能剔除舊文、無法找回已滑出 feed 的。
+  實測相鄰兩期文章重疊數為 9、13、4、6（分母 31～66），能跨期存活的幾乎只有低頻源的舊文。
+  因此報告第 1 節與第 4 節的 `topicDelta` 是**兩批幾乎不相交樣本之間的差，不是趨勢**。
+  在抓取方式改成累積式之前，那張表只能當期閱讀。修法與影響見 `docs/ARCHITECTURE.md`
+- **職缺面不受上述限制**：差集以 `jobId` 為鍵，同一職缺改標題不會產生假的新增／消失
+  （2026-08-10 實測 `gh-6820898` 確認）。但 Yourator 產業關鍵詞會撈進非追蹤公司，
+  看異動前要先濾掉它們
 - **104 / CakeResume 未納入**（有 bot 防護，本工具不做規避）：91APP、iKala 等主要在
   104 刊登的公司會顯示 0 筆，**0 筆 ≠ 沒在招**，投遞前請手動確認
 - Appier 職缺為**全球**數字（官方 API），台灣部分看報告「1a 台灣職缺」節
@@ -114,4 +131,7 @@ MIT License
 
 ## 相關文件
 
+- 架構圖、模組職責、對下游的欄位契約 → `docs/ARCHITECTURE.md`
+- 版本變更明細 → `CHANGELOG.md`
+- 決策記錄（`MT-` 系列）→ `prepare.md`
 - README 更新觸發條件、版本規則 → `../.claude/specs/docs.md`
