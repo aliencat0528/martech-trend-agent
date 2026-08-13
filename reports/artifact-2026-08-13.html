@@ -399,7 +399,7 @@
           本期 <code>newCount</code> 12、<code>removedCount</code> 8。逐筆核對後：<strong>非追蹤公司 8 筆</strong>（開必拓 2、承暉展創 2、FUNRAISE、緯雲、魔數、國泰金控）屬 Yourator 關鍵詞搜尋輪替，與上期仁寶電腦 10 筆同一現象；<strong>舊缺重新上架 2 筆</strong>（<code>Account Operations Intern, Taiwan</code> 刊登 2021-05-07、<code>Beijing</code> 刊登 2025-10-31）；<strong>真正的新編制只有 2 筆</strong>——<code>Senior Digital Advertising Data Analyst</code>（台北）與 <code>Research Scientist (Generative &amp; Agentic AI) - Tokyo</code>（東京）。<br>
           <strong>上期的必查陷阱本期再次驗證有效</strong>：<code>PR Manager</code> 改名 <code>PR Manager Taiwan</code>、<code>Quality Assurance Intern</code> 改名 <code>Software Engineer Intern, Quality Assurance</code>，兩筆 <code>jobId</code> 都沒變（<code>gh-8118821</code>、<code>gh-6967119</code>），因此既沒被算成新增也沒被算成消失。
         </div>
-        <div class="ic-mean"><strong>對你：</strong>本期查出一個<strong>新的判讀陷阱</strong>——「新增」要先看刊登日，刊登日遠早於本期的是重新上架、不是新開編制。同一天下游 <code>martech-job-radar</code> 查出更嚴重的一種：同一個缺換城市會換 URL，被同時計入新增與消失。<br>📌 <strong>判讀規則累積至今三條</strong>：看職缺異動時依序濾掉 ① 非追蹤公司 ② 刊登日遠早於本期者 ③ 換城市／換頁造成的一增一減。</div>
+        <div class="ic-mean"><strong>對你：</strong>本期查出一個<strong>新的判讀陷阱</strong>——「新增」要先看刊登日，刊登日遠早於本期的是重新上架、不是新開編制。<br>📌 <strong>判讀規則累積至今兩條</strong>：看職缺異動時依序濾掉 ① 非追蹤公司 ② 刊登日遠早於本期者。<br>⚠️ <strong>當日更正</strong>：原本還有第三條「換城市造成一增一減」，來自下游 <code>martech-job-radar</code> 的回報；當天稍晚查明那是<strong>下游整併鍵的 bug</strong>（沒有職缺編號時退回比職稱，把 Appier 台北與東京的同名缺併掉），不是真實現象，下游已修並重算。本專案以 <code>jobId</code> 為鍵，不受影響。</div>
       </div>
     </div>
   </div>
@@ -438,8 +438,8 @@
         <li><strong>分析層</strong>（需模型在場）：上方「本期分析」由 Claude 讀完資料撰寫，非模板。本機無法定時喚醒模型，所以只能由你觸發</li>
         <li>排程完成後跳<strong>桌面通知</strong>提醒你「資料就緒」，你再開 Claude Code 要分析——通知不是 Email（Gmail 連接器授權範圍不支援寫入）</li>
       </ul>
-      <p><strong>判讀規則到本期為止的狀態：</strong>新聞面只有一條硬規則——<strong>抓取方式改成跨期累積之前，主題聲量不做跨期比較</strong>。職缺面累積到三條：異動要依序濾掉①非追蹤公司 ②刊登日遠早於本期者 ③換城市／換頁造成的一增一減（②③是本期新增）。</p>
-      <p><strong>與姊妹專案的分工：</strong>本報告回答「產業風向往哪吹」；<code>martech-job-radar</code> 回答「我現在該投哪裡」，同日產出 265 筆／35 家（多抓了 Cake 與更多 Yourator 公司），<strong>兩份報告的分母不同是正常的</strong>。趨勢結論以本報告為唯一來源。</p>
+      <p><strong>判讀規則到本期為止的狀態：</strong>新聞面只有一條硬規則——<strong>抓取方式改成跨期累積之前，主題聲量不做跨期比較</strong>。職缺面累積到兩條：異動要依序濾掉①非追蹤公司 ②刊登日遠早於本期者（②是本期新增；原擬的第三條「換城市」已於當日撤回，那是下游整併 bug 不是現象）。</p>
+      <p><strong>與姊妹專案的分工：</strong>本報告回答「產業風向往哪吹」；<code>martech-job-radar</code> 回答「我現在該投哪裡」，同日產出 266 筆／35 家（多抓了 Cake 與更多 Yourator 公司），<strong>兩份報告的分母不同是正常的</strong>。趨勢結論以本報告為唯一來源。</p>
       <p><strong>要修的話怎麼修（觀察，本期不動手）：</strong>把新聞改成累積式儲存（維護 <code>data/news-store.json</code>，每期把新抓到的併進去、依 <code>maxAgeDays</code> 過期），主題聲量改由 store 計算。這需要在 <code>prepare.md</code> 立一筆 MT 決策，並決定歷史六期快照怎麼處理。</p>
     </div>
   </details>
