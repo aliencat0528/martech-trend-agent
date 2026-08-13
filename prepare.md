@@ -1,5 +1,6 @@
 # Prepare — martech-trend-agent 決策記錄
 
+> **版本**：MT-003 · 2026-07-20
 > 記錄規則繼承根 `prepare.md`，只寫本專案差異。編號前綴 `MT-`。
 
 ## 決策日誌
