@@ -4,6 +4,18 @@
 
 ## [Unreleased]
 
+### Added
+- **2026-08-13 第 6 期資料快照**：職缺 145 筆（Greenhouse 88＋Yourator 57）、新聞 66 篇，
+  失敗來源 0 個。機械層報告 `reports/report-2026-08-13.md`，`latest.md` 同步。
+
+### Notes
+- **本期只跑資料層，分析層未跑**：`reports/analysis-2026-08-13.md` 不存在，
+  最新的分析仍是 08-10（第 5 期）。下游 `martech-job-radar` 的 §05 因此引用 08-10 的結論，
+  並在頁面上標明了這個期別落差。要補上分析層需執行 `/martech-report`。
+- 本次刷新是由下游 `martech-job-radar` 的第 3 期報告觸發的：
+  下游讀的是本專案的**工作區**，先前工作區停在 `docs/version-stamp-third`，
+  最新快照是 08-10。先刷新本專案再跑下游，下游才不會觸發新鮮度警告。
+
 ## [1.2.1] - 2026-08-10
 
 ### Added
