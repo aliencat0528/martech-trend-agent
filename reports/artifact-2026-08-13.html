@@ -1,0 +1,610 @@
+<title>MarTech 應用趨勢週報 · 2026-08-13</title>
+
+<style>
+  .viz-root {
+    color-scheme: light;
+    --surface-1:      #fcfcfb;
+    --page:           #f9f9f7;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #898781;
+    --grid:           #e1e0d9;
+    --baseline:       #c3c2b7;
+    --border:         rgba(11,11,11,0.10);
+    --series-1:       #2a78d6;   /* blue: primary magnitude hue */
+    --series-1-wash:  #cde2fb;
+    --series-2:       #1baf7a;   /* aqua: secondary (job/skill section) */
+    --series-2-wash:  #cdeee1;
+    --good:           #006300;
+    --warn:           #8a5a00;
+    --card-bg:        #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) .viz-root {
+      color-scheme: dark;
+      --surface-1:      #1a1a19;
+      --page:           #0d0d0d;
+      --text-primary:   #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted:     #898781;
+      --grid:           #2c2c2a;
+      --baseline:       #383835;
+      --border:         rgba(255,255,255,0.10);
+      --series-1:       #3987e5;
+      --series-1-wash:  #184f95;
+      --series-2:       #199e70;
+      --series-2-wash:  #12523c;
+      --good:           #0ca30c;
+      --warn:           #d9a13a;
+      --card-bg:        #221f1c;
+    }
+  }
+  :root[data-theme="dark"] .viz-root {
+    color-scheme: dark;
+    --surface-1:      #1a1a19;
+    --page:           #0d0d0d;
+    --text-primary:   #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted:     #898781;
+    --grid:           #2c2c2a;
+    --baseline:       #383835;
+    --border:         rgba(255,255,255,0.10);
+    --series-1:       #3987e5;
+    --series-1-wash:  #184f95;
+    --series-2:       #199e70;
+    --series-2-wash:  #12523c;
+    --good:           #0ca30c;
+    --warn:           #d9a13a;
+    --card-bg:        #221f1c;
+  }
+
+  .viz-root {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    background: var(--page);
+    color: var(--text-primary);
+    padding: 32px 16px 64px;
+    max-width: 880px;
+    margin: 0 auto;
+    line-height: 1.55;
+  }
+  .viz-root * { box-sizing: border-box; }
+
+  .hero { margin-bottom: 28px; }
+  .hero .eyebrow {
+    font-size: 13px;
+    color: var(--text-muted);
+    letter-spacing: 0.02em;
+    margin-bottom: 6px;
+  }
+  .hero h1 {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0 0 6px;
+    text-wrap: balance;
+  }
+  .hero .sub {
+    font-size: 14px;
+    color: var(--text-secondary);
+  }
+
+  .stat-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px 0 8px;
+  }
+  .stat-tile {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 14px 12px;
+  }
+  .stat-tile .label {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-bottom: 4px;
+  }
+  .stat-tile .value {
+    font-size: 22px;
+    font-weight: 700;
+    font-variant-numeric: proportional-nums;
+  }
+  .stat-tile .delta {
+    font-size: 12px;
+    color: var(--text-muted);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .panel {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 20px 8px;
+    margin-bottom: 20px;
+  }
+  .panel.secondary { opacity: 0.96; }
+  .panel h2 {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 0 2px;
+  }
+  .panel .panel-note {
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin: 0 0 16px;
+  }
+
+  /* Bar chart */
+  .bar-chart { display: flex; flex-direction: column; gap: 2px; margin-bottom: 6px; }
+  .bar-row { display: grid; grid-template-columns: 108px 1fr 34px; align-items: center; gap: 8px; height: 28px; }
+  .bar-row.with-delta { grid-template-columns: 108px 1fr 34px 42px; }
+  .bar-row .bar-label {
+    font-size: 13px; color: var(--text-secondary);
+    text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .bar-track { position: relative; height: 24px; background: transparent; }
+  .bar-fill {
+    height: 24px; border-radius: 4px; background: var(--series-1);
+    position: relative;
+    transition: filter 0.15s ease;
+  }
+  .bar-fill.alt { background: var(--series-2); }
+  .bar-fill:hover { filter: brightness(1.08); }
+  .bar-row .bar-value { font-size: 13px; color: var(--text-secondary); font-variant-numeric: tabular-nums; }
+  .bar-row .bar-delta {
+    font-size: 12px; color: var(--text-muted); font-variant-numeric: tabular-nums;
+    text-align: right;
+  }
+  .bar-row .bar-delta.up { color: var(--good); }
+  .bar-row .bar-delta.down { color: var(--warn); }
+  .bar-row.hi .bar-label { color: var(--text-primary); font-weight: 600; }
+  .bar-chart.muted .bar-delta { color: var(--text-muted); }
+
+  .legend-note {
+    font-size: 12px; color: var(--text-muted); margin: 10px 0 18px;
+  }
+
+  /* Topic article cards */
+  .topic-block { margin: 0 0 20px; }
+  .topic-block .topic-title {
+    font-size: 14px; font-weight: 700; color: var(--text-primary);
+    display: flex; align-items: baseline; gap: 8px; margin-bottom: 8px;
+  }
+  .topic-block .topic-title .count { font-size: 12px; font-weight: 400; color: var(--text-muted); }
+  .article-list { list-style: none; margin: 0; padding: 0; }
+  .article-list li {
+    font-size: 13.5px; padding: 6px 0; border-bottom: 1px solid var(--grid);
+    display: flex; gap: 8px;
+  }
+  .article-list li:last-child { border-bottom: none; }
+  .article-list .date { color: var(--text-muted); flex-shrink: 0; width: 40px; font-variant-numeric: tabular-nums; }
+  .article-list a { color: var(--text-primary); text-decoration: none; }
+  .article-list a:hover { text-decoration: underline; }
+  .article-list a:focus-visible { outline: 2px solid var(--series-1); outline-offset: 2px; border-radius: 2px; }
+  .article-list .feed { color: var(--text-muted); flex-shrink: 0; }
+  .article-list .flag { color: var(--warn); flex-shrink: 0; font-weight: 600; }
+
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 16px; }
+  th { text-align: left; font-weight: 600; color: var(--text-muted); font-size: 12px;
+       border-bottom: 1px solid var(--grid); padding: 6px 8px; }
+  td { padding: 7px 8px; border-bottom: 1px solid var(--grid); color: var(--text-secondary); }
+  td a { color: var(--text-primary); text-decoration: none; }
+  td a:hover { text-decoration: underline; }
+  tr:last-child td { border-bottom: none; }
+  .num { text-align: right; font-variant-numeric: tabular-nums; }
+  td.hi, th.hi { color: var(--text-primary); font-weight: 600; }
+
+  details.howto { margin-bottom: 20px; }
+  details.howto summary {
+    cursor: pointer; font-size: 14px; font-weight: 600; padding: 4px 0;
+    color: var(--text-primary);
+  }
+  details.howto summary:focus-visible { outline: 2px solid var(--series-1); outline-offset: 2px; border-radius: 4px; }
+  details.howto[open] summary { margin-bottom: 10px; }
+  .howto-body { font-size: 13.5px; color: var(--text-secondary); }
+  .howto-body code {
+    background: var(--grid); padding: 1px 5px; border-radius: 4px; font-size: 12.5px;
+  }
+  .howto-body ul { padding-left: 20px; margin: 8px 0; }
+  .howto-body li { margin-bottom: 4px; }
+
+  /* Analysis section — the centrepiece */
+  .panel.analysis {
+    border-left: 3px solid var(--series-1);
+    background: var(--card-bg);
+  }
+  .panel.analysis h2 .by {
+    font-size: 11px; font-weight: 600; color: var(--series-1);
+    background: var(--series-1-wash); padding: 2px 8px; border-radius: 999px;
+    margin-left: 8px; vertical-align: middle;
+  }
+  .key-points { display: flex; flex-direction: column; gap: 12px; margin: 4px 0 22px; }
+  .kp { display: flex; gap: 12px; align-items: flex-start; font-size: 14px; color: var(--text-secondary); }
+  .kp-num {
+    flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%;
+    background: var(--series-1); color: #fff; font-size: 13px; font-weight: 700;
+    display: flex; align-items: center; justify-content: center; margin-top: 1px;
+  }
+  .kp strong { color: var(--text-primary); font-weight: 600; }
+  .insights { display: flex; flex-direction: column; gap: 12px; }
+  .insight-card {
+    border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px;
+    background: var(--surface-1);
+  }
+  .insight-card .ic-title { font-size: 14px; font-weight: 700; color: var(--text-primary); margin-bottom: 6px; }
+  .insight-card .ic-evidence { font-size: 13px; color: var(--text-secondary); margin-bottom: 8px; }
+  .insight-card .ic-mean {
+    font-size: 13px; color: var(--text-primary);
+    padding-left: 10px; border-left: 2px solid var(--series-2);
+  }
+  .insight-card .ic-mean strong { color: var(--series-2); }
+  .insight-card .table-wrap table { margin-bottom: 10px; }
+
+  .caveat {
+    border: 1px solid var(--border); border-left: 3px solid var(--warn);
+    border-radius: 10px; padding: 14px 16px; margin-bottom: 20px;
+    background: var(--surface-1); font-size: 13px; color: var(--text-secondary);
+  }
+  .caveat .cv-title { font-size: 14px; font-weight: 700; color: var(--text-primary); margin-bottom: 6px; }
+  .caveat ul { padding-left: 20px; margin: 8px 0 0; }
+  .caveat li { margin-bottom: 5px; }
+  .caveat strong { color: var(--text-primary); }
+
+  /* 對答案區：沿用既有卡片語彙 */
+  .answers { list-style: none; margin: 4px 0 6px; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+  .answers li { font-size: 13.5px; color: var(--text-secondary); display: flex; gap: 10px; align-items: flex-start; }
+  .answers .ans-mark {
+    flex-shrink: 0; width: 16px; height: 16px; border-radius: 4px; margin-top: 3px;
+    background: var(--series-1); color: #fff; font-size: 11px; line-height: 16px;
+    text-align: center; font-weight: 700;
+  }
+  .answers .ans-mark.miss { background: var(--warn); }
+  .answers strong { color: var(--text-primary); font-weight: 600; }
+
+  .watchlist { list-style: none; margin: 4px 0 16px; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .watchlist li { font-size: 13.5px; color: var(--text-secondary); display: flex; gap: 10px; align-items: flex-start; }
+  .watchlist .wl-mark {
+    flex-shrink: 0; width: 16px; height: 16px; border: 1.5px solid var(--baseline);
+    border-radius: 4px; margin-top: 3px;
+  }
+  .watchlist strong { color: var(--text-primary); font-weight: 600; }
+
+  .readmore-badge {
+    display: inline-block; font-size: 11px; padding: 2px 8px; border-radius: 999px;
+    background: var(--series-1-wash); color: var(--series-1); font-weight: 600;
+    margin-left: 6px; vertical-align: middle;
+  }
+
+  footer.foot {
+    font-size: 12px; color: var(--text-muted); text-align: center; margin-top: 28px;
+    padding-top: 16px; border-top: 1px solid var(--border);
+  }
+
+  @media (max-width: 480px) {
+    .stat-row { grid-template-columns: 1fr 1fr; }
+    .bar-row { grid-template-columns: 78px 1fr 30px; }
+    .bar-row.with-delta { grid-template-columns: 78px 1fr 30px 38px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .bar-fill { transition: none; }
+  }
+</style>
+
+<div class="viz-root">
+
+  <div class="hero">
+    <div class="eyebrow">martech-trend-agent 自動產出 · 第 6 次快照</div>
+    <h1>MarTech 應用趨勢週報</h1>
+    <div class="sub">2026-08-13　|　基準比較日：2026-08-10（相隔 3 天，目前最短）。本期<strong>修正了一個講了四期的框架</strong>——「AI 在開、資料在收」不成立，真正的分界是資深與初階，見分析見解 1</div>
+  </div>
+
+  <div class="stat-row">
+    <div class="stat-tile">
+      <div class="label">相關文章</div>
+      <div class="value">66 篇</div>
+      <div class="delta">上期 63 篇 · 僅 5 篇重疊</div>
+    </div>
+    <div class="stat-tile">
+      <div class="label">最熱應用主題</div>
+      <div class="value">生成式AI</div>
+      <div class="delta">15 篇，與 AI Agent 應用並列（不判讀 delta）</div>
+    </div>
+    <div class="stat-tile">
+      <div class="label">職缺樣本</div>
+      <div class="value">145 筆</div>
+      <div class="delta">濾掉雜訊後真正新編制只有 2 筆</div>
+    </div>
+  </div>
+
+  <!-- 分析專區：報告核心 -->
+  <div class="panel analysis">
+    <h2>🔍 本期分析<span class="by">Claude 撰寫 · 非模板</span></h2>
+    <p class="panel-note">讀完本期 66 篇文章＋145 筆職缺，並回頭比對六期快照後的見解。完整版見 <code>reports/analysis-2026-08-13.md</code></p>
+
+    <div class="key-points">
+      <div class="kp"><span class="kp-num">1</span><div><strong>上期那條「Appier 台北初階 AI 缺在收」，本期缺席第二期，依規則正式確認。</strong><code>Machine Learning Scientist (LLM &amp; Agents)</code>（非 Senior）與 <code>Generative AI Research Intern</code> 都沒有回來，Senior 版本<strong>六期都在</strong>。但同一期出現一筆反向證據，見下一點。</div></div>
+      <div class="kp"><span class="kp-num">2</span><div><strong>Appier 台北新開了一個資深分析職，這是六期以來第一次。</strong><code>Senior Digital Advertising Data Analyst</code>（<code>gh-8118867</code>，08/10 刊登）。於是「AI 在開、資料在收」這個講了四期的框架<strong>必須修正</strong>——真正的分界不是職能，是<strong>年資</strong>。</div></div>
+      <div class="kp"><span class="kp-num">3</span><div><strong>主題聲量表本期重疊只有 5／66，比上期還低。</strong>間隔從 5 天縮到 3 天，重疊率沒有變高——再次確認重疊取決於 feed 長度而非時間。本期 <code>topicDelta</code> 顯示的「AI Agent +4、行銷自動化 +4、CRM +3」<strong>一律不判讀</strong>。</div></div>
+    </div>
+
+    <div class="insights">
+      <div class="insight-card">
+        <div class="ic-title">見解 1 · 分界不是「AI vs 資料」，是「資深 vs 初階」——講了四期的框架要修正</div>
+        <div class="ic-evidence">
+          逐筆比對 Appier 台北的 <code>jobs.json</code>：
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>職缺</th><th>狀態</th><th>刊登日</th></tr></thead>
+              <tbody>
+                <tr><td class="hi"><code>Senior Digital Advertising Data Analyst</code></td><td class="hi">本期新開</td><td>2026-08-10</td></tr>
+                <tr><td><code>Machine Learning Scientist (LLM &amp; Agents)</code>（非 Senior）</td><td>連兩期缺席</td><td>—</td></tr>
+                <tr><td><code>Generative AI Research Intern</code></td><td>連兩期缺席</td><td>—</td></tr>
+                <tr><td><code>Senior Machine Learning Scientist (LLM &amp; Agents)</code></td><td>六期都在</td><td>2025-05-23</td></tr>
+                <tr><td><code>Campaign Analyst</code></td><td>六期都在</td><td class="hi">2019-01-09</td></tr>
+                <tr><td><code>Data Scientist, Analytics</code></td><td>六期都在</td><td class="hi">2019-01-09</td></tr>
+              </tbody>
+            </table>
+          </div>
+          角色分布同步反映：<code>數據分析</code> 2 → <strong>3</strong>（正是新開的那一筆）；技能榜 <code>SQL</code> 18 → 19、<code>LLM</code> 13 → 14，兩者都 +1。<br>
+          <strong>前四期我一直用「研發重心從資料移到 AI」描述這件事，本期的新開缺直接反證了它</strong>——新開的是分析職，收掉的是 AI 研究職，方向剛好相反。把六期異動排在一起看，真正一致的模式是年資：<strong>開的</strong>是 Senior 分析／Senior ML／Staff ML；<strong>收的</strong>是非 Senior ML Scientist、GenAI Research Intern、Data Analyst Intern；<strong>沒動的</strong>是那兩個 2019 年掛到現在的缺——它們既不在開也不在收，是長期收履歷。
+        </div>
+        <div class="ic-mean"><strong>對你：</strong>這是壞消息中的好消息。初階 AI 研究職本來就不是你的路，而新開的 <code>Senior Digital Advertising Data Analyst</code> 是<strong>廣告成效分析</strong>，跟你手上 <code>push-campaign-roi</code>、<code>coupon-decision-agent</code> 兩個專案的題目直接對得上（ROAS／增益衡量／把分析接到投放決策）。<br>📌 它掛 Senior，但它是六期資料裡<strong>唯一能確定「真的在收人」的分析職</strong>。對照那兩個掛七年的常駐缺，投遞期望值不是同一個量級——<strong>資歷不足也值得投</strong>，常駐缺沒反應是常態，新開缺沒反應才是資訊。<br>作品集敘事要跟著改：不是「我會做 AI」，而是<strong>「我的分析能改變一個投放／發券決策」</strong>。</div>
+      </div>
+
+      <div class="insight-card">
+        <div class="ic-title">見解 2 · 三天的間隔證明了各層資料的真實解析度</div>
+        <div class="ic-evidence">
+          本期是最短的一次間隔（3 天），意外變成一組對照實驗：
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>資料層</th><th>三天內的變化</th><th>真實解析度</th></tr></thead>
+              <tbody>
+                <tr><td class="hi">職缺（<code>jobId</code> 為鍵）</td><td>Appier 85 → 88，可逐筆指認</td><td class="hi">天</td></tr>
+                <tr><td>技能頻率</td><td>6 個技能各動 ±1</td><td>天，但幅度接近雜訊</td></tr>
+                <tr><td>新聞主題聲量</td><td>66 篇裡只有 5 篇是上期也有的</td><td class="hi">無</td></tr>
+                <tr><td>追蹤公司媒體聲量</td><td>Insider 10、Appier 3，與上期完全相同</td><td>無</td></tr>
+              </tbody>
+            </table>
+          </div>
+          職缺面用 3 天間隔跑是<strong>划算的</strong>——本期就抓到一個 08/10 刊登的新分析職，等於三天內就被撈到。新聞面用 3 天跑則完全沒有增量意義，只是把 feed 再拍一張照。
+        </div>
+        <div class="ic-mean"><strong>對你：</strong>兩層的抓取頻率其實不該綁在一起。<strong>職缺值得高頻；新聞在改成累積式儲存之前，跑多密都不會更準。</strong>這與見解 3 是同一個病灶的兩種表現。（觀察，本期不動手）</div>
+      </div>
+
+      <div class="insight-card">
+        <div class="ic-title">見解 3 · 主題聲量的重疊率再創新低（5／66），上期的禁令證據更強</div>
+        <div class="ic-evidence">
+          直接比對 <code>news.json</code> 的 link 集合：
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>期間</th><th class="num">前期篇數</th><th class="num">本期篇數</th><th class="num">重疊</th></tr></thead>
+              <tbody>
+                <tr><td>07/19 → 07/20</td><td class="num">31</td><td class="num">63</td><td class="num">9</td></tr>
+                <tr><td>07/20 → 07/31</td><td class="num">63</td><td class="num">57</td><td class="num">13</td></tr>
+                <tr><td>07/31 → 08/05</td><td class="num">57</td><td class="num">66</td><td class="num">4</td></tr>
+                <tr><td>08/05 → 08/10</td><td class="num">66</td><td class="num">63</td><td class="num">6</td></tr>
+                <tr><td class="hi">08/10 → 08/13</td><td class="num">63</td><td class="num">66</td><td class="num hi">5</td></tr>
+              </tbody>
+            </table>
+          </div>
+          本期重疊的 5 篇全部是低頻源舊文：ChiefMartec 的 2026 Landscape（05/05）、Appier Blog 的 incrementality／MMM 三篇（2025-10）、Insider Blog 的 SMS 規則一篇。<strong>間隔縮短了，重疊率沒有變高</strong>——重疊取決於 feed 長度而非時間間隔。
+        </div>
+        <div class="ic-mean"><strong>對你：</strong>本期 <code>topicDelta</code> 一律不判讀，包括看起來很像趨勢的「AI Agent +4」「行銷自動化 +4」「CRM +3」。<br>✅ <strong>唯一說得出口的當期閱讀（質性，不依賴跨期）</strong>：本期 AI Agent 報導的<em>具體程度</em>明顯提高——不再是「Agent 會取代什麼」，而是權限治理（跨系統存取的身分框架）、可靠性（準確率 85% 但難題是可靠交付）、成本（token 消耗進入工程師薪資結構）、支付（Cloudflare 讓 Agent 自主付款）。<strong>議題從「會不會來」轉到「怎麼落地」，這對求職者是好訊號</strong>：落地階段要的是工程與流程能力，不是研究能力。</div>
+      </div>
+
+      <div class="insight-card">
+        <div class="ic-title">見解 4 · 「新增 12 筆」裡真正的新編制只有 2 筆</div>
+        <div class="ic-evidence">
+          本期 <code>newCount</code> 12、<code>removedCount</code> 8。逐筆核對後：<strong>非追蹤公司 8 筆</strong>（開必拓 2、承暉展創 2、FUNRAISE、緯雲、魔數、國泰金控）屬 Yourator 關鍵詞搜尋輪替，與上期仁寶電腦 10 筆同一現象；<strong>舊缺重新上架 2 筆</strong>（<code>Account Operations Intern, Taiwan</code> 刊登 2021-05-07、<code>Beijing</code> 刊登 2025-10-31）；<strong>真正的新編制只有 2 筆</strong>——<code>Senior Digital Advertising Data Analyst</code>（台北）與 <code>Research Scientist (Generative &amp; Agentic AI) - Tokyo</code>（東京）。<br>
+          <strong>上期的必查陷阱本期再次驗證有效</strong>：<code>PR Manager</code> 改名 <code>PR Manager Taiwan</code>、<code>Quality Assurance Intern</code> 改名 <code>Software Engineer Intern, Quality Assurance</code>，兩筆 <code>jobId</code> 都沒變（<code>gh-8118821</code>、<code>gh-6967119</code>），因此既沒被算成新增也沒被算成消失。
+        </div>
+        <div class="ic-mean"><strong>對你：</strong>本期查出一個<strong>新的判讀陷阱</strong>——「新增」要先看刊登日，刊登日遠早於本期的是重新上架、不是新開編制。同一天下游 <code>martech-job-radar</code> 查出更嚴重的一種：同一個缺換城市會換 URL，被同時計入新增與消失。<br>📌 <strong>判讀規則累積至今三條</strong>：看職缺異動時依序濾掉 ① 非追蹤公司 ② 刊登日遠早於本期者 ③ 換城市／換頁造成的一增一減。</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 對上期答案 -->
+  <div class="panel">
+    <h2>對上期的三個檢查項答案</h2>
+    <p class="panel-note">上期結尾列的觀察點，逐項回答，不重寫新的</p>
+    <ul class="answers">
+      <li><span class="ans-mark">✓</span><div><strong><code>Machine Learning Scientist (LLM &amp; Agents)</code> 是否連兩期缺席？→ 是，確認。</strong>08/10 首次缺席、08/13 仍然缺席。依「連兩期缺席才算確認」規則，<strong>「Appier 台北初階 AI 研究職收斂」從觀察升級為結論</strong>。對照組 <code>Senior Machine Learning Scientist (LLM &amp; Agents)</code>（<code>gh-6914984</code>）六期都在。</div></li>
+      <li><span class="ans-mark miss">✗</span><div><strong>實習類職缺總數？→ 前者確認沒回來，但「實習整體在收」這個假設被推翻了。</strong>上期說從 7 降到 6、連兩期下降才算趨勢。本期不但沒繼續降，還<strong>升到 8</strong>。但回來的兩筆是 <code>Account Operations Intern</code>（台灣＋北京），<strong>是營運端、不是研究端</strong>，而且刊登日是 2021-05-07 與 2025-10-31，屬舊缺重新上架。GenAI Research Intern 仍然不在——<strong>修正後的說法：收的是 AI 研究類實習，不是實習整體。</strong></div></li>
+      <li><span class="ans-mark miss">✗</span><div><strong>新聞抓取要不要改成累積式？→ 本期未動，仍是待決策。</strong>這是決策不是觀察項，需先在 <code>prepare.md</code> 立一筆 MT 決策並決定歷史快照怎麼處理。本期新增的證據（重疊 5／66）讓優先度更高，但<strong>不該順手改</strong>。</div></li>
+    </ul>
+  </div>
+
+  <!-- 判讀陷阱 -->
+  <div class="caveat">
+    <div class="cv-title">⚠️ 本期最重要的一條限制：第 1 節與第 4 節的 delta 一律不判讀</div>
+    這不是「本期樣本不好」，是這一層資料的測量方式不支援跨期比較（見解 3）。具體影響：
+    <ul>
+      <li><strong>主題聲量 delta 全數作廢</strong>：本期「AI Agent 應用 +4」「行銷自動化 +4」「CRM/會員留存 +3」都只是換了一批文章，不是產業變化。</li>
+      <li><strong>公司聲量同理</strong>：Insider 10 是 feed 長度、Appier 3 全是 2025-10 舊文佔位（<strong>連續五期相同</strong>）。上期的 Klaviyo 本期歸零，是文章滑出 feed，不是它沒動作。</li>
+      <li><strong>本期抓到一個三重誤分類</strong>：〈疑中國駭客用 8 個 AI Agent 攻擊台灣〉這篇資安報導的 <code>matchedTopics</code> 是 <code>['AI Agent應用', '電商/OMO', '行銷自動化']</code>——<strong>一篇網攻新聞同時灌進三個行銷主題</strong>。另一例：〈微軟發布 8 月更新，修補 421 個資安漏洞〉被分到「隱私/法規」。分類問題未改善，因為沒動 <code>config.yaml</code>。</li>
+      <li>這也解釋了主題數字為何浮動：一篇可匹配多個主題，<code>topicMentions</code> 加總（83）大於篇數（66）。</li>
+      <li><strong>不受影響的是職缺面</strong>：以 <code>jobId</code> 為鍵、同 id 改標題不會製造假異動（本期實測到兩例）。但要先濾掉見解 4 的三層雜訊。</li>
+    </ul>
+  </div>
+
+  <details class="howto">
+    <summary>ℹ️ 這份報告怎麼讀、工具怎麼用（點開）</summary>
+    <div class="howto-body">
+      <p><strong>閱讀順序建議顛倒：先看第 3 節（職缺），再看第 1 節（主題聲量）。</strong>工具原本的設計主軸是「應用趨勢為主、職缺為次要落地驗證」（MT-002），但以資料品質看，兩者的證據強度剛好相反——職缺是同一批實體被持續觀測，新聞是每期換一批樣本。是否正式翻轉定位是決策，不是順手能改的事。</p>
+      <p><strong>兩層架構，更新方式不同：</strong></p>
+      <ul>
+        <li><strong>機械層</strong>（可排程自動跑）：<code>.venv/bin/python run.py</code> 抓取＋統計，約 2 分鐘，產出 stats.json 與統計報告</li>
+        <li><strong>分析層</strong>（需模型在場）：上方「本期分析」由 Claude 讀完資料撰寫，非模板。本機無法定時喚醒模型，所以只能由你觸發</li>
+        <li>排程完成後跳<strong>桌面通知</strong>提醒你「資料就緒」，你再開 Claude Code 要分析——通知不是 Email（Gmail 連接器授權範圍不支援寫入）</li>
+      </ul>
+      <p><strong>判讀規則到本期為止的狀態：</strong>新聞面只有一條硬規則——<strong>抓取方式改成跨期累積之前，主題聲量不做跨期比較</strong>。職缺面累積到三條：異動要依序濾掉①非追蹤公司 ②刊登日遠早於本期者 ③換城市／換頁造成的一增一減（②③是本期新增）。</p>
+      <p><strong>與姊妹專案的分工：</strong>本報告回答「產業風向往哪吹」；<code>martech-job-radar</code> 回答「我現在該投哪裡」，同日產出 265 筆／35 家（多抓了 Cake 與更多 Yourator 公司），<strong>兩份報告的分母不同是正常的</strong>。趨勢結論以本報告為唯一來源。</p>
+      <p><strong>要修的話怎麼修（觀察，本期不動手）：</strong>把新聞改成累積式儲存（維護 <code>data/news-store.json</code>，每期把新抓到的併進去、依 <code>maxAgeDays</code> 過期），主題聲量改由 store 計算。這需要在 <code>prepare.md</code> 立一筆 MT 決策，並決定歷史六期快照怎麼處理。</p>
+    </div>
+  </details>
+
+  <!-- 1. 應用主題聲量 -->
+  <div class="panel">
+    <h2>1. 應用主題聲量</h2>
+    <p class="panel-note">抓取當下九個 feed 裡各主題的篇數。右欄為與 2026-08-10 的差值，<strong>本期一律不判讀</strong>（見解 3）——保留顯示只為留下記錄。</p>
+    <div class="bar-chart muted" id="topicChart"></div>
+    <div class="legend-note">淡化條＝樣本數低於 4 篇。⚠️「行銷自動化」與「隱私/法規」本期仍混入資安新聞（分類誤判未修），其中一篇同時灌進三個主題。</div>
+  </div>
+
+  <!-- 1a. 代表文章 -->
+  <div class="panel">
+    <h2>1a. 主要主題代表文章</h2>
+    <p class="panel-note">依時間新→舊，只列 4 個主題；標記 ⚑ 者為誤分類或跨期佔位的舊文。完整清單見 <code>reports/latest.md</code></p>
+
+    <div class="topic-block">
+      <div class="topic-title">生成式AI<span class="count">15 篇 · 本期並列最高</span></div>
+      <ul class="article-list">
+        <li><span class="date">08/13</span><a href="https://www.ithome.com.tw/news/178086" target="_blank" rel="noopener">Spotify 推出 AI 開發環境 Xirp，讓 Claude Code、Codex 與 Gemini 取得企業系統脈絡</a><span class="feed">·iThome</span></li>
+        <li><span class="date">08/13</span><a href="https://martechseries.com/predictive-ai/ai-platforms-machine-learning/chatgpt-referrals-to-b2b-websites-nearly-quadrupled-in-a-year-demandbase-data-shows/" target="_blank" rel="noopener">ChatGPT Referrals to B2B Websites Nearly Quadrupled in a Year, Demandbase Data Shows</a><span class="feed">·MarTech Series</span></li>
+        <li><span class="date">08/13</span><a href="https://www.ithome.com.tw/news/178088" target="_blank" rel="noopener">Unsloth Desktop 整合本機 AI 執行與訓練，本機模型可直接串接 Claude Code 與 Codex</a><span class="feed">·iThome</span></li>
+      </ul>
+    </div>
+
+    <div class="topic-block">
+      <div class="topic-title">AI Agent應用<span class="count">15 篇 · 本期並列最高</span></div>
+      <ul class="article-list">
+        <li><span class="date">08/13</span><a href="https://www.ithome.com.tw/news/178100" target="_blank" rel="noopener">AI 產業競爭從模型轉向代理執行框架，跨框架權限控管仍缺共通標準</a><span class="feed">·iThome</span></li>
+        <li><span class="date">08/13</span><a href="https://techorange.com/2026/08/13/can-agents-use-a-computer-yet-weve-got-the-data-a16z/" target="_blank" rel="noopener">AI Agent 操作電腦準確率衝上 85%，為何企業真正難題仍是如何「可靠地把工作做完」？</a><span class="feed">·TechOrange</span></li>
+        <li><span class="date">08/13</span><a href="https://martechseries.com/predictive-ai/ai-platforms-machine-learning/ai-adoption-in-cx-nears-70-yet-only-2-of-programs-reach-the-center-of-excellence-standard-forethought-report-finds/" target="_blank" rel="noopener">AI Adoption in CX Nears 70%, Yet Only 2% of Programs Reach the Center of Excellence Standard</a><span class="feed">·MarTech Series</span></li>
+      </ul>
+    </div>
+
+    <div class="topic-block">
+      <div class="topic-title">廣告投放/歸因<span class="count">8 篇 · 與你最相關</span></div>
+      <ul class="article-list">
+        <li><span class="date">08/13</span><a href="https://martech.org/marketing-without-signals-how-to-perform-when-the-data-disappears/" target="_blank" rel="noopener">Marketing without signals: How to perform when the data disappears</a><span class="feed">·MarTech.org</span></li>
+        <li><span class="date">08/13</span><a href="https://martechseries.com/sales-marketing/marketing-evolution-introduces-the-substrate-a-new-system-of-record-for-marketing-performance/" target="_blank" rel="noopener">Marketing Evolution Introduces the Substrate, a New System of Record for Marketing Performance</a><span class="feed">·MarTech Series</span></li>
+        <li><span class="date">08/12</span><a href="https://www.ithome.com.tw/news/178047" target="_blank" rel="noopener">DMA：2025 年國內數位影音廣告首度超越展示型廣告，AI 與新媒體重塑國內數位廣告版圖</a><span class="feed">·iThome</span></li>
+      </ul>
+    </div>
+
+    <div class="topic-block">
+      <div class="topic-title">行銷自動化<span class="count">11 篇 · 誤分類最嚴重的一格</span></div>
+      <ul class="article-list">
+        <li><span class="date">08/13</span><a href="https://techorange.com/2026/08/13/inside-a-multi-agent-ai-framework-used-to-compromise-government-entities-in-asia/" target="_blank" rel="noopener">疑中國駭客用 8 個 AI Agent 攻擊台灣，入侵失敗還會自己找新招</a><span class="feed">·TechOrange</span><span class="flag">⚑ 同時灌 3 主題</span></li>
+        <li><span class="date">08/12</span><a href="https://martechseries.com/social/influencer-marketing/viral-hub-marketing-launches-bisket-the-all-in-one-os-for-influencer-marketing/" target="_blank" rel="noopener">Viral Hub Marketing Launches Bisket, the All-in-One OS for Influencer Marketing</a><span class="feed">·MarTech Series</span></li>
+        <li><span class="date">08/13</span><a href="https://martechseries.com/predictive-ai/ai-platforms-machine-learning/shutterstock-brings-high-quality-images-videos-music-and-sound-effects-to-anthropics-claude/" target="_blank" rel="noopener">Shutterstock Brings Images, Videos, Music and Sound Effects to Anthropic's Claude</a><span class="feed">·MarTech Series</span><span class="flag">⚑ 誤分類</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 2. 公司聲量 -->
+  <div class="panel">
+    <h2>2. 公司聲量</h2>
+    <p class="panel-note">抓取當下被提及次數（樣本小，0 次 ≠ 沒動作）</p>
+    <div class="bar-chart" id="companyChart"></div>
+    <div class="legend-note"><strong>與上期完全相同的兩個數字，正好證明這一層沒有解析度</strong>：Insider 的 10 是 feed 長度不是聲量；Appier 的 3 筆全是 2025-10 舊文佔位，<strong>連續五期相同</strong>。上期的 Klaviyo 本期歸零，是滑出 feed 不是它沒動作。<br>台灣端本期真正的事件是<strong>台灣大哥大擬逾 291 億元公開收購精誠資訊</strong>（iThome／TechOrange 皆有報導）——精誠 Etu 是 SI 型 CDP 供應商，目前在下游 <code>docs/candidates.md</code> 標為待查證、未進主檔。這則新聞不改變它的分類，但說明台灣 MarTech 供給側正在被電信商整併。</div>
+  </div>
+
+  <!-- 3. 職缺訊號 -->
+  <div class="panel secondary">
+    <h2>3. 職缺訊號 <span class="readmore-badge">本期唯一可跨期比較的一節</span></h2>
+    <p class="panel-note">以 <code>jobId</code> 為鍵持續觀測同一批實體，是本報告目前訊噪比最高的資料層</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>公司</th><th class="num">職缺數</th><th class="num">vs 08/10</th><th>備註</th></tr></thead>
+        <tbody>
+          <tr><td>Appier</td><td class="num">88</td><td class="num hi">+3</td><td>Greenhouse 官方 API，全球職缺。<strong>新開 <code>Senior Digital Advertising Data Analyst</code></strong>（台北，08/10 刊登）與 <code>Research Scientist (GenAI) - Tokyo</code>；另兩筆 <code>Account Operations Intern</code> 是舊缺重新上架；消失 <code>Senior SWE, QA Automation</code></td></tr>
+          <tr><td>漸強實驗室</td><td class="num">6</td><td class="num">0</td><td>Yourator；<strong>連四期同樣的 6 筆</strong>，「產品擴編告一段落、重心轉向通路」持續成立</td></tr>
+          <tr><td>91APP</td><td class="num">1</td><td class="num">0</td><td>Yourator；主要在 104 刊登，覆蓋不足</td></tr>
+          <tr><td>awoo / iKala / Omnichat 等 7 家</td><td class="num">0</td><td class="num">—</td><td>主要在 104 刊登，本工具未覆蓋 104。下游 <code>martech-job-radar</code> 補抓 Cake 後 awoo 6 筆、Omnichat 7 筆</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 style="font-size:14px; margin-top:18px;">技能關鍵詞需求（前 8，樣本 128 筆職缺內文）</h2>
+    <div class="bar-chart" id="skillChart"></div>
+    <div class="legend-note"><strong>SQL +1、LLM +1 各對應一筆職缺</strong>：新開的資深分析職同時帶進這兩個關鍵詞，與見解 1 的職缺變動對得起來。SQL 本期 19 筆、排名第 3 且連六期穩定，仍是唯一穩到可以拿來排學習優先序的數字。<br>⚠️ 薪資樣本本期更小：<code>數據科學/ML</code> 只有 <strong>1 筆</strong>（150,000–191,666），<strong>1 筆不構成行情帶</strong>。可用的只有 <code>行銷/客戶成功</code> 15 筆（45,000–75,000）。</div>
+  </div>
+
+  <!-- 4. 下期盯什麼 -->
+  <div class="panel">
+    <h2>4. 下一期該盯什麼</h2>
+    <p class="panel-note">三個可證偽的觀察點，下期回來對答案</p>
+    <ul class="watchlist">
+      <li><span class="wl-mark"></span><div><strong><code>Senior Digital Advertising Data Analyst</code> 還在不在</strong>——這是本期唯一的新開分析職。若兩週內就下架，代表已補到人，<strong>投遞窗口比想像短</strong>；若掛滿一個月沒動，它就開始長得像那兩個 2019 年的常駐缺（見解 1）。</div></li>
+      <li><span class="wl-mark"></span><div><strong>Appier 實習缺會不會再掉回 6</strong>——本期回升到 8 是靠兩筆舊缺重新上架撐起來的。要看的不是總數，是<strong>有沒有任何一個 AI／研究類實習回來</strong>。</div></li>
+      <li><span class="wl-mark"></span><div><strong>新聞改累積式儲存的決策要不要立</strong>——連兩期都用同一條理由否決跨期判讀了，再拖下去，第 1 節與第 4 節等於每期產出不能用的內容（見解 3）。</div></li>
+    </ul>
+  </div>
+
+  <footer class="foot">
+    由 martech-trend-agent 自動產生 · 資料來源：公開 RSS（產業媒體＋公司部落格）、Greenhouse 官方 API、Yourator<br>
+    數字受來源覆蓋範圍影響，僅供趨勢判讀，非市場全貌 · 未涵蓋 104／CakeResume
+  </footer>
+
+</div>
+
+<script>
+(function () {
+  function renderBars(containerId, data, options) {
+    options = options || {};
+    var container = document.getElementById(containerId);
+    if (!container) { return; }
+    var max = Math.max.apply(null, data.map(function (d) { return d.value; }));
+    var altClass = options.alt ? ' alt' : '';
+    var withDelta = options.withDelta;
+    data.forEach(function (d) {
+      var pct = max ? (d.value / max) * 100 : 0;
+      var row = document.createElement('div');
+      row.className = 'bar-row' + (withDelta ? ' with-delta' : '') + (d.hi ? ' hi' : '');
+      var lowSample = options.lowThreshold && d.value < options.lowThreshold;
+      var deltaCell = '';
+      if (withDelta) {
+        var dv = d.delta;
+        var cls = options.mutedDelta ? '' : (dv > 0 ? ' up' : (dv < 0 ? ' down' : ''));
+        var txt = dv > 0 ? '+' + dv : (dv < 0 ? '−' + Math.abs(dv) : '—');
+        deltaCell = '<div class="bar-delta' + cls + '">' + txt + '</div>';
+      }
+      row.innerHTML =
+        '<div class="bar-label">' + d.label + '</div>' +
+        '<div class="bar-track"><div class="bar-fill' + altClass + '" style="width:' + pct + '%; opacity:' + (lowSample ? 0.45 : 1) + ';" title="' + d.label + '：' + d.value + '"></div></div>' +
+        '<div class="bar-value">' + d.value + '</div>' +
+        deltaCell;
+      container.appendChild(row);
+    });
+  }
+
+  renderBars('topicChart', [
+    { label: '生成式AI', value: 15, delta: 1, hi: true },
+    { label: 'AI Agent應用', value: 15, delta: 4, hi: true },
+    { label: '行銷自動化', value: 11, delta: 4, hi: true },
+    { label: '併購/募資', value: 8, delta: 0 },
+    { label: '廣告投放/歸因', value: 8, delta: -2 },
+    { label: 'CRM/會員留存', value: 8, delta: 3 },
+    { label: '電商/OMO', value: 7, delta: 0 },
+    { label: '個人化推薦', value: 4, delta: -1 },
+    { label: '隱私/法規', value: 3, delta: -2 },
+    { label: '對話式商務', value: 2, delta: -1 },
+    { label: 'CDP/第一方數據', value: 2, delta: 1 },
+    { label: '零售媒體', value: 0, delta: 0 }
+  ], { lowThreshold: 4, withDelta: true, mutedDelta: true });
+
+  renderBars('companyChart', [
+    { label: 'Insider', value: 10, hi: true },
+    { label: 'Appier', value: 3 },
+    { label: 'Klaviyo', value: 0 },
+    { label: 'iKala', value: 0 },
+    { label: 'MoEngage', value: 0 },
+    { label: '漸強實驗室', value: 0 }
+  ], { lowThreshold: 3 });
+
+  renderBars('skillChart', [
+    { label: 'Python', value: 32, delta: 0 },
+    { label: 'Machine Learning', value: 20, delta: -1 },
+    { label: 'SQL', value: 19, delta: 1 },
+    { label: 'LLM', value: 14, delta: 1 },
+    { label: 'API', value: 13, delta: 0 },
+    { label: 'Docker', value: 10, delta: 0 },
+    { label: 'Git', value: 9, delta: 0 },
+    { label: 'CRM', value: 8, delta: 0 }
+  ], { alt: true, withDelta: true });
+})();
+</script>
