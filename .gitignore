@@ -4,3 +4,9 @@ __pycache__/
 
 # 排程執行記錄（launchd StandardOut/ErrorPath 落點）；非資料資產，不進版控
 scripts/refresh.log
+
+# 環境變數與金鑰（← D-029）
+.env
+.env.*
+!.env.example
+!.env.*.example
