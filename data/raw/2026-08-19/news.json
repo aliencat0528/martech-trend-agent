@@ -1,0 +1,692 @@
+[
+ {
+  "feed": "iThome",
+  "title": "OpenAI推出ChatGPT青少年模式，未滿18歲自動啟用",
+  "link": "https://www.ithome.com.tw/news/178269",
+  "publishedTs": 1787105321,
+  "summary": "OpenAI周二（8/18）宣布推出ChatGPT for Teens青少年版本，系統若判斷使用者未滿18歲，或使用者自行申報年齡介於13至17歲之間，將自動導入此版本，以提供更嚴格的安全防護及家長控管功能。",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "生成式AI"
+  ]
+ },
+ {
+  "feed": "iThome",
+  "title": "Mozilla發布Firefox 154，修補58個資安漏洞",
+  "link": "https://www.ithome.com.tw/news/178261",
+  "publishedTs": 1787137699,
+  "summary": "Mozilla近日發布Firefox瀏覽器的資安公告，揭露63個漏洞，包含20個高風險漏洞，並提供已修補完成的154版，建議用戶儘速升級，以降低風險。",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "隱私/法規"
+  ]
+ },
+ {
+  "feed": "iThome",
+  "title": "Gemini in Chrome全面推向美國Android用戶，付費方案加入自動瀏覽功能",
+  "link": "https://www.ithome.com.tw/news/178256",
+  "publishedTs": 1787137687,
+  "summary": "Google周二（8/18）宣布，Gemini in Chrome全面部署到美國Android裝置。付費Google用戶還多了自動瀏覽（auto-browse）功能。",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "生成式AI"
+  ]
+ },
+ {
+  "feed": "iThome",
+  "title": "Google發布Chrome 151更新，修補15個資安漏洞",
+  "link": "https://www.ithome.com.tw/news/178255",
+  "publishedTs": 1787137686,
+  "summary": "Google發布Chrome瀏覽器新版本，將Windows與Mac平臺穩定版更新至151.0.7922.169與151.0.7922.170，Linux版本更新至151.0.7922.169，同時Android版也更新為151.",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "隱私/法規"
+  ]
+ },
+ {
+  "feed": "iThome",
+  "title": "GitLab發布緊急更新，修補重大等級的GraphQL漏洞",
+  "link": "https://www.ithome.com.tw/news/178254",
+  "publishedTs": 1787134108,
+  "summary": "在上週GitLab修補13個資安漏洞後，8月17日開發團隊針對社群版（Community Edition）與企業版（Enterprise Edition）用戶，發布重大修補更新（Critical Patch Release），解決與公布兩個GraphQL弱點CVE-2026-19478、CVE-2026-19650，其中最嚴重的是CV",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "隱私/法規"
+  ]
+ },
+ {
+  "feed": "iThome",
+  "title": "針對6月Citrix修補的NetScaler阻斷服務漏洞，研究人員警告可被用於遠端執行任意程式碼",
+  "link": "https://www.ithome.com.tw/news/178251",
+  "publishedTs": 1787134130,
+  "summary": "6月30日Citrix針對應用程式傳遞控制器NetScaler ADC、SSL VPN遠端存取設備NetScaler Gateway發布更新，修補6個資安漏洞，其中編號為CVE-2026-8452（CVSS v4.0風險評為8.8分）的弱點，該公司指出有可能會導致NetScaler設備出現服務中斷（DoS）的現象。近期有資安公司公布細節，指出此問題實際上的影響可能比Citrix描述的還要嚴重。",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "隱私/法規"
+  ]
+ },
+ {
+  "feed": "iThome",
+  "title": "Zenity募資1.25億美元，擴大AI代理安全布局",
+  "link": "https://www.ithome.com.tw/news/178168",
+  "publishedTs": 1787130480,
+  "summary": "隨著企業開始讓AI代理存取系統與資料、呼叫工具並直接執行工作，安全風險也從AI模型本身延伸到代理實際採取的動作。專注AI代理安全與治理的資安業者Zenity宣布完成1.25億美元C輪募資。Zenity表示，新資金將用於持續開發旗下平臺、擴大資安研究團隊Zenity Labs，以及拓展歐洲與亞太市場。",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "併購/募資"
+  ]
+ },
+ {
+  "feed": "iThome",
+  "title": "Apple發布iOS 26.6.1與iPadOS 26.6.1，修補29個資安漏洞",
+  "link": "https://www.ithome.com.tw/news/178246",
+  "publishedTs": 1787033305,
+  "summary": "Apple於8月17日發布iOS 26.6.1與iPadOS 26.6.1，修補29個資安漏洞，涵蓋Audio、ImageIO、GPU、Kernel、Telephony及WebKit等系統元件。",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "隱私/法規"
+  ]
+ },
+ {
+  "feed": "TechOrange",
+  "title": "美軍出資研發、中國做成產業：宇樹科技如何把美軍研究成果變成機器狗量產優勢？",
+  "link": "https://techorange.com/2026/08/19/asia-pacific-how-us-military-funding-propelled-chinas-robot-dogs/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+  "publishedTs": 1787119200,
+  "summary": "<p>美國軍方多年來投入大量資金資助四足機器人的移動技術研究，這些透過美國陸軍研究實驗室（ARL）等軍事專案挹注的研發資金，成為四足機器人運動能力的技術搖籃。麻省理工學院（MIT）、賓州大學等美國頂尖學術機構在這些專案中取得突破，並依據學術慣例公開發表相關論文與研究成果，然而這些最初由美軍資助、目的是激發產業技術創新的公開成果，現在卻成為中國機器人製造商宇樹科技（Unitree Robotics）發展旗下機器狗的重要技術養分。 宇樹科技不僅迅速吸收這些研究精華，更展現強大的工程化能力，將繁複的實驗室技術成功轉化為低成本、可量產的商業產品。例如，宇樹科技在 2023 年推出的四足機器人 Go2 機型，售價僅約 1,600 美元，憑藉價格優勢快速拓展國際市場，去年更售出超過 1.8 萬台四足機器人。 現在，宇樹科技更進一步邁向資本市場，於上海證券交易所科創板（STAR Market）IPO 募資 9 億美元，估值達到約 91 億美元。這場空前的申購狂潮與亮眼的估值，凸顯出當前美中機器人競爭的關鍵戰場，那就是誰能以最快速度將基礎研究轉化為實際產品，並建立起具備競爭力的產業規模。 美軍資助研究",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "電商/OMO",
+   "併購/募資"
+  ]
+ },
+ {
+  "feed": "TechOrange",
+  "title": "TikTok 私訊將能轉帳？彭博：TikTok Pay 悄悄開發點對點支付",
+  "link": "https://techorange.com/2026/08/19/tiktok-exploring-feature-send-money-messages/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+  "publishedTs": 1787118715,
+  "summary": "<p>《Bloomberg》報導，TikTok 正在開發一項新功能，未來可能讓使用者直接透過私訊互相轉帳，進一步將支付服務延伸至一般使用者之間的金錢往來。 目前這項功能仍在開發階段，若最終推出，交易將由 TikTok Pay 負責處理。TikTok Pay 目前已在東南亞部分市場上線。研究人員在美國版 TikTok iPhone App 的程式碼中發現相關功能的開發痕跡，內容顯示，收款人可在款項失效前點擊接受付款；付款人則能透過推播通知或 App 收件匣掌握交易進度。此外，付款時也可以附加訊息，功能類似 PayPal 旗下 Venmo 的付款備註。 TikTok 祕密研發「私訊轉帳」功能？社群媒體平台紛布局金融科技 TikTok 發言人表示，這項功能尚未在任何市場進行測試，TikTok Pay 現在僅在越南、馬來西亞及泰國推出，主要用於支付 TikTok Shop 的購物款項。《Bloomberg》提及，雖然 TikTok 最終不一定會推出點對點支付功能，但已投入相關技術開發，顯示其母公司字節跳動正評估進一步拓展這項業務的可能性。 近年來，社群媒體平台紛紛將業務拓展至電商及金融服務，希",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "電商/OMO"
+  ]
+ },
+ {
+  "feed": "TechOrange",
+  "title": "商品評論可能藏攻擊指令，零售業導入 AI 代理前該將哪些資安缺口補起來？",
+  "link": "https://techorange.com/2026/08/19/retailer-security-strategy/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+  "publishedTs": 1787107903,
+  "summary": "<p>會員帳號、金流平台、庫存系統與店內裝置，如今被整合成一套講求速度與無縫體驗的零售科技網路。但每一次新增的連結，都同時擴大零售業者的受攻擊面，安全缺口往往在資料與裝置不斷交換資訊時，難以被察覺。 這種難以察覺的特性，正是因為多數業者盯著的是單一系統夠不夠堅固，卻沒注意到系統與系統相連的那一刻，才是真正的風險所在。 連結點本身就是風險，而非單一系統 零售業者經常低估第三方與系統整合本身的風險，攻擊者往往從供應商、API 或店內裝置切入，再一路移動到金流或顧客系統。 更棘手的是，真正容易被攻破的地方，往往不是任何單一系統，而是系統與系統之間，沒有人真正負責的銜接地帶。 IT 部門負責收銀系統、行銷部門管理忠誠計畫、供應商操作金流，但這些環節之間的交接處往往沒有明確歸屬，也正是攻擊者藉機潛入的地方，而可能的解法是替每一個連結指定真正的負責人。 除了業務系統之間的銜接，視聽與數位看板網路同樣容易被忽略。 這些連上 IP 網路的系統，經常與金流、庫存系統共用基礎設施，卻不在 IT 資安治理範圍之內，鮮少被更新或稽核，形成一個乏人監控的入侵管道，但它們理應被納入跟公司其他網路一樣的資安政策之下",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "AI Agent應用",
+   "個人化推薦",
+   "CRM/會員留存",
+   "對話式商務",
+   "電商/OMO",
+   "行銷自動化",
+   "隱私/法規"
+  ]
+ },
+ {
+  "feed": "TechOrange",
+  "title": "零件比前代少一半、推論最高快 30 倍：Cerebras 推 CS-4，讓 GPU 與專用晶片各自做擅長的事",
+  "link": "https://techorange.com/2026/08/19/cerebras-unveils-cs-4/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+  "publishedTs": 1787107253,
+  "summary": "<p>隨著 AI 應用持續朝更複雜的推理與 Agent 任務發展，推論（inference）速度正成為影響使用體驗與工作效率的重要瓶頸。晶片公司 Cerebras 近日宣布推出新一代伺服器系統 CS-4，採用了該公司獨創、面積等同於整張餐盤大小的「晶圓級晶片」（Wafer-Scale Engine），瞄準生成式 AI 與 AI Agent 的高速推論需求。 Cerebras 表示，CS-4 的 AI 推論速度最高可達傳統 GPU 系統的 30 倍。這項速度優勢對 AI Agent 尤其重要，因為 Agent 執行任務時往往需要反覆推理、呼叫工具並產生大量 token，每一步的延遲都會不斷累積，最終拉長整項工作的完成時間。不過需要注意的是，目前「最高快 30 倍」仍是 Cerebras 官方提供的測試數據，尚未經公正第三方的標準測試（Benchmark）驗證；此外，Cerebras 所標榜的極致效能也高度依賴運算的「稀疏性」（sparsity），在一般大型語言模型推論中未必能完全發揮。&nbsp; 不過，CS-4 的改變不只是追求更高算力。Cerebras 同時重新設計整套伺服器架構，降",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "AI Agent應用",
+   "生成式AI",
+   "隱私/法規"
+  ]
+ },
+ {
+  "feed": "TechOrange",
+  "title": "提早搶進心智購物車：衛浴巨頭如何靠 Zillow×Pinterest「意向數據」卡位上游商機？",
+  "link": "https://techorange.com/2026/08/19/zillow-pinterest-kohler-retail-media/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+  "publishedTs": 1787106072,
+  "summary": "<p>傳統 Retail Media（如 Amazon 或 Walmart 廣告）通常是在消費者已經準備購買、進入搜尋欄時才攔截，這屬於需求捕獲（Demand Capture）。但對衛浴、家具、大型家電與修繕工具等高單價商品而言，消費決策往往早在搜尋商品之前就已經開始。搬家、買房、裝修等重大生活事件，才是消費者產生需求與累積購買意圖的起點。 為了搶占這個最上游的消費場景，房產平台 Zillow 近期宣布與社群平台 Pinterest 展開合作。透過 Zillow Elevate 廣告業務，首度將其累積的真實房產瀏覽行為資料拓展至自有平台之外，讓這些品牌廣告主能直接在 Pinterest 平台上進行精準投放。（編按：Zillow 是握有住房意向資料的提供方，Pinterest 是使用者規劃新居的投放場域，品牌廣告主則是實際下廣告的使用方。） 現實數據與視覺探索合擊：打通最上游的消費意圖 這項跨平台合作的核心，在於將消費者的房產行為提前轉化為商業意向。人們通常會在交屋或搬家前數個月就開始規劃新生活，在 Pinterest 上搜尋油漆配色、收藏家具靈感，甚至思考廚衛改造方案。Pinteres",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "廣告投放/歸因",
+   "零售媒體",
+   "電商/OMO",
+   "隱私/法規"
+  ]
+ },
+ {
+  "feed": "TechOrange",
+  "title": "AI 用得多不等於生產力高：看摩根大通、高盛、花旗，如何用 3 種管理模式重新定義「AI KPI」",
+  "link": "https://techorange.com/2026/08/18/wall-street-banks-ai-strategy-spending-jpmorgan-citi-goldman/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+  "publishedTs": 1787036400,
+  "summary": "<p>華爾街各大金融巨頭目前正投入數十億美元，展開一場重塑工作、文化與權力版圖的 AI 科技軍備競賽。從繁雜的交易、後台作業到日常工作流程，生成式 AI 已經無處不在，甚至徹底改變軟體工程師、初級銀行員與高階主管的角色定位。 然而，隨著投資與研發規模急遽擴大，分析師與投資人開始更頻繁地追問這些科技支出的實際投資回報（ROI）與安全性，各界也逐漸對高額支出是否合理產生疑慮。摩根大通（JPMorgan）執行長 Jamie Dimon 就坦言，因為現在所有競爭對手都在使用AI，這項技術在金融業已形同基本配備，單純擁有 AI 已不足以創造差異。這也代表真正的競爭關鍵已經從誰能將 AI 從員工手中的日常工具，轉化為能夠具體衡量的成本效益、工作效率與實質業務成果。 在這場競賽中，摩根大通已經交出一張非常具體的成績單。Jamie Dimon 指出，公司利用 AI 所帶來的成本節省，目前已經足以抵銷投入的約 20 億美元資金。 近千個 AI 案例還不夠，摩根大通開始追使用率、改流程、重整組織 摩根大通每年擁有接近 200 億美元的科技預算，全力爭取在 AI 領域的領先地位。在第二季財報會議上，摩根大通",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "生成式AI"
+  ]
+ },
+ {
+  "feed": "TechOrange",
+  "title": "Cursor 推 Origin 進軍程式碼託管：AI coding 戰場為何從 IDE 打到 GitHub？",
+  "link": "https://techorange.com/2026/08/18/cursor-origin-ai-agent-github/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+  "publishedTs": 1787027665,
+  "summary": "<p>AI 程式開發工具 Cursor 宣布推出程式碼託管平台 Origin early beta，把程式碼儲存庫、Pull Request（PR）、程式碼瀏覽與 GitHub 同步納入 Cursor。過去 Cursor 最鮮明的角色，是讓工程師在 IDE 裡直接與 AI 一起寫程式，如今卻開始跨進原本由 GitHub 等平台掌握的程式碼託管與協作環節。Cursor 為什麼不再只守著 AI 編輯器？答案可能與 AI Agent 正逐漸改變軟體開發流程有關。 不必離開 GitHub，Origin 先把工作拉進 Cursor Origin 現階段並沒有要求團隊立刻搬離 GitHub。根據 Cursor 官方文件，若使用 GitHub 同步功能，GitHub 仍是主要版本來源，Origin 則維持同步副本。企業因此可以保留既有 GitHub 流程，同時在 Cursor 裡瀏覽程式碼、處理 PR，並把任務交給 Cloud Agent。 這種設計降低了嘗試 Origin 的門檻，也讓 Cursor 可以先把更多開發工作留在自己的環境裡。之所以值得注意，是因為 AI coding 的使用方式也在改",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "AI Agent應用"
+  ]
+ },
+ {
+  "feed": "TechOrange",
+  "title": "AI 晶片客戶需求上看 20 億美元，Arm 卻得從零搶台積電與記憶體產能：從賣 IP 到自己賣晶片有多難？",
+  "link": "https://techorange.com/2026/08/18/arm-cfo-eyes-deals-chip-building-bring-new-challenges/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+  "publishedTs": 1787023982,
+  "summary": "<p>過去，Arm 主要透過授權晶片架構與設計給 NVIDIA、Apple 等客戶，以維持高毛利、輕資產的商業模式。然而，在 AI 浪潮的強力推動下，Arm 的股價今年至今已翻倍成長，公司市值一舉衝上 3,000 億美元。這股強勁的市場動力與資金實力，促使這家由軟銀（SoftBank）控股的公司跨出傳統的 IP 授權模式，開始直接銷售自己專為 AI 設計的 CPU 晶片。 面對這場商業模式的重大轉變，Arm 財務長（CFO）Jason Child 近日接受《The Information》訪問時坦言：「交付實體晶片絕對比授權設計更複雜。」然而，Jason Child 也指出，促使 Arm 決心跨出這一大步的關鍵在於，AI 帶來的市場商機已經遠超公司最初預期的規模，面對如此龐大的需求，儘管實體晶片供應鏈的運作極具挑戰，Arm 仍選擇積極投入這場半導體轉型之路。 AI Agent 推高 CPU 需求，Arm 從 IP 授權跨進完整 AI 晶片 今年 3 月，Arm 正式宣布開始銷售專為 AI 運算設計的 CPU，並已成功將 Meta Platforms 和 OpenAI 納為首批重要客戶。",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "AI Agent應用"
+  ]
+ },
+ {
+  "feed": "TechOrange",
+  "title": "CRA 漏洞與重大資安事件通報義務 9 月上路！叡揚資訊攜手電電公會 聚焦產品安全治理與合規落地",
+  "link": "https://techorange.com/2026/08/18/gss-cra-sbom/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+  "publishedTs": 1787022506,
+  "summary": "<p>歐盟《網路韌性法案》（Cyber Resilience Act, CRA）正進入企業合規準備的關鍵階段。自 2026 年 9 月 11 日起，針對已遭主動利用漏洞及影響數位產品安全的重大資安事件，相關通報義務將率先開始適用。對產品銷往歐盟市場的企業而言，CRA 的準備工作也正從「理解法規」進一步走向「建立可執行的產品安全治理流程」。為協助台灣企業掌握 CRA 最新要求與實務因應策略，叡揚資訊將於 2026 年 8 月 20 日攜手台灣區電機電子工業同業公會，共同舉辦「因應歐盟韌性法案（CRA）最新要求：產品安全治理與合規實務研討會」，聚焦 Security by Design、漏洞管理、SBOM、軟體供應鏈治理及產品全生命週期安全管理等議題，協助企業思考如何將法規要求真正落實至產品研發與日常治理流程。 長期關注國際產品安全法規與企業數位治理發展的叡揚資訊，去年即攜手台灣區電機電子工業同業公會舉辦 CRA 專題研討會，協助企業掌握 CRA 對產品安全與軟體供應鏈管理所帶來的影響。今年隨著漏洞及重大資安事件通報義務即將適用，研討會議題也將進一步從法規解析延伸至實際治理，探討企業如何建",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "隱私/法規",
+   "併購/募資"
+  ]
+ },
+ {
+  "feed": "TechOrange",
+  "title": "AI 先篩出真的要買車的人，業務再跟進：Mazda 如何縮短與消費者的資訊落差？",
+  "link": "https://techorange.com/2026/08/18/mazda-ai/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+  "publishedTs": 1787017695,
+  "summary": "<p>知名汽車品牌馬自達（Mazda）正將 AI 導入顧客旅程，從新車上市前的潛在買家篩選，到車輛進廠後的維修溝通，重新設計經銷商與車主之間的互動方式。這套策略的核心，是讓數位工具協助經銷商更早掌握顧客意圖，也讓車主在需要做決定時，能獲得更清楚、即時的資訊。 AI 過濾意向，精準鎖定潛力買家 在英國市場，Mazda UK 與科技公司 ELLA 合作，於新車上市前導入 AI 平台 optimAIze，首先處理的就是哪些人真的準備買車。目前平台應用於 Mazda 的 Keep Me Informed 計畫，涵蓋 Mazda6e、CX-5、CX-6e 等新車，消費者留下資料後，系統會透過 AI 驅動的電子郵件與簡訊持續互動，分析後續回應與行為。 過去，這類新車上市前的詢問通常會直接分配給經銷商，業務人員收到的名單可能同時包含高意願買家與僅想了解資訊的消費者。導入 optimAIze 後，AI 會進一步辨識具體購買訊號，例如主動要求試駕、索取報價，或詢問舊車換購方案等，再將這些高意向客戶交給 Mazda 零售網絡跟進。系統也會提供顧客互動背景，讓業務人員在接手時掌握前因後果，減少重新詢問的時間",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "CDP/第一方數據",
+   "個人化推薦",
+   "電商/OMO",
+   "行銷自動化",
+   "併購/募資"
+  ]
+ },
+ {
+  "feed": "TechOrange",
+  "title": "【科技早餐】SpaceX 600 億美元收購 Cursor，阿里稱 Qwen 半年下載破 30 億次、在 Hugging Face 領先 Google 與 Meta",
+  "link": "https://techorange.com/2026/08/18/spacex-cursor-acquisition-alibaba-qwen-ai-model-downloads/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+  "publishedTs": 1787002200,
+  "summary": "<p>【科技早餐】今天精選 7 則國內外重要科技新聞。 ＊SpaceX 600 億美元收購 Cursor，馬斯克擴大企業 AI 版圖 監管文件顯示，SpaceX 對 Cursor 母公司 Anysphere 的收購案已於 8 月 14 日生效。這筆價值 600 億美元的全股票交易，是科技業史上規模最大的收購案之一。Anysphere 於 2022 年成立，隔年推出 AI 程式開發工具 Cursor，協助工程師撰寫、修改及檢查程式。 交易完成前，雙方已合作開發 AI 模型與代理工具。Cursor 表示，加入 SpaceX 後將能使用更大規模的 GPU 算力，打造能力更強、運作成本更低的模型。這筆收購讓 SpaceX 進一步整合算力、AI 模型與開發者工具，擴大在企業 AI 市場的布局。 ＊阿里稱 Qwen 半年下載逾 30 億次，Hugging Face 用量領先 Google、Meta 阿里巴巴表示，旗下開放權重模型 Qwen 過去 6 個月全球下載量超過 30 億次，累計釋出逾 [&hellip;]</p>",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "併購/募資"
+  ]
+ },
+ {
+  "feed": "TechOrange",
+  "title": "從機器手臂到半導體設備都不能停機：台達如何用新世代電源生態系兼顧高負載、極端環境與能源效率？",
+  "link": "https://techorange.com/2026/08/17/delta-infinity-ready-podcast/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+  "publishedTs": 1786960523,
+  "summary": "<p>專訪：戴季全撰稿：李昀蔚 當全球科技大廠持續擴建 AI 資料中心，製造業也加速導入智慧工廠、機器人與自動化設備，一場不容易被看見卻決定整套系統能否穩定運轉的基礎設施競賽，也正在同步升溫，那就是「電源」。 台達標準電源事業部總經理陳威廷在接受本集《全新一週》專訪時指出，台達標準電源目前主要布局工業、醫療與照明三大應用領域。所謂標準電源，就是架上現成、具泛用規格的商品化產品，也因為使用範圍非常廣泛，當 AI、自動化與淨零趨勢交會時，過去看似不起眼的電源供應器，正迎來全新的工程挑戰。 AI 算力背後是電力堆疊，工業電源面臨三大新考驗 不論是 AI 資料中心，還是智慧工廠裡的 PLC、控制器與機器手臂，其運作都離不開穩定供電。陳威廷形容，電源供應器雖然容易被忽視，但卻特別重要，因為如果一出問題，就什麼都沒有了。尤其隨著 AI 模型與運算需求快速成長，算力愈強，電力堆疊就愈大，因此也讓底層的工業電源出現三項全新的考驗。 首先是可靠度與穩定性的考驗，一旦控制器供電中斷，所有設備都可能跟著停擺，甚至可能因為燒毀而造成廠房重大損失。其次，則是能源轉換效率的考驗，雖然單一設備多消耗幾個百分點的電力",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "行銷自動化"
+  ]
+ },
+ {
+  "feed": "INSIDE",
+  "title": "1,100 人公司怎麼管 50 個 AI 代理人？ABC Legal 用 pull request 當關卡，310 人每天在用",
+  "link": "https://www.inside.com.tw/article/42125-abc-legal-claude-managed-agents-50-agents",
+  "publishedTs": 1787113800,
+  "summary": "ABC Legal 案例闡述以「代理人即程式碼」方法論，透過 Git pull request 流程治理 Claude 代理人；此架構整合自動化回饋迴圈，實現版本控制、持續最佳化與顯著成本降低。",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "AI Agent應用",
+   "生成式AI",
+   "行銷自動化"
+  ]
+ },
+ {
+  "feed": "INSIDE",
+  "title": "Anthropic 公開 Claude 文字浮水印原理，換掉挑字的亂數來源、短文本與程式碼較難測出",
+  "link": "https://www.inside.com.tw/article/42098-claude-text-watermark-synthid-eu-ai-act",
+  "publishedTs": 1787038740,
+  "summary": "Anthropic 為符合歐盟法規替 Claude 導入文字浮水印，並不分地區一體適用。官方稱內部測試未見浮水印影響輸出品質與創意，也不增加成本，但短文本、程式碼等情境可能測不出來，整段逐字重寫更會讓浮水印消失。",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "生成式AI"
+  ]
+ },
+ {
+  "feed": "INSIDE",
+  "title": "挑戰 GitHub！SpaceX 旗下 Cursor 推出 Origin，進軍 GitHub、GitLab 的地盤",
+  "link": "https://www.inside.com.tw/article/42110-cursor-origin-code-hosting-github-gitlab",
+  "publishedTs": 1787031420,
+  "summary": "Cursor 將 Origin 定位為「為 AI 代理時代打造的 Git 協作平台」，這也代表 Cursor 的版圖開始從 AI 寫程式延伸到程式碼託管、審查與協作，進一步進入 GitHub、GitLab 長期經營的市場。",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "AI Agent應用"
+  ]
+ },
+ {
+  "feed": "MarTech.org",
+  "title": "AI visibility index shows which brands are disappearing",
+  "link": "https://martech.org/ai-visibility-index-shows-which-brands-are-disappearing/",
+  "publishedTs": 1787060931,
+  "summary": "<div><img alt=\"\" class=\"attachment-large size-large wp-post-image\" height=\"450\" src=\"https://martech.org/wp-content/uploads/2026/08/winners-and-losers-chart-800x450.png\" style=\"margin-bottom: 15px;\" width=\"800\" /></div>\n<p>Some brands dominate Google yet barely surface in AI answers. Here’s where traditional authority and AI recall diverge.</p>\n<p>The post <a href=\"https://martech.org/ai-visibility-index-shows-which-brands-are-disappearing/\">AI visibility index shows which brands are disappearin",
+  "matchedCompanies": [],
+  "matchedTopics": []
+ },
+ {
+  "feed": "MarTech.org",
+  "title": "IAB updates standard for disclosing AI in ads",
+  "link": "https://martech.org/iab-updates-standard-for-disclosing-ai-in-ads/",
+  "publishedTs": 1787058120,
+  "summary": "<div><img alt=\"\" class=\"attachment-large size-large wp-post-image\" height=\"450\" src=\"https://martech.org/wp-content/uploads/2026/06/iab-tech-lab2-800x450.png\" style=\"margin-bottom: 15px;\" width=\"800\" /></div>\n<p>IAB’s updated framework draws the AI disclosure line around what changes consumer perceptions of authenticity, identity, and what’s real.</p>\n<p>The post <a href=\"https://martech.org/iab-updates-standard-for-disclosing-ai-in-ads/\">IAB updates standard for disclosing AI in ads</a> appeare",
+  "matchedCompanies": [],
+  "matchedTopics": []
+ },
+ {
+  "feed": "MarTech.org",
+  "title": "How to overcome the 3 barriers to AI adoption",
+  "link": "https://martech.org/how-to-overcome-the-3-barriers-to-ai-adoption/",
+  "publishedTs": 1787057700,
+  "summary": "<div><img alt=\"\" class=\"attachment-large size-large wp-post-image\" height=\"450\" src=\"https://martech.org/wp-content/uploads/2026/08/barrier-to-AI-adoption-800x450.jpg\" style=\"margin-bottom: 15px;\" width=\"800\" /></div>\n<p>The biggest barriers to AI adoption may be internal: inconsistent training, bias concerns, and tactics that get ahead of strategy.</p>\n<p>The post <a href=\"https://martech.org/how-to-overcome-the-3-barriers-to-ai-adoption/\">How to overcome the 3 barriers to AI adoption</a> appea",
+  "matchedCompanies": [],
+  "matchedTopics": []
+ },
+ {
+  "feed": "MarTech.org",
+  "title": "How to stop overpaying for AI complexity",
+  "link": "https://martech.org/how-to-stop-overpaying-for-ai-complexity/",
+  "publishedTs": 1787055900,
+  "summary": "<div><img alt=\"How much does a customer data platform cost\" class=\"attachment-large size-large wp-post-image\" height=\"450\" src=\"https://martech.org/wp-content/uploads/2022/08/How-much-does-a-customer-data-platform-cost-800x450.jpeg\" style=\"margin-bottom: 15px;\" width=\"800\" /></div>\n<p>Rule-based, predictive, generative, and agentic systems come with very different costs and risks. Start with the lightest approach that can do the job.</p>\n<p>The post <a href=\"https://martech.org/how-to-stop-overp",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "AI Agent應用",
+   "生成式AI",
+   "CDP/第一方數據"
+  ]
+ },
+ {
+  "feed": "MarTech.org",
+  "title": "Why LinkedIn doesn’t really care about AI slop",
+  "link": "https://martech.org/why-linkedin-doesnt-really-care-about-ai-slop/",
+  "publishedTs": 1786979297,
+  "summary": "<div><img alt=\"\" class=\"attachment-large size-large wp-post-image\" height=\"270\" src=\"https://martech.org/wp-content/uploads/2012/12/social-media-networking-featured.jpg\" style=\"margin-bottom: 15px;\" width=\"570\" /></div>\n<p>The problem is AI is perfect for producing the polished, predictable business speak the platform rewards.</p>\n<p>The post <a href=\"https://martech.org/why-linkedin-doesnt-really-care-about-ai-slop/\">Why LinkedIn doesn&#8217;t really care about AI slop</a> appeared first on <a ",
+  "matchedCompanies": [],
+  "matchedTopics": []
+ },
+ {
+  "feed": "MarTech.org",
+  "title": "Why buyers hate your multi-year software overhaul",
+  "link": "https://martech.org/why-buyers-hate-your-multi-year-software-overhaul/",
+  "publishedTs": 1786971360,
+  "summary": "<div><img alt=\"MarTechBot Explains it all.\" class=\"attachment-large size-large wp-post-image\" height=\"450\" src=\"https://martech.org/wp-content/uploads/2025/11/mtb-explains-it-all-new.png\" style=\"margin-bottom: 15px;\" width=\"800\" /></div>\n<p>B2B buyers are growing more risk-averse. Here is how to restructure engineering and pitches around modular API integration models.</p>\n<p>The post <a href=\"https://martech.org/why-buyers-hate-your-multi-year-software-overhaul/\">Why buyers hate your multi-year",
+  "matchedCompanies": [],
+  "matchedTopics": []
+ },
+ {
+  "feed": "MarTech.org",
+  "title": "The next AI opportunity is deciding where to spend",
+  "link": "https://martech.org/the-next-ai-opportunity-is-deciding-where-to-spend/",
+  "publishedTs": 1786970040,
+  "summary": "<div><img alt=\"Multiple options concept\" class=\"attachment-large size-large wp-post-image\" height=\"450\" src=\"https://martech.org/wp-content/uploads/2025/05/Multiple-options-concept-800x450.jpg\" style=\"margin-bottom: 15px;\" width=\"800\" /></div>\n<p>AI is moving deeper into media buying and budget allocation, helping marketers put more of their spending into what’s working.</p>\n<p>The post <a href=\"https://martech.org/the-next-ai-opportunity-is-deciding-where-to-spend/\">The next AI opportunity is d",
+  "matchedCompanies": [],
+  "matchedTopics": []
+ },
+ {
+  "feed": "MarTech.org",
+  "title": "Stop treating every customer touchpoint the same",
+  "link": "https://martech.org/stop-treating-every-customer-touchpoint-the-same/",
+  "publishedTs": 1786969020,
+  "summary": "<div><img alt=\"\" class=\"attachment-large size-large wp-post-image\" height=\"450\" src=\"https://martech.org/wp-content/uploads/2026/04/customer-jouney-800x450.png\" style=\"margin-bottom: 15px;\" width=\"800\" /></div>\n<p>The moments that drive growth can also drive churn. Learn how to spot them and respond when the stakes are highest.</p>\n<p>The post <a href=\"https://martech.org/stop-treating-every-customer-touchpoint-the-same/\">Stop treating every customer touchpoint the same</a> appeared first on <a ",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "CRM/會員留存"
+  ]
+ },
+ {
+  "feed": "MarTech.org",
+  "title": "How to decide what’s important when everything is urgent",
+  "link": "https://martech.org/how-to-decide-whats-important-when-everything-is-urgent/",
+  "publishedTs": 1786711920,
+  "summary": "<div><img alt=\"\" class=\"attachment-large size-large wp-post-image\" height=\"450\" src=\"https://martech.org/wp-content/uploads/2026/08/checklist-schedule-to-do-priorities-urgent-800x450.jpg\" style=\"margin-bottom: 15px;\" width=\"800\" /></div>\n<p>Every task consumes time and resources. Here’s a system for deciding what earns a place on the agenda and what doesn’t.</p>\n<p>The post <a href=\"https://martech.org/how-to-decide-whats-important-when-everything-is-urgent/\">How to decide what&#8217;s important",
+  "matchedCompanies": [],
+  "matchedTopics": []
+ },
+ {
+  "feed": "MarTech.org",
+  "title": "The 2027 CMO planning challenge is bigger than the budget",
+  "link": "https://martech.org/the-2027-cmo-planning-challenge-is-bigger-than-the-budget/",
+  "publishedTs": 1786711920,
+  "summary": "<div><img alt=\"\" class=\"attachment-large size-large wp-post-image\" height=\"454\" src=\"https://martech.org/wp-content/uploads/2026/01/budget-spending-man-moving-piles-of-coins-800x454.png\" style=\"margin-bottom: 15px;\" width=\"800\" /></div>\n<p>More budget won't fix a marketing model that no longer fits how buyers discover, evaluate, and decide. CMOs need to rethink where they invest.</p>\n<p>The post <a href=\"https://martech.org/the-2027-cmo-planning-challenge-is-bigger-than-the-budget/\">The 2027 CMO",
+  "matchedCompanies": [],
+  "matchedTopics": []
+ },
+ {
+  "feed": "MarketingDive",
+  "title": "ANA cautions marketers against overreliance on retail media data",
+  "link": "https://www.marketingdive.com/news/ana-cautions-marketers-against-overreliance-on-retail-media-data/828109/",
+  "publishedTs": 1787057760,
+  "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/PIafBsNnZjKBAKL2HVxUmbhR8jWcU-p2cQDD3wBKHhw/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9YUE9fTFRMX3RydWNrX3BvcnRfXzQyNjBfZ2ZDVE4xOS5qcGc=.webp\" /></div></figure><p>The trade body follows the IAB in trying to establish shared metrics and vocabulary for a high-growth channel that remains opaque and fragmented.&nbsp;&nbsp;</p>",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "零售媒體",
+   "電商/OMO"
+  ]
+ },
+ {
+  "feed": "MarketingDive",
+  "title": "Brands shake up back-to-school marketing to reach ‘hyper value-seekers’",
+  "link": "https://www.marketingdive.com/news/brands-shake-up-back-to-school-marketing-to-reach-hyper-value-seekers/827821/",
+  "publishedTs": 1787054400,
+  "summary": "<p>Retailers like American Eagle are diversifying further beyond capital-I influencers and adjusting their media mixes to be more targeted this season.</p>",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "電商/OMO"
+  ]
+ },
+ {
+  "feed": "MarketingDive",
+  "title": "JCPenney parodies off-price retailers with wellness-themed campaign",
+  "link": "https://www.marketingdive.com/news/jcpenney-parodies-off-price-retailers-with-wellness-themed-campaign/827878/",
+  "publishedTs": 1786939260,
+  "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/-OkxPILtstm8DoZED78fdN_i40MYuLBMgvCBYYallGI/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9KQ1Blbm5leV9SZXRhaWxfUmVqdXZlbmF0aW9uX1JldHJlYXQuanBn.webp\" /></div></figure><p>Marisa Thalberg, chief customer and marketing officer at Catalyst Brands, details a Retail Rejuvenation Retreat that looks to change shopping habits.</p>",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "電商/OMO"
+  ]
+ },
+ {
+  "feed": "ChiefMartec",
+  "title": "2026 Marketing Technology Landscape Supergraphic: Peak Martech Achieved! (Maybe)",
+  "link": "https://chiefmartec.com/2026/05/2026-marketing-technology-landscape-supergraphic-peak-martech-achieved-maybe/",
+  "publishedTs": 1777993146,
+  "summary": "<img alt=\"2026 Marketing Technology Landscape (Martech Map Slide)\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" height=\"150\" src=\"https://chiefmartec.com/wp-content/uploads/2026/05/martech-landscape-2026-1456px-150x150.jpg\" width=\"150\" />tl;dr The martech landscape effectively stopped growing this year, up just 0.79% to 15,505 products. After 15 years of relentless expansion, we may have finally hit peak martech — or at least a plateau. But underneath that flat headline, the market ",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "CRM/會員留存"
+  ]
+ },
+ {
+  "feed": "MarTech Series",
+  "title": "The Last SEO Budget Has Already Been Written, FancyAI Customer Data Shows",
+  "link": "https://martechseries.com/content/the-last-seo-budget-has-already-been-written-fancyai-customer-data-shows/",
+  "publishedTs": 1787124675,
+  "summary": "Six months of FancyAI customer data show GEO spend delivering the Google rankings SEO budgets were paying for, plus the AI recommendations they weren&#8217;t. SEO isn&#8217;t dead. It&#8217;s a byproduct. Six months of execution data from FancyAI&#8217;s first customer cohort produced a finding the company didn&#8217;t expect. In program after program, the first metric to [&#8230;]",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "CDP/第一方數據",
+   "個人化推薦"
+  ]
+ },
+ {
+  "feed": "MarTech Series",
+  "title": "Anoki AI Awarded AI Marketing Copilot of the Year for ContextIQ Platform",
+  "link": "https://martechseries.com/content/anoki-ai-awarded-ai-marketing-copilot-of-the-year-for-contextiq-platform/",
+  "publishedTs": 1787122419,
+  "summary": "ContextIQ&#8217;s award-winning Copilot brings scene-level, contextual video intelligence to CTV planning and activation Anoki AI, the video AI company, announced that ContextIQ, its AI-native CTV planning platform, has been named “AI Marketing Copilot of the Year” in the 9th annual MarTech Breakthrough Awards. The recognition validates Anoki’s pioneering approach to AI, which understands what is [&#8230;]",
+  "matchedCompanies": [],
+  "matchedTopics": []
+ },
+ {
+  "feed": "MarTech Series",
+  "title": "Seismic Completes Merger With Highspot to Create a New Leader in Go-to-Market Performance",
+  "link": "https://martechseries.com/content/seismic-completes-merger-with-highspot-to-create-a-new-leader-in-go-to-market-performance/",
+  "publishedTs": 1787061103,
+  "summary": "Combined company brings together leading AI agents, content governance, and performance insights to serve 2,500 customers with 3.5 million sales, marketing and enablement users Seismic announced it has completed its merger with Highspot. Operating under the Seismic name and led by Seismic Chief Executive Officer Rob Tarkoff, the combination creates the leading company in go-to-market [&#8230;]",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "AI Agent應用",
+   "併購/募資"
+  ]
+ },
+ {
+  "feed": "MarTech Series",
+  "title": "Featured Launches Find Creators Search With 380 Million Creators Across Instagram, TikTok, and YouTube",
+  "link": "https://martechseries.com/social/influencer-marketing/featured-launches-find-creators-search-with-380-million-creators-across-instagram-tiktok-and-youtube/",
+  "publishedTs": 1787061025,
+  "summary": "New natural-language creator discovery tool helps businesses find relevant creators across Instagram, TikTok, YouTube, and LinkedIn and move from discovery to outreach. Featured announced the launch of Find Creators, a new creator discovery tool that lets businesses search for creators and influencers across Instagram, TikTok, YouTube, and LinkedIn using natural language. With Find Creators, users [&#8230;]",
+  "matchedCompanies": [],
+  "matchedTopics": []
+ },
+ {
+  "feed": "MarTech Series",
+  "title": "AK Operations Lifts Client Qualified Deals 600% in Six Months with ZoomInfo",
+  "link": "https://martechseries.com/sales-marketing/crm/ak-operations-lifts-client-qualified-deals-600-in-six-months-with-zoominfo/",
+  "publishedTs": 1787060991,
+  "summary": "The fractional sales and marketing firm replaced its clients&#8217; years-old CRM lists with ZoomInfo data and reports triple-digit gains in meetings, deals, and closed business. ZoomInfo, the all-in-one AI GTM platform, has reported that AK Operations, a fractional sales and marketing firm based in St. Louis, Missouri, has driven a 600% lift in qualified deals [&#8230;]",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "CRM/會員留存"
+  ]
+ },
+ {
+  "feed": "MarTech Series",
+  "title": "Arise Launches Halo, an AI DataOps Capability for Enterprise AI",
+  "link": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/arise-launches-halo-an-ai-dataops-capability-for-enterprise-ai/",
+  "publishedTs": 1787060786,
+  "summary": "New capability connects credentialed professionals to expert human feedback and domain expertise supporting AI evaluation, RLHF, AI safety, and human-in-the-loop workflows. Arise, a technology platform company which connects enterprises to expert ecosystems at scale, announced the launch of Halo by Arise, an AI DataOps capability that connects credentialed expertise to enterprise AI programs. As generative [&#8230;]",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "生成式AI",
+   "行銷自動化"
+  ]
+ },
+ {
+  "feed": "MarTech Series",
+  "title": "boost.ai Named an OpenAI Select Partner",
+  "link": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/boost-ai-named-an-openai-select-partner/",
+  "publishedTs": 1787060639,
+  "summary": "Leader in trusted conversational AI joins OpenAI Partner Network as a Select Partner boost.ai, the trusted leader in AI-powered customer experience solutions for regulated industries, announced that it has been named an OpenAI Select Partner within the OpenAI Partner Network. The OpenAI Partner Network is a global program for partners to build, sell, and deliver [&#8230;]",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "對話式商務"
+  ]
+ },
+ {
+  "feed": "MarTech Series",
+  "title": "Commvault Advances AI and Cloud Application Resilience with Expanded Cloud Rewind Coverage",
+  "link": "https://martechseries.com/sales-marketing/marketing-clouds/commvault-advances-ai-and-cloud-application-resilience-with-expanded-cloud-rewind-coverage/",
+  "publishedTs": 1787060478,
+  "summary": "Broadened Azure resource coverage helps organizations recover more complete cloud-native and AI-driven applications following cyberattacks and outages Commvault, a leader in unified resilience at enterprise scale, announced advancements to Cloud Rewind, expanding Microsoft Azure resource coverage for configuration protection and recovery. Through this expansion, Commvault is helping organizations more rapidly restore cloud applications and the [&#8230;]",
+  "matchedCompanies": [],
+  "matchedTopics": []
+ },
+ {
+  "feed": "MarTech Series",
+  "title": "IAB Updates Industry Framework for Consistent AI Transparency & Disclosure in Advertising",
+  "link": "https://martechseries.com/sales-marketing/programmatic-buying/iab-updates-industry-framework-for-consistent-ai-transparency-disclosure-in-advertising/",
+  "publishedTs": 1787060306,
+  "summary": "IAB&#8217;s AI Transparency and Disclosure Framework provides practical guidance for advertisers on when and how to label AI The Interactive Advertising Bureau (IAB), the leading trade association for the digital advertising industry, announced the AI Transparency and Disclosure Framework Version 2, building on IAB&#8217;s original framework published with practical guidance for when and how advertisers, [&#8230;]",
+  "matchedCompanies": [],
+  "matchedTopics": [
+   "廣告投放/歸因"
+  ]
+ },
+ {
+  "feed": "MarTech Series",
+  "title": "Reign Maker Group and Launchpoint Partner to Build the Infrastructure Behind Enterprise Creator Marketing",
+  "link": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/reign-maker-group-and-launchpoint-partner-to-build-the-infrastructure-behind-enterprise-creator-marketing/",
+  "publishedTs": 1787060106,
+  "summary": "Strategic joint venture combines RMG&#8217;s creator expertise and audience intelligence with Launchpoint&#8217;s AI-powered technology to help brands discover, manage and scale creator programs more efficiently As the creator economy enters its next phase of growth, creator management and technology company Reign Maker Group (RMG) announced a strategic joint venture with Launchpoint, the first AI infrastructure [&#8230;]",
+  "matchedCompanies": [],
+  "matchedTopics": []
+ },
+ {
+  "feed": "Appier Blog",
+  "title": "The Incrementality Imperative: A Comparative Analysis of Measurement Tools",
+  "link": "https://www.appier.com/en/blog/the-incrementality-imperative-a-comparative-analysis-of-measurement-tools",
+  "publishedTs": 1759966519,
+  "summary": "<div class=\"hs-featured-image-wrapper\"> \n <a class=\"hs-featured-image-link\" href=\"https://www.appier.com/en/blog/the-incrementality-imperative-a-comparative-analysis-of-measurement-tools?hsLang=en\" title=\"\"> <img alt=\"The Incrementality Imperative: A Comparative Analysis of Measurement Tools\" class=\"hs-featured-image\" src=\"https://www.appier.com/hubfs/The%20Incrementality%20Imperative.png\" style=\"width: auto !important; float: left; margin: 0 15px 15px 0;\" /> </a> \n</div> \n<h1><span style=\"backg",
+  "matchedCompanies": [
+   "Appier"
+  ],
+  "matchedTopics": [
+   "廣告投放/歸因",
+   "行銷自動化"
+  ]
+ },
+ {
+  "feed": "Appier Blog",
+  "title": "What Is Marketing Mix Modeling (MMM)? A Complete Guide to Meridian and How It Revolutionizes Traditional Approaches",
+  "link": "https://www.appier.com/en/blog/what-is-marketing-mix-modeling-mmm-a-complete-guide-to-meridian-and-how-it-revolutionizes-traditional-approaches",
+  "publishedTs": 1759963345,
+  "summary": "<div class=\"hs-featured-image-wrapper\"> \n <a class=\"hs-featured-image-link\" href=\"https://www.appier.com/en/blog/what-is-marketing-mix-modeling-mmm-a-complete-guide-to-meridian-and-how-it-revolutionizes-traditional-approaches?hsLang=en\" title=\"\"> <img alt=\"What Is Marketing Mix Modeling (MMM)? A Complete Guide to Meridian and How It Revolutionizes Traditional Approaches\" class=\"hs-featured-image\" src=\"https://www.appier.com/hubfs/MMM.png\" style=\"width: auto !important; float: left; margin: 0 15p",
+  "matchedCompanies": [
+   "Appier"
+  ],
+  "matchedTopics": [
+   "廣告投放/歸因"
+  ]
+ },
+ {
+  "feed": "Appier Blog",
+  "title": "Incrementality ≠ Last-Click: The 7 Myths Holding Mobile UA Back",
+  "link": "https://www.appier.com/en/blog/incrementality-last-click-the-7-myths-holding-mobile-ua-back",
+  "publishedTs": 1759893004,
+  "summary": "<div class=\"hs-featured-image-wrapper\"> \n <a class=\"hs-featured-image-link\" href=\"https://www.appier.com/en/blog/incrementality-last-click-the-7-myths-holding-mobile-ua-back?hsLang=en\" title=\"\"> <img alt=\"Incrementality ≠ Last-Click: The 7 Myths Holding Mobile UA Back\" class=\"hs-featured-image\" src=\"https://www.appier.com/hubfs/Content_Incrementality%20Blog-1_The%207%20Myths%20Holding%20Mobile%20UA%20Back_Header_v01.jpg\" style=\"width: auto !important; float: left; margin: 0 15px 15px 0;\" /> </a>",
+  "matchedCompanies": [
+   "Appier"
+  ],
+  "matchedTopics": [
+   "廣告投放/歸因",
+   "併購/募資"
+  ]
+ },
+ {
+  "feed": "Insider Blog",
+  "title": "How AI Predictive Analytics Turns Email Marketing into a Revenue Engine",
+  "link": "https://insiderone.com/ai-predictive-analytics-email-marketing-roi/",
+  "publishedTs": 1786521766,
+  "summary": "Summary Predictive analytics in email marketing means using historical and behavioral data to forecast what a specific subscriber will do next, when they&#8217;ll open, what they&#8217;ll buy, and whether they&#8217;re about to churn, then acting on that forecast before the moment passes. For marketing directors and lifecycle managers evaluating or already running an AI-driven email [&#8230;]",
+  "matchedCompanies": [
+   "Insider"
+  ],
+  "matchedTopics": [
+   "CRM/會員留存"
+  ]
+ },
+ {
+  "feed": "Insider Blog",
+  "title": "What is One-to-One Marketing? A complete Guide for 2026",
+  "link": "https://insiderone.com/what-one-to-one-marketing/",
+  "publishedTs": 1786521431,
+  "summary": "Summary Your product recommendations use the customer&#8217;s first name, reference their last order, and still get ignored. That&#8217;s a definition problem: many &#8220;personalized&#8221; campaigns are segment-level guesses dressed up in the language of individual relevance. If you&#8217;re a customer relationship management (CRM), lifecycle, or growth marketer evaluating personalization or customer data platform (CDP) investments, you [&#8230;]",
+  "matchedCompanies": [
+   "Insider"
+  ],
+  "matchedTopics": [
+   "CDP/第一方數據",
+   "個人化推薦",
+   "CRM/會員留存"
+  ]
+ },
+ {
+  "feed": "Insider Blog",
+  "title": "How to Design an Email Marketing Customer Journey That Actually Converts",
+  "link": "https://insiderone.com/email-marketing-customer-journey/",
+  "publishedTs": 1786521116,
+  "summary": "Summary An email marketing customer journey is the sequence of triggered messages, decision points, and wait steps that move an individual customer from one lifecycle stage to the next based on their engagement behaviours. It replaces static campaign blasts with logic: if a customer browses but doesn&#8217;t buy, one path fires; if they abandon a [&#8230;]",
+  "matchedCompanies": [
+   "Insider"
+  ],
+  "matchedTopics": [
+   "CRM/會員留存",
+   "行銷自動化"
+  ]
+ },
+ {
+  "feed": "Insider Blog",
+  "title": "Why Your Product Catalogue is The Missing Link in AI Email Personalization",
+  "link": "https://insiderone.com/product-catalogue-integration-email-personalization/",
+  "publishedTs": 1786520251,
+  "summary": "Summary Your email program finally runs on AI to generate dynamic product blocks, personalized subject lines, and predictive send-time logic. But you might still face the issue where a customer opens a campaign and sees a sweater that sold out three days ago, priced at last month&#8217;s rate. The root cause is usually not the [&#8230;]",
+  "matchedCompanies": [
+   "Insider"
+  ],
+  "matchedTopics": [
+   "個人化推薦"
+  ]
+ },
+ {
+  "feed": "Insider Blog",
+  "title": "How to evaluate email platforms for audience-level personalization and lifecycle outcomes",
+  "link": "https://insiderone.com/email-platforms-audience-level-personalization/",
+  "publishedTs": 1786519886,
+  "summary": "Summary Your list is enormous, engagement looks fine on paper, and yet every send still feels like a guess about who is actually paying attention that week. That gap between list size and real engagement usually traces back to how a platform builds and refreshes its audiences, not to subject lines or send times. Audience-level [&#8230;]",
+  "matchedCompanies": [
+   "Insider"
+  ],
+  "matchedTopics": [
+   "個人化推薦",
+   "CRM/會員留存"
+  ]
+ },
+ {
+  "feed": "Insider Blog",
+  "title": "How to Integrate AI Tools Into Your Email Marketing Stack Without a Migration",
+  "link": "https://insiderone.com/integrate-ai-tools-email-marketing-stack/",
+  "publishedTs": 1786519628,
+  "summary": "Summary Adding AI to an email program used to mean picking a new all-in-one suite and migrating years of segmentation logic into it. That&#8217;s no longer the only path. This article is a practical playbook for marketing operations leads, lifecycle marketers, and martech managers who already run an established email service provider (ESP) or CDP [&#8230;]",
+  "matchedCompanies": [
+   "Insider"
+  ],
+  "matchedTopics": [
+   "CDP/第一方數據",
+   "CRM/會員留存"
+  ]
+ },
+ {
+  "feed": "Insider Blog",
+  "title": "How CMOs Can Prove AI Feature ROI in Email Marketing Platforms",
+  "link": "https://insiderone.com/ai-feature-roi-email-marketing-platforms/",
+  "publishedTs": 1786519226,
+  "summary": "Summary You turned on AI-generated subject lines or send-time optimization, open rates climbed, and now you&#8217;re stuck explaining to your CFO whether that lift came from the AI feature or simply from sending more emails to more people. This article is for chief marketing officers (CMOs) and VPs of marketing at mid-market and enterprise companies [&#8230;]",
+  "matchedCompanies": [
+   "Insider"
+  ],
+  "matchedTopics": []
+ },
+ {
+  "feed": "Insider Blog",
+  "title": "Conversational Commerce Beyond Chatbots: The Rise of AI Commerce Agents",
+  "link": "https://insiderone.com/conversational-commerce-beyond-chatbots/",
+  "publishedTs": 1786437946,
+  "summary": "Summary Conversational commerce beyond chatbots starts with a blunt admission: the bot answering shipping questions on your website was built for a different job than the one customers now expect it to do. Ask it to compare two products, check real stock nearby, or complete a purchase, and it stalls or hands the customer to [&#8230;]",
+  "matchedCompanies": [
+   "Insider"
+  ],
+  "matchedTopics": [
+   "對話式商務"
+  ]
+ },
+ {
+  "feed": "Insider Blog",
+  "title": "Email Personalization Strategies That Actually Move Engagement Metrics",
+  "link": "https://insiderone.com/email-personalization-strategies/",
+  "publishedTs": 1786437697,
+  "summary": "Summary Email personalization strategies that move engagement metrics start with how your data is structured, not with how clever your subject line sounds. A common pattern still treats personalization as a copywriting layer: insert a first name, maybe a product image, and call it done. That approach plateaus fast because it never accounts for where [&#8230;]",
+  "matchedCompanies": [
+   "Insider"
+  ],
+  "matchedTopics": [
+   "個人化推薦"
+  ]
+ },
+ {
+  "feed": "Insider Blog",
+  "title": "SMS Marketing Rules in 2026: What’s Actually Enforceable Now",
+  "link": "https://insiderone.com/sms-marketing-rules-guide/",
+  "publishedTs": 1786103955,
+  "summary": "Summary Is SMS marketing legal in 2026? Yes, but the ground under it shifted twice in two years, and plenty of teams built processes around a rule that never actually took effect. The Federal Communications Commission (FCC) one-to-one consent requirement was scheduled to launch in January 2025, then a federal appeals court vacated it days [&#8230;]",
+  "matchedCompanies": [
+   "Insider"
+  ],
+  "matchedTopics": []
+ }
+]
