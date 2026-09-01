@@ -1,0 +1,1445 @@
+{
+ "date": "2026-08-31",
+ "jobs": {
+  "totalJobs": 143,
+  "describedJobs": 122,
+  "byCompany": {
+   "Appier": 82,
+   "awoo": 9,
+   "漸強實驗室": 6,
+   "91APP": 1,
+   "iKala": 0,
+   "Omnichat": 0,
+   "TenMax": 0,
+   "Vpon": 0,
+   "Rosetta.ai": 0,
+   "CloudAD": 0
+  },
+  "byRole": {
+   "行銷/客戶成功": 54,
+   "其他": 35,
+   "軟體工程": 28,
+   "數據科學/ML": 12,
+   "產品/專案": 8,
+   "數據分析": 3,
+   "技術顧問/TSE": 3
+  },
+  "companyRoles": {
+   "Appier": {
+    "行銷/客戶成功": 23,
+    "軟體工程": 20,
+    "其他": 18,
+    "數據科學/ML": 12,
+    "數據分析": 3,
+    "產品/專案": 3,
+    "技術顧問/TSE": 3
+   },
+   "漸強實驗室": {
+    "行銷/客戶成功": 4,
+    "其他": 1,
+    "軟體工程": 1
+   },
+   "91APP": {
+    "產品/專案": 1
+   },
+   "awoo": {
+    "行銷/客戶成功": 7,
+    "其他": 2
+   }
+  },
+  "skillFrequency": {
+   "Python": 30,
+   "SQL": 20,
+   "Machine Learning": 17,
+   "API": 14,
+   "LLM": 12,
+   "Docker": 10,
+   "Spark": 9,
+   "SEO": 9,
+   "Git": 8,
+   "CRM": 7,
+   "Excel": 6,
+   "Prompt": 5,
+   "CDP": 4,
+   "AI Agent": 4,
+   "Airflow": 4,
+   "Tableau": 3,
+   "BigQuery": 3,
+   "Looker": 2,
+   "Dashboard": 2,
+   "Power BI": 1,
+   "GA4": 1,
+   "英文": 1,
+   "Google Analytics": 1,
+   "Snowflake": 1,
+   "ETL": 1
+  },
+  "salarySamples": [
+   {
+    "company": "漸強實驗室",
+    "role": "行銷/客戶成功",
+    "low": 78333,
+    "high": 125000
+   },
+   {
+    "company": "漸強實驗室",
+    "role": "行銷/客戶成功",
+    "low": 66666,
+    "high": 116666
+   },
+   {
+    "company": "漸強實驗室",
+    "role": "軟體工程",
+    "low": 108333,
+    "high": 166666
+   },
+   {
+    "company": "漸強實驗室",
+    "role": "行銷/客戶成功",
+    "low": 1666666,
+    "high": 1666666
+   },
+   {
+    "company": "awoo",
+    "role": "其他",
+    "low": 33000,
+    "high": 37000
+   },
+   {
+    "company": "awoo",
+    "role": "其他",
+    "low": 33000,
+    "high": 37000
+   },
+   {
+    "company": "awoo",
+    "role": "行銷/客戶成功",
+    "low": 35000,
+    "high": 38000
+   },
+   {
+    "company": "十論科技股份有限公司",
+    "role": "行銷/客戶成功",
+    "low": 83333,
+    "high": 83333
+   },
+   {
+    "company": "Accucrazy 肖準行銷",
+    "role": "產品/專案",
+    "low": 40000,
+    "high": 100000
+   },
+   {
+    "company": "Accucrazy 肖準行銷",
+    "role": "行銷/客戶成功",
+    "low": 35000,
+    "high": 55000
+   },
+   {
+    "company": "JunyiAcademy 均一平台教育基金會",
+    "role": "行銷/客戶成功",
+    "low": 70000,
+    "high": 110000
+   },
+   {
+    "company": "SOOCKER 搜客_沂動行銷",
+    "role": "行銷/客戶成功",
+    "low": 40000,
+    "high": 50000
+   },
+   {
+    "company": "奧美整合行銷傳播集團",
+    "role": "其他",
+    "low": 34000,
+    "high": 35000
+   },
+   {
+    "company": "奧美整合行銷傳播集團",
+    "role": "行銷/客戶成功",
+    "low": 34000,
+    "high": 34000
+   },
+   {
+    "company": "Teach For Taiwan 為台灣而教",
+    "role": "其他",
+    "low": 53000,
+    "high": 53000
+   },
+   {
+    "company": "DAHUA AI Corp.",
+    "role": "其他",
+    "low": 60000,
+    "high": 80000
+   },
+   {
+    "company": "十論科技股份有限公司",
+    "role": "軟體工程",
+    "low": 1200000,
+    "high": 1200000
+   },
+   {
+    "company": "十論科技股份有限公司",
+    "role": "其他",
+    "low": 91666,
+    "high": 91666
+   },
+   {
+    "company": "黑柑創意工作室",
+    "role": "行銷/客戶成功",
+    "low": 40000,
+    "high": 60000
+   },
+   {
+    "company": "騰茲電通股份有限公司",
+    "role": "軟體工程",
+    "low": 60000,
+    "high": 60000
+   },
+   {
+    "company": "黑柑創意工作室",
+    "role": "行銷/客戶成功",
+    "low": 40000,
+    "high": 60000
+   },
+   {
+    "company": "AlleyPin 翔評互動",
+    "role": "行銷/客戶成功",
+    "low": 66666,
+    "high": 199998
+   },
+   {
+    "company": "簡訊設計｜圖文不符",
+    "role": "其他",
+    "low": 44000,
+    "high": 52000
+   },
+   {
+    "company": "簡訊設計｜圖文不符",
+    "role": "產品/專案",
+    "low": 42000,
+    "high": 50000
+   },
+   {
+    "company": "科技報橘｜流線傳媒 Fusionmedium",
+    "role": "行銷/客戶成功",
+    "low": 40000,
+    "high": 50000
+   },
+   {
+    "company": "科技報橘｜流線傳媒 Fusionmedium",
+    "role": "行銷/客戶成功",
+    "low": 38000,
+    "high": 50000
+   },
+   {
+    "company": "Accucrazy 肖準行銷",
+    "role": "其他",
+    "low": 35000,
+    "high": 55000
+   },
+   {
+    "company": "Accucrazy 肖準行銷",
+    "role": "產品/專案",
+    "low": 40000,
+    "high": 65000
+   },
+   {
+    "company": "Accucrazy 肖準行銷",
+    "role": "行銷/客戶成功",
+    "low": 45000,
+    "high": 75000
+   },
+   {
+    "company": "AlleyPin 翔評互動",
+    "role": "行銷/客戶成功",
+    "low": 66666,
+    "high": 199998
+   },
+   {
+    "company": "AlleyPin 翔評互動",
+    "role": "行銷/客戶成功",
+    "low": 66666,
+    "high": 199998
+   },
+   {
+    "company": "展翊豐科技股份有限公司",
+    "role": "行銷/客戶成功",
+    "low": 38000,
+    "high": 38000
+   }
+  ],
+  "salarySummary": [
+   {
+    "role": "行銷/客戶成功",
+    "count": 18,
+    "medianLow": 45000,
+    "medianHigh": 75000
+   },
+   {
+    "role": "其他",
+    "count": 8,
+    "medianLow": 44000,
+    "medianHigh": 53000
+   },
+   {
+    "role": "軟體工程",
+    "count": 3,
+    "medianLow": 108333,
+    "medianHigh": 166666
+   },
+   {
+    "role": "產品/專案",
+    "count": 3,
+    "medianLow": 40000,
+    "medianHigh": 65000
+   }
+  ],
+  "taiwanJobs": [
+   {
+    "company": "Appier",
+    "title": "Account Manager, Advertising Solution - Taiwan",
+    "role": "行銷/客戶成功",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6999346"
+   },
+   {
+    "company": "Appier",
+    "title": "Account Operations Intern, Taiwan",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/3073599"
+   },
+   {
+    "company": "Appier",
+    "title": "Ad Sales, Advertising Solution (Ad Cloud)",
+    "role": "行銷/客戶成功",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/1499233"
+   },
+   {
+    "company": "Appier",
+    "title": "AI Engineer, Playable Ads ",
+    "role": "數據科學/ML",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8102280"
+   },
+   {
+    "company": "Appier",
+    "title": "Assistant Manager of Business Enablement",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8158573"
+   },
+   {
+    "company": "Appier",
+    "title": "Associate HR Manager, Global Compensation",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7956145"
+   },
+   {
+    "company": "Appier",
+    "title": "Associate of Business Enablement",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7189302"
+   },
+   {
+    "company": "Appier",
+    "title": "Campaign Analyst ",
+    "role": "數據分析",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/1501724"
+   },
+   {
+    "company": "Appier",
+    "title": "Campaign Executive",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/5332115"
+   },
+   {
+    "company": "Appier",
+    "title": "Customer Success Management Intern (Digital ads, SaaS Platform - AIXPERT)",
+    "role": "行銷/客戶成功",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7388202"
+   },
+   {
+    "company": "Appier",
+    "title": "Customer Success Manager - Enterprise Solution",
+    "role": "行銷/客戶成功",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7436249"
+   },
+   {
+    "company": "Appier",
+    "title": "Customer Success Specialist , Ad.Creative",
+    "role": "行銷/客戶成功",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6774962"
+   },
+   {
+    "company": "Appier",
+    "title": "Data Scientist, Analytics",
+    "role": "數據分析",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/1501726"
+   },
+   {
+    "company": "Appier",
+    "title": "Digital Advertising Data Analyst",
+    "role": "數據分析",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8118867"
+   },
+   {
+    "company": "Appier",
+    "title": "Digital Marketing Manager (AEO & Paid Media Strategy)",
+    "role": "行銷/客戶成功",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6854145"
+   },
+   {
+    "company": "Appier",
+    "title": "Global Commercial HR Business Partner (HRBP)",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6518407"
+   },
+   {
+    "company": "Appier",
+    "title": "Global ESS Sales Operations Manager / Associate Manager",
+    "role": "行銷/客戶成功",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7075720"
+   },
+   {
+    "company": "Appier",
+    "title": "IT Specialist",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8090549"
+   },
+   {
+    "company": "Appier",
+    "title": "Paralegal, Compliance & Automation | Legal Assistant (1-year Contractor / Full-Time) 法務助理",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8000129"
+   },
+   {
+    "company": "Appier",
+    "title": "PR Manager Taiwan",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8118821"
+   },
+   {
+    "company": "Appier",
+    "title": "Product Manager (Ad Cloud Platform)",
+    "role": "產品/專案",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8068713"
+   },
+   {
+    "company": "Appier",
+    "title": "Research Scientist (Generative & Agentic AI)",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8076142"
+   },
+   {
+    "company": "Appier",
+    "title": "Sales Development Associate (Inside Sales, TW)",
+    "role": "行銷/客戶成功",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7510874"
+   },
+   {
+    "company": "Appier",
+    "title": "Sales Manager of Enterprise Solution ",
+    "role": "行銷/客戶成功",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6483529"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Backend Engineer (SRE / Reliability & Performance)",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8045764"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Field Marketing Specialist",
+    "role": "行銷/客戶成功",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8025479"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Frontend Development Engineer (Enterprise Solutions)",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7830101"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior HR C&B Specialist",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8095584"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Machine Learning Scientist, Advertising Incrementality",
+    "role": "數據科學/ML",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7364432"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Machine Learning Scientist (LLM & Agents)",
+    "role": "數據科學/ML",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6914984"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Machine Learning Scientist, Playable Ads",
+    "role": "數據科學/ML",
+    "area": "Taipei, Taiwan; Tokyo, Japan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7757000"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Product designer",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7525624"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Product Manager (Ad Cloud Platform)",
+    "role": "產品/專案",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7824539"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Retargeting Product Manager (Taiwan)",
+    "role": "產品/專案",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7915849"
+   },
+   {
+    "company": "Appier",
+    "title": "(Senior) Sales Manager of Enterprise Solution",
+    "role": "行銷/客戶成功",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7582643"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Software Engineer, AI Engineering",
+    "role": "數據科學/ML",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6987027"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Software Engineer, Backend Development",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/4869920"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Software Engineer, Backend Development (Ad Cloud Platform team)",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7160226"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Software Engineer, Backend Development(Ad Cloud  Serving Services)",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7033252"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Software Engineer, Backend Development (BotBonnie)",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6568368"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Software Engineer, Backend Development (Playable Ads)",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan; Tokyo, Japan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7267131"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Software Engineer, C++ Backend Development(Ad Cloud Bidding)",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7436263"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Software Engineer, Data Backend ",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8143583"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Software Engineer, Data Backend (Ad Cloud)",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan; Tokyo, Japan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/5476743"
+   },
+   {
+    "company": "Appier",
+    "title": "Software Engineer, Ads Solutions",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8129487"
+   },
+   {
+    "company": "Appier",
+    "title": "Software Engineer Intern, Backend Development",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6820898"
+   },
+   {
+    "company": "Appier",
+    "title": "Software Engineer Intern, Quality Assurance",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6967119"
+   },
+   {
+    "company": "Appier",
+    "title": "Staff/Senior DevOps Engineer",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan; Tokyo, Japan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7189015"
+   },
+   {
+    "company": "Appier",
+    "title": "Staff/Senior Machine Learning Scientist (Ad Cloud)",
+    "role": "數據科學/ML",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6897205"
+   },
+   {
+    "company": "Appier",
+    "title": "Staff Software Engineer, C++ Backend Development(Ad Cloud Bidding)",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7058491"
+   },
+   {
+    "company": "Appier",
+    "title": "Technical Solution Engineer Intern",
+    "role": "技術顧問/TSE",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/5001910"
+   },
+   {
+    "company": "Appier",
+    "title": "Technical Support/Solution Engineer - Enterprise Solutions (TW or JP or KR)",
+    "role": "技術顧問/TSE",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/3267291"
+   },
+   {
+    "company": "漸強實驗室",
+    "title": "【TW】(資深) 業務開發經理 / (Senior) Business Development Manager",
+    "role": "行銷/客戶成功",
+    "area": "臺北市",
+    "link": "https://www.yourator.co/companies/CrescendoLab/jobs/46883"
+   },
+   {
+    "company": "漸強實驗室",
+    "title": "【TW】(Senior) Strategic Partnerships Manager 策略合作夥伴經理",
+    "role": "其他",
+    "area": "臺北市",
+    "link": "https://www.yourator.co/companies/CrescendoLab/jobs/47857"
+   },
+   {
+    "company": "漸強實驗室",
+    "title": "【TW】Senior Enterprise Solution Sales Manager",
+    "role": "行銷/客戶成功",
+    "area": "臺北市",
+    "link": "https://www.yourator.co/companies/CrescendoLab/jobs/47558"
+   },
+   {
+    "company": "漸強實驗室",
+    "title": "【TW】(Sr.) Customer Success Manager (資深)客戶成功經理",
+    "role": "行銷/客戶成功",
+    "area": "臺北市",
+    "link": "https://www.yourator.co/companies/CrescendoLab/jobs/30447"
+   },
+   {
+    "company": "漸強實驗室",
+    "title": "【TW】Senior/ Backend Engineer",
+    "role": "軟體工程",
+    "area": "臺北市",
+    "link": "https://www.yourator.co/companies/CrescendoLab/jobs/41093"
+   },
+   {
+    "company": "91APP",
+    "title": "【Open】[UPD] DSD 資深 POS 產品經理 (iCHEF 餐飲OMO/POS)",
+    "role": "產品/專案",
+    "area": "臺北市",
+    "link": "https://www.yourator.co/companies/91APP/jobs/48112"
+   },
+   {
+    "company": "awoo",
+    "title": "品牌社群與口碑行銷主管（AI SEO）（台北辦公室）",
+    "role": "行銷/客戶成功",
+    "area": "臺北市",
+    "link": "https://www.yourator.co/companies/awoo/jobs/48067"
+   },
+   {
+    "company": "awoo",
+    "title": "客戶成功經理 Customer Success Manager (SEO consulting project)(台北辦公室）",
+    "role": "行銷/客戶成功",
+    "area": "臺北市",
+    "link": "https://www.yourator.co/companies/awoo/jobs/48071"
+   },
+   {
+    "company": "awoo",
+    "title": "行銷助理 / 專員",
+    "role": "行銷/客戶成功",
+    "area": "臺北市",
+    "link": "https://www.yourator.co/companies/awoo/jobs/48066"
+   }
+  ]
+ },
+ "news": {
+  "totalArticles": 66,
+  "companyMentions": {
+   "Insider": 10,
+   "Appier": 3
+  },
+  "topicMentions": {
+   "生成式AI": 13,
+   "行銷自動化": 13,
+   "AI Agent應用": 12,
+   "廣告投放/歸因": 9,
+   "CRM/會員留存": 8,
+   "併購/募資": 8,
+   "電商/OMO": 6,
+   "對話式商務": 5,
+   "個人化推薦": 5,
+   "隱私/法規": 4,
+   "CDP/第一方數據": 1
+  },
+  "companyArticles": [
+   {
+    "feed": "Insider Blog",
+    "title": "BFCM is a stress test for the entire customer journey",
+    "link": "https://insiderone.com/bfcm-customer-engagement-use-cases/",
+    "publishedTs": 1787734210,
+    "summary": "Black Friday and Cyber Monday still concentrate enormous demand into a very short window. But the hardest part of BFCM marketing is no longer generating traffic. It is recognizing intent quickly, helping shoppers make decisions, removing friction between channels, and giving first-time buyers a reason to return after the discounts end. At Insider One, we [&#8230;]",
+    "matchedCompanies": [
+     "Insider"
+    ],
+    "matchedTopics": [
+     "行銷自動化"
+    ]
+   },
+   {
+    "feed": "Insider Blog",
+    "title": "Push Notification Personalization That Keeps Users Past Day One",
+    "link": "https://insiderone.com/push-notification-personalization-playbook/",
+    "publishedTs": 1787648258,
+    "summary": "Summary Push notification personalization means matching message content, timing, and frequency to a specific behavioral trigger, not inserting a subscriber&#8217;s first name into a generic template and calling it done. For mobile growth and lifecycle marketers at ecommerce, fintech, and subscription apps, that distinction has become the difference between a push program that retains users [&#8230;]",
+    "matchedCompanies": [
+     "Insider"
+    ],
+    "matchedTopics": [
+     "個人化推薦",
+     "CRM/會員留存",
+     "電商/OMO"
+    ]
+   },
+   {
+    "feed": "Insider Blog",
+    "title": "The Best Predictive Modeling Software for Marketing Teams in 2026",
+    "link": "https://insiderone.com/predictive-modeling-software-guide/",
+    "publishedTs": 1787645802,
+    "summary": "Summary Predictive modeling software for marketing teams turns behavioral, transactional, and engagement data into forward-looking scores, such as churn risk, purchase propensity, and lifetime value, that tell you what a customer will likely do next instead of what they already did. The software matters less for its algorithms than for how quickly a prediction becomes [&#8230;]",
+    "matchedCompanies": [
+     "Insider"
+    ],
+    "matchedTopics": [
+     "CRM/會員留存"
+    ]
+   },
+   {
+    "feed": "Insider Blog",
+    "title": "Real-Time Predictive Analytics: A Vendor-Neutral Buyer’s Guide for 2026",
+    "link": "https://insiderone.com/real-time-predictive-analytics-software/",
+    "publishedTs": 1787645325,
+    "summary": "Summary Real-time predictive analytics refers to software that scores customer behavior and generates forecasts, such as churn risk or purchase likelihood, as events happen rather than after a batch job runs overnight. This guide is built for marketing operations leaders, customer data platform (CDP) and revenue operations (RevOps) managers, and digital analytics directors evaluating predictive [&#8230;]",
+    "matchedCompanies": [
+     "Insider"
+    ],
+    "matchedTopics": [
+     "CDP/第一方數據",
+     "CRM/會員留存"
+    ]
+   },
+   {
+    "feed": "Insider Blog",
+    "title": "AI Sales Automation Tools: What Revenue Teams Should Actually Buy in 2026",
+    "link": "https://insiderone.com/ai-sales-automation-tools/",
+    "publishedTs": 1787644525,
+    "summary": "Summary AI sales automation is software that applies artificial intelligence to specific revenue tasks, such as prospecting, deal scoring, conversation analysis, or forecasting, so sales teams spend less time on manual pipeline work and more time closing. For revenue operations (RevOps) leaders, sales ops managers, and chief revenue officers (CROs) at B2B software as a [&#8230;]",
+    "matchedCompanies": [
+     "Insider"
+    ],
+    "matchedTopics": [
+     "行銷自動化"
+    ]
+   },
+   {
+    "feed": "Insider Blog",
+    "title": "Web personalization and Ecommerce Conversion: What Actually Moves the Needle",
+    "link": "https://insiderone.com/web-personalization-ecommerce-conversion/",
+    "publishedTs": 1787643684,
+    "summary": "Summary Web personalization improves ecommerce conversion when it&#8217;s mapped to a specific funnel stage and a specific dollar leak, not deployed as one homepage carousel and left to run indefinitely. A generic recommendation widget might nudge click-through rate up slightly, but it won&#8217;t recover the revenue lost to cart abandonment or turn a one-time buyer [&#8230;]",
+    "matchedCompanies": [
+     "Insider"
+    ],
+    "matchedTopics": [
+     "個人化推薦",
+     "電商/OMO"
+    ]
+   },
+   {
+    "feed": "Insider Blog",
+    "title": "Why Personalized Search is The Ecommerce Conversion Lever Most Retailers Overlook",
+    "link": "https://insiderone.com/personalized-ecommerce-search/",
+    "publishedTs": 1787642206,
+    "summary": "Summary Type &#8220;mens running shoe&#8221; into your own site search and count how many irrelevant results come back before the first one that matches intent. Now try the plural. If the results shift dramatically or a zero-result page appears, the merchandising team already knows this problem exists, even if nobody has formally scoped a fix [&#8230;]",
+    "matchedCompanies": [
+     "Insider"
+    ],
+    "matchedTopics": [
+     "電商/OMO"
+    ]
+   },
+   {
+    "feed": "Insider Blog",
+    "title": "When Personalization Backfires: Warning Signs and How to Fix it Fast",
+    "link": "https://insiderone.com/personalization-mistakes-warning-signs/",
+    "publishedTs": 1787639940,
+    "summary": "Summary Your unsubscribe rate is climbing at the same pace as your open rate, and nobody on the team can agree on why. The segment looked airtight in the customer relationship management (CRM) tool: right product, right history, right timing window. Then a customer replies to the campaign publicly, and the tone in that reply [&#8230;]",
+    "matchedCompanies": [
+     "Insider"
+    ],
+    "matchedTopics": [
+     "個人化推薦",
+     "CRM/會員留存"
+    ]
+   },
+   {
+    "feed": "Insider Blog",
+    "title": "SMS vs. MMS: Which Channel Actually Grows Your Business in 2026?",
+    "link": "https://insiderone.com/sms-vs-mms-messaging/",
+    "publishedTs": 1787559264,
+    "summary": "Summary The practical question behind SMS vs. MMS messaging is not which format has more features, but which one fits a specific campaign, audience, market, and budget. Short message service (SMS) is text-only and built for concise communications; multimedia messaging service (MMS) adds images, GIFs, and video, but cost, delivery, and rendering can vary by [&#8230;]",
+    "matchedCompanies": [
+     "Insider"
+    ],
+    "matchedTopics": [
+     "對話式商務"
+    ]
+   },
+   {
+    "feed": "Insider Blog",
+    "title": "How to Build a SMS Marketing Plan that Actually Drives Revenue",
+    "link": "https://insiderone.com/sms-marketing-plan/",
+    "publishedTs": 1787558925,
+    "summary": "Summary Your SMS program is live, opt-ins are climbing, and the campaign calendar is full. Then finance asks for revenue-per-send instead of open rate, and the dashboard goes quiet because nobody built the plan to answer that question. An SMS marketing plan is the operational sequence, covering compliance, segmentation, message design, timing, and measurement, that [&#8230;]",
+    "matchedCompanies": [
+     "Insider"
+    ],
+    "matchedTopics": [
+     "廣告投放/歸因"
+    ]
+   },
+   {
+    "feed": "Appier Blog",
+    "title": "The Incrementality Imperative: A Comparative Analysis of Measurement Tools",
+    "link": "https://www.appier.com/en/blog/the-incrementality-imperative-a-comparative-analysis-of-measurement-tools",
+    "publishedTs": 1759966519,
+    "summary": "<div class=\"hs-featured-image-wrapper\"> \n <a class=\"hs-featured-image-link\" href=\"https://www.appier.com/en/blog/the-incrementality-imperative-a-comparative-analysis-of-measurement-tools?hsLang=en\" title=\"\"> <img alt=\"The Incrementality Imperative: A Comparative Analysis of Measurement Tools\" class=\"hs-featured-image\" src=\"https://www.appier.com/hubfs/The%20Incrementality%20Imperative.png\" style=\"width: auto !important; float: left; margin: 0 15px 15px 0;\" /> </a> \n</div> \n<h1><span style=\"backg",
+    "matchedCompanies": [
+     "Appier"
+    ],
+    "matchedTopics": [
+     "廣告投放/歸因",
+     "行銷自動化"
+    ]
+   },
+   {
+    "feed": "Appier Blog",
+    "title": "What Is Marketing Mix Modeling (MMM)? A Complete Guide to Meridian and How It Revolutionizes Traditional Approaches",
+    "link": "https://www.appier.com/en/blog/what-is-marketing-mix-modeling-mmm-a-complete-guide-to-meridian-and-how-it-revolutionizes-traditional-approaches",
+    "publishedTs": 1759963345,
+    "summary": "<div class=\"hs-featured-image-wrapper\"> \n <a class=\"hs-featured-image-link\" href=\"https://www.appier.com/en/blog/what-is-marketing-mix-modeling-mmm-a-complete-guide-to-meridian-and-how-it-revolutionizes-traditional-approaches?hsLang=en\" title=\"\"> <img alt=\"What Is Marketing Mix Modeling (MMM)? A Complete Guide to Meridian and How It Revolutionizes Traditional Approaches\" class=\"hs-featured-image\" src=\"https://www.appier.com/hubfs/MMM.png\" style=\"width: auto !important; float: left; margin: 0 15p",
+    "matchedCompanies": [
+     "Appier"
+    ],
+    "matchedTopics": [
+     "廣告投放/歸因"
+    ]
+   },
+   {
+    "feed": "Appier Blog",
+    "title": "Incrementality ≠ Last-Click: The 7 Myths Holding Mobile UA Back",
+    "link": "https://www.appier.com/en/blog/incrementality-last-click-the-7-myths-holding-mobile-ua-back",
+    "publishedTs": 1759893004,
+    "summary": "<div class=\"hs-featured-image-wrapper\"> \n <a class=\"hs-featured-image-link\" href=\"https://www.appier.com/en/blog/incrementality-last-click-the-7-myths-holding-mobile-ua-back?hsLang=en\" title=\"\"> <img alt=\"Incrementality ≠ Last-Click: The 7 Myths Holding Mobile UA Back\" class=\"hs-featured-image\" src=\"https://www.appier.com/hubfs/Content_Incrementality%20Blog-1_The%207%20Myths%20Holding%20Mobile%20UA%20Back_Header_v01.jpg\" style=\"width: auto !important; float: left; margin: 0 15px 15px 0;\" /> </a>",
+    "matchedCompanies": [
+     "Appier"
+    ],
+    "matchedTopics": [
+     "廣告投放/歸因",
+     "併購/募資"
+    ]
+   }
+  ],
+  "topicArticles": {
+   "生成式AI": [
+    {
+     "title": "Anthropic 推出 MHS 標準：Claude 開始操控顯微鏡、機械手臂與雷射",
+     "link": "https://www.inside.com.tw/article/42245-anthropic-mhs-ai-physical-devices",
+     "feed": "INSIDE",
+     "publishedTs": 1788136860
+    },
+    {
+     "title": "【科技早餐】OpenAI 11 月停止供應 Cursor 模型，SK 海力士逾 40 億美元美國 HBM 廠動工",
+     "link": "https://techorange.com/2026/08/31/openai-cursor-sk-hynix-hbm/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+     "feed": "TechOrange",
+     "publishedTs": 1788125400
+    },
+    {
+     "title": "Google影片生成模型Gemini Omni 1.1 Flash，可延伸40秒並指定首尾影格",
+     "link": "https://www.ithome.com.tw/news/178523",
+     "feed": "iThome",
+     "publishedTs": 1788052118
+    }
+   ],
+   "隱私/法規": [
+    {
+     "title": "Apache發布Tomcat更新，修補11個資安漏洞",
+     "link": "https://www.ithome.com.tw/news/178519",
+     "feed": "iThome",
+     "publishedTs": 1787893696
+    },
+    {
+     "title": "【資安週報】0824~0828，再傳中國駭客組織APT24入侵臺灣廣告行銷業者，導致國內知名新聞和小說網站遭供應鏈攻擊",
+     "link": "https://www.ithome.com.tw/news/178489",
+     "feed": "iThome",
+     "publishedTs": 1787882883
+    },
+    {
+     "title": "【AI 獲得身體的時代】人形機器人、腦機介面與神經型運算匯流中，人機共生成治理挑戰",
+     "link": "https://techorange.com/2026/08/27/humanoid-robotics/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+     "feed": "TechOrange",
+     "publishedTs": 1787796133
+    }
+   ],
+   "廣告投放/歸因": [
+    {
+     "title": "Marketers know AI is using bad data to make decisions",
+     "link": "https://martech.org/marketers-know-ai-is-using-bad-data-to-make-decisions/",
+     "feed": "MarTech.org",
+     "publishedTs": 1787921700
+    },
+    {
+     "title": "The Trade Desk Introduces Kokai Zuma, the Latest Release of Kokai",
+     "link": "https://martechseries.com/sales-marketing/programmatic-buying/the-trade-desk-introduces-kokai-zuma-the-latest-release-of-kokai/",
+     "feed": "MarTech Series",
+     "publishedTs": 1787903358
+    },
+    {
+     "title": "Saudi Media Enters Fourth Stage as Programmatic DOOH and AI Reshape GCC Advertising",
+     "link": "https://martechseries.com/tv-advertising/saudi-media-enters-fourth-stage-as-programmatic-dooh-and-ai-reshape-gcc-advertising/",
+     "feed": "MarTech Series",
+     "publishedTs": 1787903187
+    }
+   ],
+   "CRM/會員留存": [
+    {
+     "title": "Marketers know AI is using bad data to make decisions",
+     "link": "https://martech.org/marketers-know-ai-is-using-bad-data-to-make-decisions/",
+     "feed": "MarTech.org",
+     "publishedTs": 1787921700
+    },
+    {
+     "title": "Salesforce與Anthropic合推Claudeforce，Claude可直接操作CRM",
+     "link": "https://www.ithome.com.tw/news/178511",
+     "feed": "iThome",
+     "publishedTs": 1787879302
+    },
+    {
+     "title": "Kohl’s unites marketing, digital under new chief customer officer role",
+     "link": "https://www.marketingdive.com/news/kohls-names-first-chief-customer-officer-elevates-cx/828922/",
+     "feed": "MarketingDive",
+     "publishedTs": 1787837400
+    }
+   ],
+   "併購/募資": [
+    {
+     "title": "【科技早餐】OpenAI 11 月停止供應 Cursor 模型，SK 海力士逾 40 億美元美國 HBM 廠動工",
+     "link": "https://techorange.com/2026/08/31/openai-cursor-sk-hynix-hbm/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+     "feed": "TechOrange",
+     "publishedTs": 1788125400
+    },
+    {
+     "title": "NetApp併購JetStream，強化VMware環境災難復原與雲端遷移能力",
+     "link": "https://www.ithome.com.tw/news/178505",
+     "feed": "iThome",
+     "publishedTs": 1787915297
+    },
+    {
+     "title": "Nvidia傳以129億美元併購Hugging Face",
+     "link": "https://www.ithome.com.tw/news/178502",
+     "feed": "iThome",
+     "publishedTs": 1787915296
+    }
+   ],
+   "對話式商務": [
+    {
+     "title": "Helical Insight: Completely Free Open Source BI with Built-in AI & Every Enterprise Feature at No Cost",
+     "link": "https://martechseries.com/analytics/helical-insight-completely-free-open-source-bi-with-built-in-ai-every-enterprise-feature-at-no-cost/",
+     "feed": "MarTech Series",
+     "publishedTs": 1787918789
+    },
+    {
+     "title": "近75%的AI擴充套件要求高權限，恐增加資料外洩與連線階段劫持風險",
+     "link": "https://www.ithome.com.tw/news/178500",
+     "feed": "iThome",
+     "publishedTs": 1787908091
+    },
+    {
+     "title": "How Behr’s digital marketing helps DIYers overcome ‘paint paralysis’",
+     "link": "https://www.marketingdive.com/news/how-behrs-digital-marketing-helps-diyers-overcome-paint-paralysis/828892/",
+     "feed": "MarketingDive",
+     "publishedTs": 1787835600
+    }
+   ],
+   "AI Agent應用": [
+    {
+     "title": "Anthropic 推出 MHS 標準：Claude 開始操控顯微鏡、機械手臂與雷射",
+     "link": "https://www.inside.com.tw/article/42245-anthropic-mhs-ai-physical-devices",
+     "feed": "INSIDE",
+     "publishedTs": 1788136860
+    },
+    {
+     "title": "Uber 曾 4 個月燒完全年 AI 預算，後來怎麼管住 Agent 成本？",
+     "link": "https://techorange.com/2026/08/31/uber-ai-token-software-factory/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+     "feed": "TechOrange",
+     "publishedTs": 1788127740
+    },
+    {
+     "title": "The Trade Desk Introduces Kokai Zuma, the Latest Release of Kokai",
+     "link": "https://martechseries.com/sales-marketing/programmatic-buying/the-trade-desk-introduces-kokai-zuma-the-latest-release-of-kokai/",
+     "feed": "MarTech Series",
+     "publishedTs": 1787903358
+    }
+   ],
+   "電商/OMO": [
+    {
+     "title": "AI Agent 上線三個月就被冷凍？CYBERBIZ 技術長：會反悔的 AI 才是能上線的 AI",
+     "link": "https://techorange.com/2026/08/28/cyberbiz-ai-agent-deployment/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+     "feed": "TechOrange",
+     "publishedTs": 1787902126
+    },
+    {
+     "title": "Sociable: Meta removes option to exclude ad placements",
+     "link": "https://www.marketingdive.com/news/sociable-meta-removes-option-to-exclude-ad-placements/828941/",
+     "feed": "MarketingDive",
+     "publishedTs": 1787840880
+    },
+    {
+     "title": "Atomic One Launches Autonomous AI Agent System to Run Daily Amazon Store Operations",
+     "link": "https://martechseries.com/sales-marketing/programmatic-buying/atomic-one-launches-autonomous-ai-agent-system-to-run-daily-amazon-store-operations/",
+     "feed": "MarTech Series",
+     "publishedTs": 1787838455
+    }
+   ],
+   "行銷自動化": [
+    {
+     "title": "Anthropic 推出 MHS 標準：Claude 開始操控顯微鏡、機械手臂與雷射",
+     "link": "https://www.inside.com.tw/article/42245-anthropic-mhs-ai-physical-devices",
+     "feed": "INSIDE",
+     "publishedTs": 1788136860
+    },
+    {
+     "title": "Anthropic partnership makes Salesforce’s interface optional",
+     "link": "https://martech.org/anthropic-partnership-makes-salesforces-interface-optional/",
+     "feed": "MarTech.org",
+     "publishedTs": 1787920080
+    },
+    {
+     "title": "FLOVA PTE. LTD. Announces Full Integration of Seedance 2.5 into Flova.ai, Further Advancing Agent Native Video Production",
+     "link": "https://martechseries.com/video/flova-pte-ltd-announces-full-integration-of-seedance-2-5-into-flova-ai-further-advancing-agent-native-video-production/",
+     "feed": "MarTech Series",
+     "publishedTs": 1787919065
+    }
+   ],
+   "個人化推薦": [
+    {
+     "title": "How Dr Pepper’s ‘Fansville’ campaign stays relevant and drives outcomes",
+     "link": "https://www.marketingdive.com/news/how-dr-peppers-fansville-campaign-stays-relevant-and-drives-outcomes/828824/",
+     "feed": "MarketingDive",
+     "publishedTs": 1787839200
+    },
+    {
+     "title": "Kohl’s unites marketing, digital under new chief customer officer role",
+     "link": "https://www.marketingdive.com/news/kohls-names-first-chief-customer-officer-elevates-cx/828922/",
+     "feed": "MarketingDive",
+     "publishedTs": 1787837400
+    },
+    {
+     "title": "Push Notification Personalization That Keeps Users Past Day One",
+     "link": "https://insiderone.com/push-notification-personalization-playbook/",
+     "feed": "Insider Blog",
+     "publishedTs": 1787648258
+    }
+   ],
+   "CDP/第一方數據": [
+    {
+     "title": "Real-Time Predictive Analytics: A Vendor-Neutral Buyer’s Guide for 2026",
+     "link": "https://insiderone.com/real-time-predictive-analytics-software/",
+     "feed": "Insider Blog",
+     "publishedTs": 1787645325
+    }
+   ]
+  }
+ },
+ "trend": {
+  "topicDelta": {
+   "行銷自動化": 6,
+   "隱私/法規": -5,
+   "生成式AI": 5,
+   "廣告投放/歸因": 4,
+   "AI Agent應用": 4,
+   "CDP/第一方數據": -4,
+   "零售媒體": -2,
+   "對話式商務": 2,
+   "個人化推薦": -2,
+   "電商/OMO": -2,
+   "CRM/會員留存": -1,
+   "併購/募資": 1
+  },
+  "hasBaseline": true,
+  "baselineDate": "2026-08-19",
+  "newJobs": [
+   {
+    "title": "Assistant Manager of Business Enablement",
+    "company": "Appier",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8158573"
+   },
+   {
+    "title": "Customer Success Management Intern (Digital ads, SaaS Platform - AIXPERT)",
+    "company": "Appier",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7388202"
+   },
+   {
+    "title": "Customer Success Manager(Enterprise)",
+    "company": "Appier",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7562958"
+   },
+   {
+    "title": "Office Administrator & HR Specialist (Tokyo)",
+    "company": "Appier",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6677424"
+   },
+   {
+    "title": "Senior Software Engineer, Data Backend ",
+    "company": "Appier",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8143583"
+   },
+   {
+    "title": "Software Engineer, Ads Solutions",
+    "company": "Appier",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8129487"
+   },
+   {
+    "title": "【Open】[UPD] DSD 資深 POS 產品經理 (iCHEF 餐飲OMO/POS)",
+    "company": "91APP",
+    "link": "https://www.yourator.co/companies/91APP/jobs/48112"
+   },
+   {
+    "title": "品牌社群與口碑行銷主管（AI SEO）（嘉義辦公室）",
+    "company": "awoo",
+    "link": "https://www.yourator.co/companies/awoo/jobs/48070"
+   },
+   {
+    "title": "品牌社群與口碑行銷主管（AI SEO）（台北辦公室）",
+    "company": "awoo",
+    "link": "https://www.yourator.co/companies/awoo/jobs/48067"
+   },
+   {
+    "title": "SEO/GEO 初階工程師 (高雄辦公室)",
+    "company": "awoo",
+    "link": "https://www.yourator.co/companies/awoo/jobs/48074"
+   },
+   {
+    "title": "SEO/GEO 初階工程師 (嘉義辦公室)",
+    "company": "awoo",
+    "link": "https://www.yourator.co/companies/awoo/jobs/48068"
+   },
+   {
+    "title": "客戶成功經理 Customer Success Manager (SEO consulting project)(台北辦公室）",
+    "company": "awoo",
+    "link": "https://www.yourator.co/companies/awoo/jobs/48071"
+   },
+   {
+    "title": "客戶成功經理 Customer Success Manager (SEO consulting project)(嘉義辦公室）",
+    "company": "awoo",
+    "link": "https://www.yourator.co/companies/awoo/jobs/48072"
+   },
+   {
+    "title": "品牌社群與口碑行銷主管（AI SEO）（高雄辦公室）",
+    "company": "awoo",
+    "link": "https://www.yourator.co/companies/awoo/jobs/48069"
+   },
+   {
+    "title": "行銷助理 / 專員",
+    "company": "awoo",
+    "link": "https://www.yourator.co/companies/awoo/jobs/48066"
+   },
+   {
+    "title": "客戶成功經理 Customer Success Manager (SEO consulting project)(高雄辦公室）",
+    "company": "awoo",
+    "link": "https://www.yourator.co/companies/awoo/jobs/48073"
+   },
+   {
+    "title": "AI Product Manager｜Vibe Coding PM",
+    "company": "Accucrazy 肖準行銷",
+    "link": "https://www.yourator.co/companies/ACCUCRAZY/jobs/31178"
+   },
+   {
+    "title": "內容行銷企劃 Content Marketing Planner",
+    "company": "Accucrazy 肖準行銷",
+    "link": "https://www.yourator.co/companies/ACCUCRAZY/jobs/47445"
+   },
+   {
+    "title": "【TPD0603】Data Product Manager 數據產品經理",
+    "company": "SHOPLINE 商線科技股份有限公司",
+    "link": "https://www.yourator.co/companies/shopline/jobs/47814"
+   },
+   {
+    "title": "數位行銷專員",
+    "company": "綠藤生物科技股份有限公司",
+    "link": "https://www.yourator.co/companies/greenvines/jobs/39591"
+   },
+   {
+    "title": "資深系統工程師 Senior System Engineer",
+    "company": "WebComm 偉康科技",
+    "link": "https://www.yourator.co/companies/WebComm/jobs/42167"
+   },
+   {
+    "title": "資深研發工程師 Senior Software Developer",
+    "company": "WebComm 偉康科技",
+    "link": "https://www.yourator.co/companies/WebComm/jobs/46916"
+   },
+   {
+    "title": "資安產品工程師 Cybersecurity Product Engineer",
+    "company": "WebComm 偉康科技",
+    "link": "https://www.yourator.co/companies/WebComm/jobs/42166"
+   },
+   {
+    "title": "資安軟體開發經理 Cybersecurity Software Development Manager",
+    "company": "WebComm 偉康科技",
+    "link": "https://www.yourator.co/companies/WebComm/jobs/39529"
+   },
+   {
+    "title": "全端工程師 Full-Stack Engineer (非駐點)",
+    "company": "WebComm 偉康科技",
+    "link": "https://www.yourator.co/companies/WebComm/jobs/47802"
+   },
+   {
+    "title": "全端工程師 | 完全遠端 | 美國教育科技新創",
+    "company": "DAHUA AI Corp.",
+    "link": "https://www.yourator.co/companies/dahuachinese/jobs/35475"
+   },
+   {
+    "title": "DevOps 工程師 ｜ DevOps Engineer",
+    "company": "十論科技股份有限公司",
+    "link": "https://www.yourator.co/companies/Tricuss/jobs/47783"
+   },
+   {
+    "title": "資深軟體工程師 (後端) ｜ Senior Software Engineer (Backend)",
+    "company": "十論科技股份有限公司",
+    "link": "https://www.yourator.co/companies/Tricuss/jobs/47788"
+   },
+   {
+    "title": "資深軟體工程師 (全端) ｜ Senior Software Engineer (Fullstack)",
+    "company": "十論科技股份有限公司",
+    "link": "https://www.yourator.co/companies/Tricuss/jobs/47789"
+   },
+   {
+    "title": "人資主管 ｜ Human Resources Manager",
+    "company": "十論科技股份有限公司",
+    "link": "https://www.yourator.co/companies/Tricuss/jobs/47785"
+   }
+  ],
+  "removedJobs": [
+   {
+    "title": "Account Manager - Beijing, China",
+    "company": "Appier"
+   },
+   {
+    "title": "Agentic AI Engineering Manager – Tokyo, Japan (Relocation Required)",
+    "company": "Appier"
+   },
+   {
+    "title": "Campaign Management Intern",
+    "company": "Appier"
+   },
+   {
+    "title": "Enterprise Partnerships Sales Manager (Tokyo-Japan)",
+    "company": "Appier"
+   },
+   {
+    "title": "HR Operations Specialist (Workforce & Equity Operations)",
+    "company": "Appier"
+   },
+   {
+    "title": "Machine Learning Scientist",
+    "company": "Appier"
+   },
+   {
+    "title": "Partner Sales Intern, Korea",
+    "company": "Appier"
+   },
+   {
+    "title": "Senior Machine Learning Scientist (Enterprise Solution)",
+    "company": "Appier"
+   },
+   {
+    "title": "Senior Software Engineer, Data Backend EDP (Enterprise Data Platform)",
+    "company": "Appier"
+   },
+   {
+    "title": "Staff/Senior Machine Learning Scientist (Ad Cloud)",
+    "company": "Appier"
+   },
+   {
+    "title": "【Open】[UPD] DSD 產品經理 Product Owner (餐飲 OMO)",
+    "company": "91APP"
+   },
+   {
+    "title": "奧美廣告 - Account Manager 業務經理",
+    "company": "奧美整合行銷傳播集團"
+   },
+   {
+    "title": "奧美廣告 - Senior Account Executive 資深業務企劃",
+    "company": "奧美整合行銷傳播集團"
+   },
+   {
+    "title": "奧美顧客體驗 - Senior Project Manager 資深顧客體驗專案管理經理",
+    "company": "奧美整合行銷傳播集團"
+   },
+   {
+    "title": "奧美顧客體驗 - Associate Account Director/ Account Director副數位體驗專案管理總監/總監",
+    "company": "奧美整合行銷傳播集團"
+   },
+   {
+    "title": "奧美顧客體驗 - Project Specialist 顧客體驗專案管理專員 (Social & CRM)",
+    "company": "奧美整合行銷傳播集團"
+   },
+   {
+    "title": "我是大衛 - Acccount Executive 業務企劃",
+    "company": "奧美整合行銷傳播集團"
+   },
+   {
+    "title": "統一超商【技術經理(uniopen客戶資料平台CDP)",
+    "company": "統一超商 7-ELEVEN"
+   },
+   {
+    "title": "AI Engineering Manager / AI 工程經理",
+    "company": "安容科技股份有限公司"
+   },
+   {
+    "title": "剪輯助理",
+    "company": "奧比懷登公關顧問"
+   },
+   {
+    "title": "DevOps 組長",
+    "company": " 沛思坦網路股份有限公司"
+   },
+   {
+    "title": "SDET 測試開發工程師",
+    "company": " 沛思坦網路股份有限公司"
+   },
+   {
+    "title": "AI Product Engineer",
+    "company": " 沛思坦網路股份有限公司"
+   },
+   {
+    "title": "人機互動前端工程師 HCI Frontend Engineer",
+    "company": " 沛思坦網路股份有限公司"
+   },
+   {
+    "title": "Full Stack Engineer",
+    "company": "開必拓數據"
+   },
+   {
+    "title": "資料 / 後端工程師 Data / Backend Engineer (Mid to Senior Level)",
+    "company": "FUNRAISE"
+   },
+   {
+    "title": "社群行銷實習生",
+    "company": "魔數"
+   },
+   {
+    "title": "前端工程師 Frontend Engineer (Junior Level / Mid Level)",
+    "company": "FUNRAISE"
+   },
+   {
+    "title": "【擴編徵才】PARKING ONLINE 資深前端工程師 Senior Frontend Engineer",
+    "company": "睿鼎數位股份有限公司 12CM Taiwan"
+   },
+   {
+    "title": "MIS 資訊系統工程師（MIS / IT Infrastructure Engineer）",
+    "company": "承暉展創股份有限公司"
+   }
+  ],
+  "newCount": 35,
+  "removedCount": 36,
+  "skillDelta": {
+   "SEO": 8,
+   "Machine Learning": -3,
+   "SQL": 2,
+   "Python": -1,
+   "API": 1,
+   "LLM": -1,
+   "Spark": 1,
+   "CRM": -1,
+   "AI Agent": 1,
+   "Airflow": 1,
+   "BigQuery": 1,
+   "Dashboard": -1,
+   "Snowflake": 1
+  }
+ },
+ "errors": []
+}
