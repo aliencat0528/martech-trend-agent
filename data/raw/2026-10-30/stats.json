@@ -1,0 +1,1353 @@
+{
+ "date": "2026-10-30",
+ "jobs": {
+  "totalJobs": 123,
+  "describedJobs": 107,
+  "byCompany": {
+   "Appier": 67,
+   "awoo": 10,
+   "漸強實驗室": 7,
+   "91APP": 0,
+   "iKala": 0,
+   "Omnichat": 0,
+   "TenMax": 0,
+   "Vpon": 0,
+   "Rosetta.ai": 0,
+   "CloudAD": 0
+  },
+  "byRole": {
+   "行銷/客戶成功": 47,
+   "其他": 28,
+   "軟體工程": 22,
+   "數據科學/ML": 10,
+   "數據分析": 5,
+   "技術顧問/TSE": 5,
+   "產品/專案": 4,
+   "數據工程": 2
+  },
+  "companyRoles": {
+   "Appier": {
+    "軟體工程": 16,
+    "行銷/客戶成功": 15,
+    "其他": 15,
+    "數據科學/ML": 10,
+    "數據分析": 5,
+    "技術顧問/TSE": 5,
+    "數據工程": 1
+   },
+   "漸強實驗室": {
+    "行銷/客戶成功": 4,
+    "其他": 2,
+    "軟體工程": 1
+   },
+   "awoo": {
+    "行銷/客戶成功": 8,
+    "其他": 2
+   }
+  },
+  "skillFrequency": {
+   "Python": 31,
+   "SQL": 28,
+   "Machine Learning": 19,
+   "API": 13,
+   "LLM": 12,
+   "Docker": 9,
+   "SEO": 9,
+   "Spark": 7,
+   "Excel": 6,
+   "Tableau": 6,
+   "Git": 6,
+   "CRM": 5,
+   "Prompt": 5,
+   "AI Agent": 5,
+   "CDP": 5,
+   "Looker": 4,
+   "Dashboard": 3,
+   "BigQuery": 2,
+   "Airflow": 2,
+   "GA4": 1,
+   "Snowflake": 1,
+   "A/B test": 1,
+   "ETL": 1,
+   "英文": 1
+  },
+  "salarySamples": [
+   {
+    "company": "漸強實驗室",
+    "role": "軟體工程",
+    "low": 100000,
+    "high": 162500
+   },
+   {
+    "company": "漸強實驗室",
+    "role": "行銷/客戶成功",
+    "low": 70833,
+    "high": 126666
+   },
+   {
+    "company": "漸強實驗室",
+    "role": "行銷/客戶成功",
+    "low": 70833,
+    "high": 126666
+   },
+   {
+    "company": "漸強實驗室",
+    "role": "其他",
+    "low": 1250000,
+    "high": 1250000
+   },
+   {
+    "company": "漸強實驗室",
+    "role": "行銷/客戶成功",
+    "low": 46666,
+    "high": 81666
+   },
+   {
+    "company": "awoo",
+    "role": "其他",
+    "low": 33000,
+    "high": 37000
+   },
+   {
+    "company": "awoo",
+    "role": "其他",
+    "low": 33000,
+    "high": 37000
+   },
+   {
+    "company": "awoo",
+    "role": "行銷/客戶成功",
+    "low": 35000,
+    "high": 38000
+   },
+   {
+    "company": "奧美整合行銷傳播集團",
+    "role": "其他",
+    "low": 34000,
+    "high": 35000
+   },
+   {
+    "company": "奧美整合行銷傳播集團",
+    "role": "行銷/客戶成功",
+    "low": 34000,
+    "high": 34000
+   },
+   {
+    "company": "統一超商 7-ELEVEN",
+    "role": "其他",
+    "low": 50000,
+    "high": 120000
+   },
+   {
+    "company": "統一超商 7-ELEVEN",
+    "role": "數據工程",
+    "low": 50000,
+    "high": 120000
+   },
+   {
+    "company": "科技報橘｜流線傳媒 Fusionmedium",
+    "role": "行銷/客戶成功",
+    "low": 38000,
+    "high": 50000
+   },
+   {
+    "company": "JunyiAcademy 均一平台教育基金會",
+    "role": "行銷/客戶成功",
+    "low": 70000,
+    "high": 110000
+   },
+   {
+    "company": "meepShop 網路開店平台",
+    "role": "行銷/客戶成功",
+    "low": 55000,
+    "high": 60000
+   },
+   {
+    "company": "宇宙製造股份有限公司",
+    "role": "行銷/客戶成功",
+    "low": 42000,
+    "high": 60000
+   },
+   {
+    "company": "科技報橘｜流線傳媒 Fusionmedium",
+    "role": "行銷/客戶成功",
+    "low": 40000,
+    "high": 50000
+   },
+   {
+    "company": "英文庫有限公司",
+    "role": "行銷/客戶成功",
+    "low": 65000,
+    "high": 65000
+   },
+   {
+    "company": "簡訊設計｜圖文不符",
+    "role": "產品/專案",
+    "low": 42000,
+    "high": 48000
+   },
+   {
+    "company": "簡訊設計｜圖文不符",
+    "role": "產品/專案",
+    "low": 42000,
+    "high": 50000
+   },
+   {
+    "company": "巨匠雲科技教育股份有限公司",
+    "role": "行銷/客戶成功",
+    "low": 30000,
+    "high": 90000
+   },
+   {
+    "company": "巨匠電腦",
+    "role": "行銷/客戶成功",
+    "low": 30000,
+    "high": 90000
+   },
+   {
+    "company": "meepShop 網路開店平台",
+    "role": "行銷/客戶成功",
+    "low": 48000,
+    "high": 55000
+   },
+   {
+    "company": "巨匠雲科技教育股份有限公司",
+    "role": "行銷/客戶成功",
+    "low": 35000,
+    "high": 100000
+   },
+   {
+    "company": "AlleyPin 翔評互動",
+    "role": "行銷/客戶成功",
+    "low": 66666,
+    "high": 199998
+   }
+  ],
+  "salarySummary": [
+   {
+    "role": "行銷/客戶成功",
+    "count": 16,
+    "medianLow": 46666,
+    "medianHigh": 81666
+   },
+   {
+    "role": "其他",
+    "count": 5,
+    "medianLow": 34000,
+    "medianHigh": 37000
+   },
+   {
+    "role": "產品/專案",
+    "count": 2,
+    "medianLow": 42000,
+    "medianHigh": 50000
+   },
+   {
+    "role": "軟體工程",
+    "count": 1,
+    "medianLow": 100000,
+    "medianHigh": 162500
+   },
+   {
+    "role": "數據工程",
+    "count": 1,
+    "medianLow": 50000,
+    "medianHigh": 120000
+   }
+  ],
+  "taiwanJobs": [
+   {
+    "company": "Appier",
+    "title": "Account Manager, Advertising Solution - Taiwan",
+    "role": "行銷/客戶成功",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6999346"
+   },
+   {
+    "company": "Appier",
+    "title": "Ad Sales, Advertising Solution (Ad Cloud)",
+    "role": "行銷/客戶成功",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/1499233"
+   },
+   {
+    "company": "Appier",
+    "title": "AI Engineer, Playable Ads ",
+    "role": "數據科學/ML",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8102280"
+   },
+   {
+    "company": "Appier",
+    "title": "Assistant Manager of Business Enablement",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8158573"
+   },
+   {
+    "company": "Appier",
+    "title": "Associate of Business Enablement",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7189302"
+   },
+   {
+    "company": "Appier",
+    "title": "Campaign Analyst ",
+    "role": "數據分析",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/1501724"
+   },
+   {
+    "company": "Appier",
+    "title": "Campaign Executive",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/5332115"
+   },
+   {
+    "company": "Appier",
+    "title": "Campaign Management Team – Operations Assistant (Part-time)",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8326539"
+   },
+   {
+    "company": "Appier",
+    "title": "Data Analytics Consultant (Enterprise Solution)",
+    "role": "數據分析",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7497826"
+   },
+   {
+    "company": "Appier",
+    "title": "Data Scientist, Analytics",
+    "role": "數據分析",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/1501726"
+   },
+   {
+    "company": "Appier",
+    "title": "Digital Advertising Data Analyst",
+    "role": "數據分析",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8118867"
+   },
+   {
+    "company": "Appier",
+    "title": "Digital Marketing Manager (AEO & Paid Media Strategy)",
+    "role": "行銷/客戶成功",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6854145"
+   },
+   {
+    "company": "Appier",
+    "title": "Global IT Specialist",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8090549"
+   },
+   {
+    "company": "Appier",
+    "title": "IT Developer",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8238768"
+   },
+   {
+    "company": "Appier",
+    "title": "Legal & Compliance Counsel",
+    "role": "其他",
+    "area": "Taipei, Taiwan; Tokyo, Japan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/4250101"
+   },
+   {
+    "company": "Appier",
+    "title": "PR Manager Taiwan",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8118821"
+   },
+   {
+    "company": "Appier",
+    "title": "Product Manager / Technical PM — Data Engineering",
+    "role": "數據工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8166843"
+   },
+   {
+    "company": "Appier",
+    "title": "Research Scientist (Generative & Agentic AI)",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8076142"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior AI Security Engineer ",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7949831"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Backend Engineer (SRE / Reliability & Performance)",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8045764"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Executive Assistant to Global SVP, Head of Sales ",
+    "role": "行銷/客戶成功",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8190568"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Frontend Development Engineer",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6915251"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Frontend Development Engineer (Enterprise Solutions)",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7830101"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Machine Learning Scientist, Advertising Incrementality",
+    "role": "數據科學/ML",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7364432"
+   },
+   {
+    "company": "Appier",
+    "title": "(Senior) Machine Learning Scientist (LLM & Agents)",
+    "role": "數據科學/ML",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6914984"
+   },
+   {
+    "company": "Appier",
+    "title": "(Senior) Machine Learning Scientist (Modeling & Evaluation)",
+    "role": "數據科學/ML",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8261020"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Software Engineer, Backend Development",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/4869920"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Software Engineer, Backend Development (Ad Cloud Platform team)",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7160226"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Software Engineer, Backend Development(Ad Cloud  Serving Services)",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7033252"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Software Engineer, Backend Development (Playable Ads)",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7267131"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Software Engineer, Backend Development (REC)",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7731002"
+   },
+   {
+    "company": "Appier",
+    "title": "Senior Software Engineer, Data Backend (Ad Cloud)",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8203672"
+   },
+   {
+    "company": "Appier",
+    "title": "Software Engineer, Ads Solutions",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8129487"
+   },
+   {
+    "company": "Appier",
+    "title": "Software Engineer Intern, Backend Development",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6820898"
+   },
+   {
+    "company": "Appier",
+    "title": "Software Engineer Intern, Quality Assurance",
+    "role": "軟體工程",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6967119"
+   },
+   {
+    "company": "Appier",
+    "title": "Staff/Senior Machine Learning Scientist (Ad Cloud)",
+    "role": "數據科學/ML",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6897205"
+   },
+   {
+    "company": "Appier",
+    "title": "Technical Program Manager — AdCloud AI Bidding",
+    "role": "其他",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8213076"
+   },
+   {
+    "company": "Appier",
+    "title": "Technical Solution Engineer (Greater China Region)",
+    "role": "技術顧問/TSE",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/3785463"
+   },
+   {
+    "company": "Appier",
+    "title": "Technical Solution Engineer Intern (Ad cloud)",
+    "role": "技術顧問/TSE",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/5001910"
+   },
+   {
+    "company": "Appier",
+    "title": "Technical Support/Solution Engineer - Enterprise Solutions (TW or JP or KR)",
+    "role": "技術顧問/TSE",
+    "area": "Taipei, Taiwan",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/3267291"
+   },
+   {
+    "company": "漸強實驗室",
+    "title": "【TW】Senior Software Engineer (CAAC)",
+    "role": "軟體工程",
+    "area": "臺北市",
+    "link": "https://www.yourator.co/companies/CrescendoLab/jobs/48145"
+   },
+   {
+    "company": "漸強實驗室",
+    "title": "【TW】資深客戶成功經理 (策略合作夥伴) Senior Customer Success Manager (Strategic Partnerships)",
+    "role": "行銷/客戶成功",
+    "area": "臺北市",
+    "link": "https://www.yourator.co/companies/CrescendoLab/jobs/48293"
+   },
+   {
+    "company": "漸強實驗室",
+    "title": "【TW】Head of Enterprise BD 企業商務總監",
+    "role": "其他",
+    "area": "臺北市",
+    "link": "https://www.yourator.co/companies/CrescendoLab/jobs/48240"
+   },
+   {
+    "company": "漸強實驗室",
+    "title": "【TW】資深客戶成功經理 (BP) Senior Customer Success Manager (BP)",
+    "role": "行銷/客戶成功",
+    "area": "臺北市",
+    "link": "https://www.yourator.co/companies/CrescendoLab/jobs/48203"
+   },
+   {
+    "company": "漸強實驗室",
+    "title": "【TW】Senior Enterprise Platform Solution Manager 資深企業平台解決方案業務經理",
+    "role": "行銷/客戶成功",
+    "area": "臺北市",
+    "link": "https://www.yourator.co/companies/CrescendoLab/jobs/48656"
+   },
+   {
+    "company": "awoo",
+    "title": "品牌社群與口碑行銷主管（AI SEO）（台北辦公室）",
+    "role": "行銷/客戶成功",
+    "area": "臺北市",
+    "link": "https://www.yourator.co/companies/awoo/jobs/48067"
+   },
+   {
+    "company": "awoo",
+    "title": "行銷經理/資深行銷經理",
+    "role": "行銷/客戶成功",
+    "area": "臺北市",
+    "link": "https://www.yourator.co/companies/awoo/jobs/48498"
+   },
+   {
+    "company": "awoo",
+    "title": "客戶成功經理 Customer Success Manager (SEO consulting project)(台北辦公室）",
+    "role": "行銷/客戶成功",
+    "area": "臺北市",
+    "link": "https://www.yourator.co/companies/awoo/jobs/48071"
+   },
+   {
+    "company": "awoo",
+    "title": "行銷助理 / 專員",
+    "role": "行銷/客戶成功",
+    "area": "臺北市",
+    "link": "https://www.yourator.co/companies/awoo/jobs/48066"
+   }
+  ]
+ },
+ "news": {
+  "totalArticles": 57,
+  "companyMentions": {
+   "Insider": 10,
+   "91APP": 3,
+   "Braze": 2,
+   "iKala": 1
+  },
+  "topicMentions": {
+   "AI Agent應用": 13,
+   "行銷自動化": 13,
+   "電商/OMO": 9,
+   "生成式AI": 8,
+   "隱私/法規": 6,
+   "併購/募資": 5,
+   "CRM/會員留存": 5,
+   "廣告投放/歸因": 4,
+   "CDP/第一方數據": 3,
+   "個人化推薦": 3,
+   "零售媒體": 1
+  },
+  "companyArticles": [
+   {
+    "feed": "INSIDE",
+    "title": "Salesforce 收購美軍已部署的斷網後勤 AI 新創 Rune，10 月第 3 樁併購為何瞄準前線部隊？",
+    "link": "https://www.inside.com.tw/article/42779-salesforce-acquires-rune-technologies-missionforce-defense-logistics-ai",
+    "publishedTs": 1793350140,
+    "summary": "Salesforce 10 月連簽 Loops、Braze、Rune 3 樁併購，最後一樁買下已在美國陸軍與海軍陸戰隊部署的斷網後勤 AI 新創 Rune Technologies。本文從 Salesforce 自己提出的三層架構與五角大廈的採購轉向，拆解這家企業軟體公司為何把觸角伸向前線部隊。",
+    "matchedCompanies": [
+     "Braze"
+    ],
+    "matchedTopics": [
+     "併購/募資"
+    ]
+   },
+   {
+    "feed": "iThome",
+    "title": "【資安週報】1027～1030，PHP2Shell、Brotli2Shell衝擊擴大，91APP與Amadeus遭駭影響持續浮現",
+    "link": "https://www.ithome.com.tw/news/180112",
+    "publishedTs": 1793340607,
+    "summary": "回顧本週資安動態，PHP2Shell與Brotli2Shell兩項重大漏洞的影響持續受到關注，由於兩者影響範圍廣泛，從下游軟體與產品陸續發布修補更新、產業界展開緊急應變，到實際攻擊活動相繼曝光，以及研究人員持續追查漏洞成因與利用手法，相關發展引發全球資安界高度關注。此外，印度數位憑證業者eMudhra爆出重大金鑰安全問題，也促使瀏覽器與軟體開發生態系陸續採取因應措施。",
+    "matchedCompanies": [
+     "91APP"
+    ],
+    "matchedTopics": []
+   },
+   {
+    "feed": "iThome",
+    "title": "全家行動購部分會員資料遭非法擷取，起因是委外廠商91APP資料庫遭自動化攻擊",
+    "link": "https://www.ithome.com.tw/news/180105",
+    "publishedTs": 1793329825,
+    "summary": "全家便利商店（5903）於10月29日，在股市公開資訊觀測站發布重大訊息，該公司接獲線上平臺委外服務廠商91APP通知，因資料庫遭受自動化攻擊，導致全家線上平臺「行動購」部分會員資料遭非法擷取。全家表示，接獲通知後已啟動個資事故通報及處理流程，並依法通報相關主管機關。",
+    "matchedCompanies": [
+     "91APP"
+    ],
+    "matchedTopics": [
+     "行銷自動化",
+     "隱私/法規"
+    ]
+   },
+   {
+    "feed": "TechOrange",
+    "title": "91APP 遭駭為何花了 11 天才查出破口？駭客是如何突破防線",
+    "link": "https://techorange.com/2026/10/29/91app-security-incident/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+    "publishedTs": 1793278852,
+    "summary": "<p>SaaS 業者 91APP 近日被駭，其一座存放近 18 個月訂單交易資料的資料庫遭非法存取，部分資料遭竊。91APP 在 10/29 召開記者會，公布《91APP 被駭事件：25 天調查報告》，董事長何英圻率領公司主管，向受影響的消費者與品牌客戶鞠躬致歉。 91APP 指出，由於無法確認具體涉及哪些訂單，以最大可能影響範圍估算，涉及 1,329 家品牌、479 萬 8225 名消費者，可能遭取得的資訊包括姓名、電話、配送地址、電子郵件及訂單紀錄，但不包含密碼、信用卡或其他支付資料。 除了影響規模，這起事件的調查歷程也值得關注。91APP 在 10/3 遭到入侵，隔天便接獲品牌反映消費者收到疑似詐騙訊息，卻直到 10/14 才確認攻擊軌跡與破口，並於當晚完成阻斷。為何從遭駭到確認入侵來源，前後相隔了 11 天？91APP 資安長林大維在記者會上還原了這段調查過程。 為何花了 11 天？91APP：被過去經驗限制了想法 根據 91APP 公布的時間軸，10/4 首次接獲品牌通報後，該團隊隨即展開調查，但由於詐騙訊息中的個資與平台、品牌端持有的資料部分不符，當時無法確認來源。10/7",
+    "matchedCompanies": [
+     "91APP"
+    ],
+    "matchedTopics": [
+     "電商/OMO",
+     "隱私/法規"
+    ]
+   },
+   {
+    "feed": "TechOrange",
+    "title": "「五十年後，AI 會用什麼語言說話？」iKala 共同創辦人暨集團董事長程世嘉從「智慧通膨」談主權 AI",
+    "link": "https://techorange.com/2026/10/29/ikala-ai-tmmlu/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+    "publishedTs": 1793268667,
+    "summary": "<p>「用繁體中文請 AI 說出一種黃色、帶刺的熱帶水果叫什麼，它可能會回『菠蘿』，而不是『鳳梨』。」看似只是用詞習慣的差異，卻反映出 AI 在理解繁體中文與台灣在地語境時，仍有值得改善的空間。在科技報橘日前舉辦的「2026 企業 AI 主權高峰論壇」，iKala 共同創辦人暨集團董事長程世嘉引用美國團隊 2025 年發表的研究，研究人員以 110 個台灣與中國大陸用法不同的詞彙，測試 11 個主流 AI 模型。結果發現，以繁體中文提問時，每個模型平均有 37.5 題未能使用符合台灣習慣的詞彙回答；改用簡體中文提問後，平均僅有 4.4 題不符合中國大陸的用語習慣。當 AI 成為企業查資料、做判斷的入口，讓 AI 讀懂語言與市場、確保模型理解在地語境，也成為主權 AI 發展的重要課題。 程世嘉回顧文字與科技發展的歷程：電報時代每個漢字得先編成四碼數字才能傳出去，電腦時代使用倉頡輸入法，再到網路時代，光是讓機器學會替沒有空格的中文斷詞就是一門學問。過去，科技主要協助人們輸入、傳遞與搜尋文字；如今，AI 不僅能理解語言、生成內容，更逐漸參與資訊整理與決策輔助。當科技從處理文字走向理解語意，A",
+    "matchedCompanies": [
+     "iKala"
+    ],
+    "matchedTopics": []
+   },
+   {
+    "feed": "Insider Blog",
+    "title": "Agentic AI marketing: stop managing campaigns, start owning outcomes",
+    "link": "https://insiderone.com/agentic-ai-marketing-outcomes/",
+    "publishedTs": 1793185093,
+    "summary": "Summary Your agentic AI pilot launched dozens of personalized campaigns last quarter, and the demo looked impressive in the boardroom. But when the chief marketing officer asked what it did to churn or lifetime value, nobody on the team had an answer. That gap between activity and accountability can make it difficult for teams to [&#8230;]",
+    "matchedCompanies": [
+     "Insider"
+    ],
+    "matchedTopics": [
+     "AI Agent應用",
+     "CRM/會員留存"
+    ]
+   },
+   {
+    "feed": "Insider Blog",
+    "title": "Which Journey Orchestration Tools Integrate Natively with Mobile Push and In-App?",
+    "link": "https://insiderone.com/mobile-push-in-app-messaging-journey-orchestration/",
+    "publishedTs": 1793177747,
+    "summary": "Summary Journey orchestration tools with native mobile push and in-app integration use SDKs to capture app behavior, trigger messages in real time, and personalize experiences using customer data. Platforms such as Insider One, Braze, and OneSignal offer mobile engagement capabilities, but their broader cross-channel orchestration features differ. When comparing tools, evaluate SDK functionality, in-app message [&#8230;]",
+    "matchedCompanies": [
+     "Insider",
+     "Braze"
+    ],
+    "matchedTopics": [
+     "CDP/第一方數據",
+     "行銷自動化"
+    ]
+   },
+   {
+    "feed": "Insider Blog",
+    "title": "The agentic AI use cases enterprise marketers should adopt first",
+    "link": "https://insiderone.com/agentic-ai-use-cases-enterprise-marketers/",
+    "publishedTs": 1793177404,
+    "summary": "Summary Agentic AI use cases are the specific marketing tasks where an artificial intelligence (AI) agent plans, decides, and acts across several steps on its own, instead of waiting for a marketer to approve each one. That&#8217;s different from generative AI, which drafts content on request, and from rule-based automation, which follows a fixed if-this-then-that [&#8230;]",
+    "matchedCompanies": [
+     "Insider"
+    ],
+    "matchedTopics": [
+     "AI Agent應用",
+     "生成式AI",
+     "行銷自動化"
+    ]
+   },
+   {
+    "feed": "Insider Blog",
+    "title": "Customer Journey Analytics for Enterprise Marketing Teams: What to Demand",
+    "link": "https://insiderone.com/customer-journey-analytics-enterprise-features/",
+    "publishedTs": 1793177135,
+    "summary": "Summary Enterprise marketing teams need customer journey analytics that unifies data across channels, tracks customer behavior through funnels and flows, and updates in real time. The right platform should connect insights directly to journey orchestration, offer customizable dashboards, support enterprise-level governance, and integrate with existing marketing systems. This helps teams identify drop-offs, understand customer behavior, [&#8230;]",
+    "matchedCompanies": [
+     "Insider"
+    ],
+    "matchedTopics": [
+     "行銷自動化"
+    ]
+   },
+   {
+    "feed": "Insider Blog",
+    "title": "Hande Cilingir Challenges 7 AI Myths at The One Summit in New York",
+    "link": "https://insiderone.com/hande-cilingir-ai-myths-one-summit-new-york/",
+    "publishedTs": 1793176815,
+    "summary": "Artificial intelligence is changing how brands engage customers, make marketing decisions, and compete in retail. However, as AI adoption accelerates, some of the assumptions guiding businesses may be holding them back. At The One Summit in New York, Hande Cilingir, Co-Founder and CEO of Insider One, challenged seven widely held beliefs about artificial intelligence and [&#8230;]",
+    "matchedCompanies": [
+     "Insider"
+    ],
+    "matchedTopics": [
+     "電商/OMO"
+    ]
+   },
+   {
+    "feed": "Insider Blog",
+    "title": "How to Switch to a Better Journey Orchestration Platform: A Migration Checklist",
+    "link": "https://insiderone.com/journey-orchestration-platform-migration/",
+    "publishedTs": 1793174176,
+    "summary": "Summary A successful journey orchestration platform migration starts with evaluating vendors, auditing customer data and integrations, reviewing contract obligations, and planning a structured onboarding. Test priority journeys, validate tracking and channel performance, and run campaigns in parallel before switching off your old platform. With the right migration plan, businesses can reduce disruption and move to [&#8230;]",
+    "matchedCompanies": [
+     "Insider"
+    ],
+    "matchedTopics": [
+     "CDP/第一方數據",
+     "行銷自動化"
+    ]
+   },
+   {
+    "feed": "Insider Blog",
+    "title": "Omnichannel Journey Orchestration for Retail: Platforms Built for Scale",
+    "link": "https://insiderone.com/omnichannel-journey-orchestration-retail/",
+    "publishedTs": 1793173790,
+    "summary": "Summary Omnichannel journey orchestration for retail connects customer data, channels, and real-time interactions in one platform. Retailers need scalable orchestration to handle peak traffic, large product catalogs, and shoppers moving between online and in-store experiences. The right platform supports native channel execution, personalized product recommendations, and ready-made journeys for abandoned carts, back-in-stock alerts, and customer [&#8230;]",
+    "matchedCompanies": [
+     "Insider"
+    ],
+    "matchedTopics": [
+     "CDP/第一方數據",
+     "個人化推薦",
+     "電商/OMO",
+     "行銷自動化"
+    ]
+   },
+   {
+    "feed": "Insider Blog",
+    "title": "Real-time email personalization: the ESP features that actually matter",
+    "link": "https://insiderone.com/enterprise-esp-real-time-personalization/",
+    "publishedTs": 1792838179,
+    "summary": "Summary Your enterprise email service provider (ESP) dashboard says &#8220;real-time personalization&#8221; right next to the open rate. But when your lifecycle team asked engineering how often the product feed refreshes, the answer was every few hours. On weekends, it runs as an overnight batch. That gap between the marketing claim and the technical reality is [&#8230;]",
+    "matchedCompanies": [
+     "Insider"
+    ],
+    "matchedTopics": [
+     "個人化推薦",
+     "CRM/會員留存"
+    ]
+   },
+   {
+    "feed": "Insider Blog",
+    "title": "Outgrowing Your Email Platform? An Enterprise Migration Playbook",
+    "link": "https://insiderone.com/enterprise-email-platform-migration-playbook/",
+    "publishedTs": 1792835776,
+    "summary": "Summary Outgrowing your email platform is the point where migration planning should begin. That planning starts long before you pick a new vendor. It starts when you can name limits you can measure. One is an API rate ceiling that blocks real-time personalization. Another is a segmentation layer that can&#8217;t join behavioral and transactional data [&#8230;]",
+    "matchedCompanies": [
+     "Insider"
+    ],
+    "matchedTopics": [
+     "個人化推薦"
+    ]
+   },
+   {
+    "feed": "Insider Blog",
+    "title": "Why explainability is the real adoption lever for agentic AI in marketing",
+    "link": "https://insiderone.com/agentic-ai-explainability-marketing/",
+    "publishedTs": 1792761495,
+    "summary": "Summary We ran the pilot, it worked in the demo, and now legal and the chief marketing officer won&#8217;t let it touch a live send until someone can explain why the agent chose that segment. That scenario can stall an agentic artificial intelligence (AI) program before it reaches production when teams have not agreed on [&#8230;]",
+    "matchedCompanies": [
+     "Insider"
+    ],
+    "matchedTopics": [
+     "AI Agent應用"
+    ]
+   }
+  ],
+  "topicArticles": {
+   "AI Agent應用": [
+    {
+     "title": "Meet your new teammate: Building marketing workflows around AI agents",
+     "link": "https://martech.org/meet-your-new-teammate-building-marketing-workflows-around-ai-agents/",
+     "feed": "MarTech.org",
+     "publishedTs": 1793361780
+    },
+    {
+     "title": "聯合利華 AI 代理連紙本表單照片都能讀：訂單處理快 8 倍、試行市場 95% 免人工",
+     "link": "https://techorange.com/2026/10/30/unilevers-multi-agent-creating-customer-value-global-scale/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+     "feed": "TechOrange",
+     "publishedTs": 1793355301
+    },
+    {
+     "title": "New Updates to the 8×8 Platform for CX Help Teams Start Every Customer Conversation With Context",
+     "link": "https://martechseries.com/sales-marketing/sales-enablement/unified-communications/new-updates-to-the-8x8-platform-for-cx-help-teams-start-every-customer-conversation-with-context/",
+     "feed": "MarTech Series",
+     "publishedTs": 1793353991
+    }
+   ],
+   "生成式AI": [
+    {
+     "title": "不怕 AI 被斷供？Mistral 公開兆參數 Large 4 權重，金融、製造業可自建資安防禦",
+     "link": "https://techorange.com/2026/10/30/mistral-large-4-open-weights-cybersecurity/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+     "feed": "TechOrange",
+     "publishedTs": 1793342132
+    },
+    {
+     "title": "從AI伴行到AI優先，奇美醫院揭AI發展4階段布局",
+     "link": "https://www.ithome.com.tw/news/180107",
+     "feed": "iThome",
+     "publishedTs": 1793329858
+    },
+    {
+     "title": "如何管理沙箱關不住的 AI Agent？CloudMile 萬里雲台灣技術團隊主管 David Liang：用 AI 強化資安，也要用 AI 檢測 AI",
+     "link": "https://techorange.com/2026/10/29/cloudmile-aiagent-aegis-2/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+     "feed": "TechOrange",
+     "publishedTs": 1793263119
+    }
+   ],
+   "行銷自動化": [
+    {
+     "title": "Meet your new teammate: Building marketing workflows around AI agents",
+     "link": "https://martech.org/meet-your-new-teammate-building-marketing-workflows-around-ai-agents/",
+     "feed": "MarTech.org",
+     "publishedTs": 1793361780
+    },
+    {
+     "title": "【DEAT 專欄】從家門到捷運站，TPASS 還缺哪一塊？共享運具正在補上最後一哩",
+     "link": "https://techorange.com/2026/10/30/deat-tpass/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+     "feed": "TechOrange",
+     "publishedTs": 1793349240
+    },
+    {
+     "title": "DV Research: 97% of Marketers Plan to Use AI, but Adoption Across Advertising Workflows Remains Uneven",
+     "link": "https://martechseries.com/sales-marketing/programmatic-buying/dv-research-97-of-marketers-plan-to-use-ai-but-adoption-across-advertising-workflows-remains-uneven/",
+     "feed": "MarTech Series",
+     "publishedTs": 1793346790
+    }
+   ],
+   "隱私/法規": [
+    {
+     "title": "Google修補Chrome 156，公布21個資安漏洞",
+     "link": "https://www.ithome.com.tw/news/180097",
+     "feed": "iThome",
+     "publishedTs": 1793362228
+    },
+    {
+     "title": "日本航空第三方訂位系統遭入侵，約9.2萬名旅客資料受影響",
+     "link": "https://www.ithome.com.tw/news/180096",
+     "feed": "iThome",
+     "publishedTs": 1793358608
+    },
+    {
+     "title": "日本樂天兩個旅遊網站遭駭外洩用戶個資354萬，臺灣網站不受影響",
+     "link": "https://www.ithome.com.tw/news/180087",
+     "feed": "iThome",
+     "publishedTs": 1793355014
+    }
+   ],
+   "電商/OMO": [
+    {
+     "title": "年末購物旺季將至，Palo Alto Networks示警零售業面臨多重網路威脅",
+     "link": "https://www.ithome.com.tw/news/180095",
+     "feed": "iThome",
+     "publishedTs": 1793358658
+    },
+    {
+     "title": "DoorDash砸170億美元收購Instacart，整合餐飲與生鮮外送市場",
+     "link": "https://www.ithome.com.tw/news/180094",
+     "feed": "iThome",
+     "publishedTs": 1793358630
+    },
+    {
+     "title": "聯合利華 AI 代理連紙本表單照片都能讀：訂單處理快 8 倍、試行市場 95% 免人工",
+     "link": "https://techorange.com/2026/10/30/unilevers-multi-agent-creating-customer-value-global-scale/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+     "feed": "TechOrange",
+     "publishedTs": 1793355301
+    }
+   ],
+   "廣告投放/歸因": [
+    {
+     "title": "DoorDash砸170億美元收購Instacart，整合餐飲與生鮮外送市場",
+     "link": "https://www.ithome.com.tw/news/180094",
+     "feed": "iThome",
+     "publishedTs": 1793358630
+    },
+    {
+     "title": "DV Research: 97% of Marketers Plan to Use AI, but Adoption Across Advertising Workflows Remains Uneven",
+     "link": "https://martechseries.com/sales-marketing/programmatic-buying/dv-research-97-of-marketers-plan-to-use-ai-but-adoption-across-advertising-workflows-remains-uneven/",
+     "feed": "MarTech Series",
+     "publishedTs": 1793346790
+    },
+    {
+     "title": "Vusion Completes Acquisition of In-Store Media, Opening a New Chapter for Digital Retail Media in Physical Stores",
+     "link": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/vusion-completes-acquisition-of-in-store-media-opening-a-new-chapter-for-digital-retail-media-in-physical-stores/",
+     "feed": "MarTech Series",
+     "publishedTs": 1793346274
+    }
+   ],
+   "併購/募資": [
+    {
+     "title": "DoorDash砸170億美元收購Instacart，整合餐飲與生鮮外送市場",
+     "link": "https://www.ithome.com.tw/news/180094",
+     "feed": "iThome",
+     "publishedTs": 1793358630
+    },
+    {
+     "title": "Salesforce 收購美軍已部署的斷網後勤 AI 新創 Rune，10 月第 3 樁併購為何瞄準前線部隊？",
+     "link": "https://www.inside.com.tw/article/42779-salesforce-acquires-rune-technologies-missionforce-defense-logistics-ai",
+     "feed": "INSIDE",
+     "publishedTs": 1793350140
+    },
+    {
+     "title": "Intelligent Transformation of Foreign Trade: How ECER Is Leveraging AI to Power a New Era of Global Business",
+     "link": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/intelligent-transformation-of-foreign-trade-how-ecer-is-leveraging-ai-to-power-a-new-era-of-global-business/",
+     "feed": "MarTech Series",
+     "publishedTs": 1793347019
+    }
+   ],
+   "CRM/會員留存": [
+    {
+     "title": "New Updates to the 8×8 Platform for CX Help Teams Start Every Customer Conversation With Context",
+     "link": "https://martechseries.com/sales-marketing/sales-enablement/unified-communications/new-updates-to-the-8x8-platform-for-cx-help-teams-start-every-customer-conversation-with-context/",
+     "feed": "MarTech Series",
+     "publishedTs": 1793353991
+    },
+    {
+     "title": "Practifi Announces Continued Partnership with Dynasty Financial Partners to Deliver Purpose-Built CRM",
+     "link": "https://martechseries.com/sales-marketing/crm/practifi-announces-continued-partnership-with-dynasty-financial-partners-to-deliver-purpose-built-crm/",
+     "feed": "MarTech Series",
+     "publishedTs": 1793341706
+    },
+    {
+     "title": "Agentic AI marketing: stop managing campaigns, start owning outcomes",
+     "link": "https://insiderone.com/agentic-ai-marketing-outcomes/",
+     "feed": "Insider Blog",
+     "publishedTs": 1793185093
+    }
+   ],
+   "零售媒體": [
+    {
+     "title": "Vusion Completes Acquisition of In-Store Media, Opening a New Chapter for Digital Retail Media in Physical Stores",
+     "link": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/vusion-completes-acquisition-of-in-store-media-opening-a-new-chapter-for-digital-retail-media-in-physical-stores/",
+     "feed": "MarTech Series",
+     "publishedTs": 1793346274
+    }
+   ],
+   "CDP/第一方數據": [
+    {
+     "title": "Which Journey Orchestration Tools Integrate Natively with Mobile Push and In-App?",
+     "link": "https://insiderone.com/mobile-push-in-app-messaging-journey-orchestration/",
+     "feed": "Insider Blog",
+     "publishedTs": 1793177747
+    },
+    {
+     "title": "How to Switch to a Better Journey Orchestration Platform: A Migration Checklist",
+     "link": "https://insiderone.com/journey-orchestration-platform-migration/",
+     "feed": "Insider Blog",
+     "publishedTs": 1793174176
+    },
+    {
+     "title": "Omnichannel Journey Orchestration for Retail: Platforms Built for Scale",
+     "link": "https://insiderone.com/omnichannel-journey-orchestration-retail/",
+     "feed": "Insider Blog",
+     "publishedTs": 1793173790
+    }
+   ],
+   "個人化推薦": [
+    {
+     "title": "Omnichannel Journey Orchestration for Retail: Platforms Built for Scale",
+     "link": "https://insiderone.com/omnichannel-journey-orchestration-retail/",
+     "feed": "Insider Blog",
+     "publishedTs": 1793173790
+    },
+    {
+     "title": "Real-time email personalization: the ESP features that actually matter",
+     "link": "https://insiderone.com/enterprise-esp-real-time-personalization/",
+     "feed": "Insider Blog",
+     "publishedTs": 1792838179
+    },
+    {
+     "title": "Outgrowing Your Email Platform? An Enterprise Migration Playbook",
+     "link": "https://insiderone.com/enterprise-email-platform-migration-playbook/",
+     "feed": "Insider Blog",
+     "publishedTs": 1792835776
+    }
+   ]
+  }
+ },
+ "trend": {
+  "topicDelta": {
+   "生成式AI": -5,
+   "對話式商務": -5,
+   "廣告投放/歸因": -5,
+   "併購/募資": -3,
+   "電商/OMO": 3,
+   "CRM/會員留存": -3,
+   "隱私/法規": 2,
+   "個人化推薦": -2,
+   "CDP/第一方數據": 2,
+   "零售媒體": 1,
+   "AI Agent應用": 1
+  },
+  "hasBaseline": true,
+  "baselineDate": "2026-08-31",
+  "newJobs": [
+   {
+    "title": "Campaign Management Team – Operations Assistant (Part-time)",
+    "company": "Appier",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8326539"
+   },
+   {
+    "title": "Data Analytics Consultant (Enterprise Solution)",
+    "company": "Appier",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7497826"
+   },
+   {
+    "title": "Data Scientist, Analytics - Tokyo,Japan.",
+    "company": "Appier",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8179099"
+   },
+   {
+    "title": "IT Developer",
+    "company": "Appier",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8238768"
+   },
+   {
+    "title": "Legal & Compliance Counsel",
+    "company": "Appier",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/4250101"
+   },
+   {
+    "title": "Office Administrative Assistant (Part-Time-Monday, Tuesday, Thursday)",
+    "company": "Appier",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6498425"
+   },
+   {
+    "title": "Product Manager / Technical PM — Data Engineering",
+    "company": "Appier",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8166843"
+   },
+   {
+    "title": "Sales Manager, Ad Sales",
+    "company": "Appier",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7309790"
+   },
+   {
+    "title": "Senior AI Security Engineer ",
+    "company": "Appier",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7949831"
+   },
+   {
+    "title": "Senior Executive Assistant to Global SVP, Head of Sales ",
+    "company": "Appier",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8190568"
+   },
+   {
+    "title": "Senior Frontend Development Engineer",
+    "company": "Appier",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/6915251"
+   },
+   {
+    "title": "(Senior) Machine Learning Scientist (Modeling & Evaluation)",
+    "company": "Appier",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8261020"
+   },
+   {
+    "title": "Senior Software Engineer, Backend Development(Ad Cloud  Serving Services) - Tokyo,Japan",
+    "company": "Appier",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8203710"
+   },
+   {
+    "title": "Senior Software Engineer, Backend Development (REC)",
+    "company": "Appier",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/7731002"
+   },
+   {
+    "title": "Senior Software Engineer, Data Backend (Ad Cloud)",
+    "company": "Appier",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8203672"
+   },
+   {
+    "title": "Strategic Account Manager, EMEA, Advertising Solutions",
+    "company": "Appier",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8260709"
+   },
+   {
+    "title": "Technical Program Manager — AdCloud AI Bidding",
+    "company": "Appier",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8213076"
+   },
+   {
+    "title": "Technical Solution Engineer",
+    "company": "Appier",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/8305311"
+   },
+   {
+    "title": "Technical Solution Engineer (Greater China Region)",
+    "company": "Appier",
+    "link": "https://job-boards.greenhouse.io/appier/jobs/3785463"
+   },
+   {
+    "title": "【TW】Senior Software Engineer (CAAC)",
+    "company": "漸強實驗室 Crescendo Lab Ltd.",
+    "link": "https://www.yourator.co/companies/CrescendoLab/jobs/48145"
+   },
+   {
+    "title": "【TW】資深客戶成功經理 (策略合作夥伴) Senior Customer Success Manager (Strategic Partnerships)",
+    "company": "漸強實驗室 Crescendo Lab Ltd.",
+    "link": "https://www.yourator.co/companies/CrescendoLab/jobs/48293"
+   },
+   {
+    "title": "【TW】Head of Enterprise BD 企業商務總監",
+    "company": "漸強實驗室 Crescendo Lab Ltd.",
+    "link": "https://www.yourator.co/companies/CrescendoLab/jobs/48240"
+   },
+   {
+    "title": "【TW】資深客戶成功經理 (BP) Senior Customer Success Manager (BP)",
+    "company": "漸強實驗室 Crescendo Lab Ltd.",
+    "link": "https://www.yourator.co/companies/CrescendoLab/jobs/48203"
+   },
+   {
+    "title": "【TH】B2B Marketing Specialist",
+    "company": "漸強實驗室 Crescendo Lab Ltd.",
+    "link": "https://www.yourator.co/companies/CrescendoLab/jobs/48526"
+   },
+   {
+    "title": "【TW】Senior Enterprise Platform Solution Manager 資深企業平台解決方案業務經理",
+    "company": "漸強實驗室 Crescendo Lab Ltd.",
+    "link": "https://www.yourator.co/companies/CrescendoLab/jobs/48656"
+   },
+   {
+    "title": "行銷經理/資深行銷經理",
+    "company": "awoo",
+    "link": "https://www.yourator.co/companies/awoo/jobs/48498"
+   },
+   {
+    "title": "(台北) 資深客戶經理（儲備主管）｜系統業務",
+    "company": "樂播科技 Jambo Live",
+    "link": "https://www.yourator.co/companies/jambolive/jobs/48556"
+   },
+   {
+    "title": "(台北) 系統業務主管",
+    "company": "樂播科技 Jambo Live",
+    "link": "https://www.yourator.co/companies/jambolive/jobs/47612"
+   },
+   {
+    "title": "奧美廣告 - Senior Account Executive 資深業務企劃",
+    "company": "奧美整合行銷傳播集團",
+    "link": "https://www.yourator.co/companies/ogilvy/jobs/36913"
+   },
+   {
+    "title": "奧美廣告 - Account Manager 業務經理",
+    "company": "奧美整合行銷傳播集團",
+    "link": "https://www.yourator.co/companies/ogilvy/jobs/36912"
+   }
+  ],
+  "removedJobs": [
+   {
+    "title": "Account Operations Intern, Beijing",
+    "company": "Appier"
+   },
+   {
+    "title": "Account Operations Intern, Taiwan",
+    "company": "Appier"
+   },
+   {
+    "title": "AI Engineer, Playable Ads - Tokyo Japan.",
+    "company": "Appier"
+   },
+   {
+    "title": "Associate HR Manager, Global Compensation",
+    "company": "Appier"
+   },
+   {
+    "title": "Associate Sales Manager, Enterprise Solutions - Thailand",
+    "company": "Appier"
+   },
+   {
+    "title": "Customer Success Management Intern (Digital ads, SaaS Platform - AIXPERT)",
+    "company": "Appier"
+   },
+   {
+    "title": "Customer Success Manager - Enterprise Solution",
+    "company": "Appier"
+   },
+   {
+    "title": "Customer Success Specialist , Ad.Creative",
+    "company": "Appier"
+   },
+   {
+    "title": "Global Commercial HR Business Partner (HRBP)",
+    "company": "Appier"
+   },
+   {
+    "title": "Global ESS Sales Operations Manager / Associate Manager",
+    "company": "Appier"
+   },
+   {
+    "title": "Marketing Specialist, Korea",
+    "company": "Appier"
+   },
+   {
+    "title": "Office Administrator & HR Specialist (Tokyo)",
+    "company": "Appier"
+   },
+   {
+    "title": "Paralegal, Compliance & Automation | Legal Assistant (1-year Contractor / Full-Time) 法務助理",
+    "company": "Appier"
+   },
+   {
+    "title": "PR Manager Japan",
+    "company": "Appier"
+   },
+   {
+    "title": "Product Manager (Ad Cloud Platform)",
+    "company": "Appier"
+   },
+   {
+    "title": "Sales Development Associate (Inside Sales, TW)",
+    "company": "Appier"
+   },
+   {
+    "title": "Sales Manager of Enterprise Solution ",
+    "company": "Appier"
+   },
+   {
+    "title": "Senior Field Marketing Specialist",
+    "company": "Appier"
+   },
+   {
+    "title": "Senior HR C&B Specialist",
+    "company": "Appier"
+   },
+   {
+    "title": "Senior Machine Learning Scientist, Playable Ads",
+    "company": "Appier"
+   },
+   {
+    "title": "Senior Product designer",
+    "company": "Appier"
+   },
+   {
+    "title": "Senior Product Manager (Ad Cloud Platform)",
+    "company": "Appier"
+   },
+   {
+    "title": "Senior Retargeting Product Manager (Taiwan)",
+    "company": "Appier"
+   },
+   {
+    "title": "Senior Sales/Associate Director (Hunter Sales)*Remote* AD Cloud Solution, DSP",
+    "company": "Appier"
+   },
+   {
+    "title": "(Senior) Sales Manager of Enterprise Solution",
+    "company": "Appier"
+   },
+   {
+    "title": "Senior Software Engineer (Ad Cloud Bidding) - Tokyo,Japan",
+    "company": "Appier"
+   },
+   {
+    "title": "Senior Software Engineer, AI Engineering",
+    "company": "Appier"
+   },
+   {
+    "title": "Senior Software Engineer, Backend Development (BotBonnie)",
+    "company": "Appier"
+   },
+   {
+    "title": "Senior Software Engineer, C++ Backend Development(Ad Cloud Bidding)",
+    "company": "Appier"
+   },
+   {
+    "title": "Senior Software Engineer, Data Backend ",
+    "company": "Appier"
+   }
+  ],
+  "newCount": 52,
+  "removedCount": 72,
+  "skillDelta": {
+   "SQL": 8,
+   "Tableau": 3,
+   "Machine Learning": 2,
+   "Spark": -2,
+   "Git": -2,
+   "CRM": -2,
+   "Looker": 2,
+   "Airflow": -2,
+   "Python": 1,
+   "API": -1,
+   "Docker": -1,
+   "AI Agent": 1,
+   "CDP": 1,
+   "Dashboard": 1,
+   "BigQuery": -1,
+   "A/B test": 1
+  }
+ },
+ "errors": []
+}
